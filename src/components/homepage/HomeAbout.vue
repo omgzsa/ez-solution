@@ -27,7 +27,6 @@
           műszaki, építőipari, jogi, számviteli és értékesítő tapasztalatára
           alapozzuk.
         </p>
-        <v-btn color="red darken-3" class="white--text">bővebben</v-btn>
       </v-col>
     </v-row>
   </v-container>
