@@ -1,14 +1,14 @@
 <template>
-  <v-container class="mb-16">
-    <v-row>
-      <v-col sm="10" md="4" class="d-none d-md-flex" offset="1">
+  <v-container class="mb-16 home-about">
+    <v-row justify="center">
+      <v-col md="5" class="d-none d-md-flex">
         <v-img
           cover
           aspect-ratio="1.7"
           :src="require('../../assets/images/home-about.jpg')"
         />
       </v-col>
-      <v-col sm="11" md="7" lg="5">
+      <v-col sm="11" md="7" lg="7">
         <h2 class="overline font-weight-bold mb-2 red--text text--darken-3">
           Rólunk
         </h2>
@@ -36,4 +36,9 @@
 export default {};
 </script>
 
-<style></style>
+<style>
+.home-about {
+  max-width: 100em !important;
+  margin-inline: auto;
+}
+</style>

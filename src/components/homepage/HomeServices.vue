@@ -1,20 +1,18 @@
 <template>
   <v-container class="mb-10 home-service">
-    <v-row>
-      <v-col sm="11" md="8" lg="7" offset-md="1">
+    <v-row justify="center" class="mb-6">
+      <v-col sm="11">
         <h2 class="overline font-weight-bold mb-2 red--text text--darken-3">
           szolgáltatások
         </h2>
-        <h3
-          class="text-h5 text-sm-h4 text-lg-h3 font-weight-bold mb-10 mb-md-16"
-        >
+        <h3 class="text-h5 text-sm-h4 text-lg-h3 font-weight-bold">
           Innovatív napelemes és EV töltési megoldások
         </h3>
       </v-col>
     </v-row>
 
-    <v-row class="service-solar mb-16 mx-auto" justify="start" align="center">
-      <v-col sm="10" md="8">
+    <v-row class="service-solar mb-16 mx-auto" align="center">
+      <v-col sm="10" md="7" class="pa-0">
         <home-services-card :solar-services="solarServices">
           Napelemes rendszerek telepítése
         </home-services-card>
@@ -22,7 +20,7 @@
     </v-row>
 
     <v-row class="service-charger mb-16 mx-auto" justify="end" align="center">
-      <v-col sm="10" md="8">
+      <v-col sm="10" md="7" class="pa-0">
         <home-services-card :charger-services="chargerServices">
           EV töltési megoldások otthon, kényelmesen
         </home-services-card>
@@ -72,20 +70,27 @@ export default {
 </script>
 
 <style>
-/* .home-service {
-  max-width: 90em !important;
+.home-service {
+  max-width: 100em !important;
   margin-inline: auto;
-} */
+}
 
 .service-solar {
   background: url(../../assets/images/homepage-services-1.jpg) no-repeat right;
   background-size: contain;
-  height: 683px;
+  height: 783px;
 }
 
 .service-charger {
   background: url(../../assets/images/homepage-services-2.jpg) no-repeat left;
   background-size: contain;
-  height: 683px;
+  height: 783px;
+}
+
+@media (max-width: 600px) {
+  .service-solar,
+  .service-charger {
+    height: 630px;
+  }
 }
 </style>
