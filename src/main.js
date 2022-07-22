@@ -31,7 +31,7 @@ export default function(Vue, { appOptions, router, head, isClient }) {
         light: {
           solar: '#EF8F20',
           charger: '#009537',
-          primary: '#3f51b5',
+          primary: '#0EAB51',
           // secondary: '#b0bec5',
           // accent: '#8c9eff',
           // error: '#b71c1c',

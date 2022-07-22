@@ -3,7 +3,7 @@
     v-model="tab"
     background-color="#eeeeee90"
     grow
-    slider-color="solar"
+    slider-color="primary"
     height="65"
     class="mb-6 mb-sm-10 mb-md-16"
   >

@@ -7,7 +7,7 @@
       class="mb-10"
       max-width="500"
     >
-      <v-icon large color="red darken-3" right class="ml-md-3"
+      <v-icon large color="primary" right class="ml-md-3"
         >mdi-{{ card.icon }}</v-icon
       >
       <v-card-title
@@ -19,7 +19,7 @@
         ><p class="body-2 text-lg-body-1">{{ card.text }}</p></v-card-text
       >
       <v-card-actions>
-        <v-btn title="button" outlined color="red darken-3" :to="card.to">
+        <v-btn title="button" outlined color="primary" :to="card.to">
           Érdekel <v-icon>mdi-chevron-right</v-icon>
         </v-btn>
       </v-card-actions>

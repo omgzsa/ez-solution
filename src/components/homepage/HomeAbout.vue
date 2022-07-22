@@ -1,6 +1,6 @@
 <template>
   <v-container class="mb-16 home-about">
-    <v-row justify="center">
+    <v-row justify="center" class="mb-sm-10">
       <v-col md="5" class="d-none d-md-flex">
         <v-img
           cover
@@ -9,11 +9,14 @@
         />
       </v-col>
       <v-col sm="11" md="7" lg="7">
-        <h2 class="overline font-weight-bold mb-2 red--text text--darken-3">
+        <h2
+          color="#0EAB51"
+          class="overline font-weight-bold mb-2 green--text text--accent-4"
+        >
           Rólunk
         </h2>
         <h3 class="text-h5 text-sm-h4 text-lg-h3 font-weight-bold mb-10">
-          Megtérülő befektetések, megújuló energia, otthonában
+          Megtérülő befektetések megújuló energia
         </h3>
         <p class="body-2 text-sm-body-1">
           Cégünk innovatív, megújuló megoldások teljes palettáját szolgáltatja
@@ -29,11 +32,20 @@
         </p>
       </v-col>
     </v-row>
+    <v-row>
+      <v-col>
+        <home-about-benefits />
+      </v-col>
+    </v-row>
   </v-container>
 </template>
 
 <script>
-export default {};
+import HomeAboutBenefits from './HomeAboutBenefits.vue';
+
+export default {
+  components: { HomeAboutBenefits },
+};
 </script>
 
 <style>

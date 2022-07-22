@@ -1,10 +1,17 @@
 <template>
-  <v-container pa-0 fluid fill-height class="home-hero py-16 mb-16">
+  <v-container
+    pa-0
+    fluid
+    fill-height
+    min-height="800"
+    class="home-hero py-16 mb-16"
+  >
     <v-row justify="center" align="center">
       <v-col sm="10" md="8" lg="6" class="my-16 text-center">
         <h1 class="text-h3 text-sm-h2 white--text mb-8 mt-16 home-title">
           Úton, együtt, egy fenntartható jövőbe!
         </h1>
+        <v-btn color="primary">Kérj ajánlatot!</v-btn>
       </v-col>
     </v-row>
   </v-container>

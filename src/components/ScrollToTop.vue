@@ -7,7 +7,7 @@
       small
       bottom
       right
-      color="red darken-3"
+      color="primary"
       fixed
       @click="scrollToTop"
       v-if="userScrolled"
@@ -21,7 +21,7 @@
 export default {
   data() {
     return {
-      userScrolled: false
+      userScrolled: false,
     };
   },
   methods: {
@@ -31,7 +31,7 @@ export default {
         window.scrollTo({
           top: 0,
           left: 0,
-          behavior: 'smooth'
+          behavior: 'smooth',
         });
       }
     },
@@ -43,13 +43,13 @@ export default {
           this.userScrolled = false;
         }
       }
-    }
+    },
   },
   created() {
     if (typeof window !== 'undefined') {
       window.addEventListener('scroll', this.showButton);
     }
-  }
+  },
 };
 </script>
 

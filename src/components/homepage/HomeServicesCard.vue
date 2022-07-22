@@ -10,7 +10,7 @@
       class="d-flex flex-column flex-sm-row"
     >
       <v-col v-for="item in solarServices" :key="item.title" class="pa-4">
-        <v-icon large color="red darken-3">mdi-{{ item.icon }}</v-icon>
+        <v-icon large color="primary">mdi-{{ item.icon }}</v-icon>
         <h4 class="text-h6 font-weight-bold mb-2">{{ item.title }}</h4>
         <p class="body-2 ">{{ item.text }}</p>
       </v-col>
@@ -22,7 +22,7 @@
       class="d-flex flex-column flex-sm-row"
     >
       <v-col v-for="item in chargerServices" :key="item.title" class="pa-4">
-        <v-icon large color="red darken-3">mdi-{{ item.icon }}</v-icon>
+        <v-icon large color="primary">mdi-{{ item.icon }}</v-icon>
         <h4 class="text-h6 font-weight-bold mb-2">{{ item.title }}</h4>
         <p class="body-2 ">{{ item.text }}</p>
       </v-col>
