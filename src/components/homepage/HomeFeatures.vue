@@ -25,7 +25,7 @@ export default {
         {
           title: 'Magánszemélyeknek',
           text:
-            'Teljeskörű megoldásokat biztosítunk családiházak energetikai modernizálására. Megoldásainkkal nem csak megtakaríthat, de növelheti családja biztonságát és ingatlana értékét is.',
+            'Teljeskörű megoldásokat biztosítunk családiházak energetikai modernizálására. Rendszereinkkel nem csak megtakaríthat, de növelheti családja biztonságát és ingatlana értékét is.',
           icon: 'home-outline',
           to: '/maganszemely/solar',
         },
