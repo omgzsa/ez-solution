@@ -1,18 +1,18 @@
 <template>
   <Layout>
-    <e-v-hero />
-
+    <plant-hero />
     <product-navigation :links="links" />
   </Layout>
 </template>
 
 <script>
-import EVHero from '../../components/customer/EVHero.vue';
+import PlantHero from '../../components/customer/PlantHero.vue';
+
 import ProductNavigation from '../../components/ProductNavigation.vue';
 
 export default {
   components: {
-    EVHero,
+    PlantHero,
     ProductNavigation,
   },
   data() {
@@ -37,7 +37,7 @@ export default {
     };
   },
   metaInfo: {
-    title: 'Magánszemély | EV Töltő',
+    title: 'Magánszemély | Gépészet',
   },
 };
 </script>

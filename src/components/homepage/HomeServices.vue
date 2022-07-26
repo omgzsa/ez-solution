@@ -1,7 +1,7 @@
 <template>
   <v-container class="home-service">
-    <v-row justify="start" class="mb-6 mb-lg-16">
-      <v-col>
+    <v-row justify="start" class="mb-6 mb-lg-16 justify-space-around">
+      <v-col cols="12">
         <h2 class="overline font-weight-bold mb-2 green--text text--accent-4">
           szolgáltatások
         </h2>
@@ -19,7 +19,7 @@
       </v-col>
     </v-row>
 
-    <v-row class="service-charger mb-16 mx-auto" justify="end" align="center">
+    <v-row class="service-plant mb-16 mx-auto" justify="end" align="center">
       <v-col sm="10" md="7" class="">
         <home-services-card :plant-services="plantServices">
           Gépészeti megoldásaink
@@ -27,7 +27,7 @@
       </v-col>
     </v-row>
 
-    <v-row class="service-solar mb-16 mx-auto" align="center">
+    <v-row class="service-charger mb-16 mx-auto" align="center">
       <v-col sm="10" md="7" class="">
         <home-services-card :charger-services="chargerServices">
           EV töltők otthon
@@ -93,24 +93,34 @@ export default {
 
 <style>
 .home-service {
-  max-width: 100em !important;
+  max-width: 90em !important;
   margin-inline: auto;
 }
 
 .service-solar {
-  background: url(../../assets/images/homepage-services-1.jpg) no-repeat right;
+  background: url(../../assets/images/homepage-services-solar.jpg) no-repeat
+    right;
+  background-size: contain;
+  height: 783px;
+}
+
+.service-plant {
+  background: url(../../assets/images/homepage-services-plant.jpg) no-repeat
+    left;
   background-size: contain;
   height: 783px;
 }
 
 .service-charger {
-  background: url(../../assets/images/homepage-services-2.jpg) no-repeat left;
+  background: url(../../assets/images/homepage-services-charger.jpg) no-repeat
+    right;
   background-size: contain;
   height: 783px;
 }
 
 @media (max-width: 600px) {
   .service-solar,
+  .service-plant,
   .service-charger {
     height: 630px;
   }

@@ -41,7 +41,6 @@
 
       <v-col
         cols="3"
-        offset=""
         sm="3"
         offset-sm="1"
         order-md="2"

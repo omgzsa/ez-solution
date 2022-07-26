@@ -1,8 +1,8 @@
 <template>
-  <v-container pa-0>
+  <v-container pa-0 class="home-benefits">
     <v-row
       justify="center"
-      class="d-flex flex-column flex-sm-row justify-space-between"
+      class="d-flex flex-column flex-sm-row justify-space-around"
     >
       <v-col md="5">
         <h3 class="text-h5 text-sm-h4 text-lg-h3 font-weight-bold mb-10">
@@ -73,4 +73,9 @@ export default {
 };
 </script>
 
-<style></style>
+<style>
+.home-benefits {
+  max-width: 90em !important;
+  margin-inline: auto;
+}
+</style>

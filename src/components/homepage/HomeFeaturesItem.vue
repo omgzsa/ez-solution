@@ -26,7 +26,7 @@
           :to="item.to"
           class="ml-1"
         >
-          Érdekel <v-icon>mdi-chevron-right</v-icon>
+          <strong>Érdekel</strong><v-icon>mdi-chevron-right</v-icon>
         </v-btn>
       </v-card-actions>
     </v-card>

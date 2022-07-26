@@ -3,9 +3,9 @@
     <div>
       <ul class="custom-marker">
         <li v-for="item in customer" :key="item.id" class="py-2">
-          <h4 class="text-h6 text-md-h5 font-weight-bold mb-2">
+          <h5 class="text-h6 font-weight-bold mb-2">
             {{ item.title }}
-          </h4>
+          </h5>
           <p class="body-2 text-sm-body-1">{{ item.text }}</p>
         </li>
       </ul>
@@ -13,9 +13,9 @@
     <div>
       <ul class="custom-marker">
         <li v-for="item in differences" :key="item.id" class="py-2">
-          <h4 class="text-h6 text-md-h5 font-weight-bold mb-2">
+          <h5 class="text-h6 font-weight-bold mb-2">
             {{ item.title }}
-          </h4>
+          </h5>
           <p class="body-2 text-sm-body-1">{{ item.text }}</p>
         </li>
       </ul>
@@ -40,7 +40,7 @@ export default {
 
 <style>
 .custom-marker li::marker {
-  content: url(../../assets/images/svgs/doublecircle.svg);
+  content: url(../../assets/svgs/doublecircle.svg);
 }
 
 .custom-marker > li {

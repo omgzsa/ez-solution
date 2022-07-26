@@ -1,6 +1,6 @@
 <template>
   <v-container class="home-features">
-    <v-row class="mb-6 mb-lg-16">
+    <v-row justify="start" class="mb-10 mb-lg-16">
       <v-col>
         <h2 class="overline font-weight-bold mb-2 green--text text--accent-4">
           kiknek szól
@@ -51,7 +51,7 @@ export default {
 
 <style>
 .home-features {
-  max-width: 100em !important;
+  max-width: 90em !important;
   margin-inline: auto;
 }
 </style>

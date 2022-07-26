@@ -29,9 +29,10 @@ export default function(Vue, { appOptions, router, head, isClient }) {
     theme: {
       themes: {
         light: {
+          primary: '#0EAB51',
           solar: '#EF8F20',
           charger: '#009537',
-          primary: '#0EAB51',
+          plant: '#03318D',
           // secondary: '#b0bec5',
           // accent: '#8c9eff',
           // error: '#b71c1c',
