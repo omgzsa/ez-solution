@@ -1,28 +1,36 @@
 <template>
-  <v-container class="mb-10 home-service">
-    <v-row justify="center" class="mb-6 mb-lg-16">
-      <v-col sm="11">
+  <v-container class="home-service">
+    <v-row justify="start" class="mb-6 mb-lg-16">
+      <v-col>
         <h2 class="overline font-weight-bold mb-2 green--text text--accent-4">
           szolgáltatások
         </h2>
         <h3 class="text-h5 text-sm-h4 text-lg-h3 font-weight-bold">
-          Innovatív napelemes és EV töltési megoldások
+          Szabadulj ki a Rezsicsapdából megoldásainkkal
         </h3>
       </v-col>
     </v-row>
 
     <v-row class="service-solar mb-16 mx-auto" align="center">
-      <v-col sm="10" md="7" class="pa-0">
+      <v-col sm="10" md="7" class="">
         <home-services-card :solar-services="solarServices">
-          Napelemes rendszerek telepítése
+          Napelemes rendszerek
         </home-services-card>
       </v-col>
     </v-row>
 
     <v-row class="service-charger mb-16 mx-auto" justify="end" align="center">
-      <v-col sm="10" md="7" class="pa-0">
+      <v-col sm="10" md="7" class="">
+        <home-services-card :plant-services="plantServices">
+          Gépészeti megoldásaink
+        </home-services-card>
+      </v-col>
+    </v-row>
+
+    <v-row class="service-solar mb-16 mx-auto" align="center">
+      <v-col sm="10" md="7" class="">
         <home-services-card :charger-services="chargerServices">
-          EV töltési megoldások otthon, kényelmesen
+          EV töltők otthon
         </home-services-card>
       </v-col>
     </v-row>
@@ -50,15 +58,29 @@ export default {
             'Napelemre épülő megoldásaink segítségével további rezsiköltségeitől is megszabadulhat. Fűthet, Hűthet vagy tölthet is nappal!',
         },
       ],
+      plantServices: [
+        {
+          icon: 'air-filter',
+          title: 'Hőszivattyús klíma',
+          text:
+            'Hűtse és fűtse otthonát modern hőszivattyús klímával. Kínálatunkban kültéri egység nélküli berendezés is elérhető. Megoldásainkkal lehetősége van napelemmel megtermelni a szükséges energiát.',
+        },
+        {
+          icon: 'fan',
+          title: 'Hőszivattyú',
+          text:
+            'Hőszivattyúval fenntartható és biztonságos elektromos fűtést építhet ki otthonában vagy üzemében. Megoldásainknak köszönhetően nullázza le otthoni rezsiköltségeit teljesen!',
+        },
+      ],
       chargerServices: [
         {
-          icon: 'note-check-outline',
+          icon: 'ev-station',
           title: 'Otthoni EV töltő',
           text:
             'Töltse autóját otthon és élvezze prémium töltőink minden előnyét otthona kényelméből. Töltsön a nappal megoldásunkkal termelje meg a szükséges áramot napelemmel!',
         },
         {
-          icon: 'account-check-outline',
+          icon: 'car-electric',
           title: 'EV tartósbérlet',
           text:
             'Vegyen tartósbérletbe használt elektromos autót és használja ki, hogy konstrukciónkban megvásárolhatja a járművet a bérlet lejártakor. Céges partnerünkként lehetősége van áfa visszaigénylésre is.',

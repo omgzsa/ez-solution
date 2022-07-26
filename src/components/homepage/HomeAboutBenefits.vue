@@ -4,14 +4,14 @@
       justify="center"
       class="d-flex flex-column flex-sm-row justify-space-between"
     >
-      <v-col>
+      <v-col md="5">
         <h3 class="text-h5 text-sm-h4 text-lg-h3 font-weight-bold mb-10">
           Mit adunk ügyfeleinknek?
         </h3>
         <home-about-benefits-list :customer="customer" />
       </v-col>
       <v-divider vertical></v-divider>
-      <v-col>
+      <v-col md="5">
         <h3 class="text-h5 text-sm-h4 text-lg-h3 font-weight-bold mb-10">
           Mi különböztet meg minket?
         </h3>

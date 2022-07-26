@@ -1,25 +1,31 @@
 <template>
-  <div class="d-flex flex-column flex-md-row">
+  <div class="d-flex flex-column align-center flex-md-row justify-space-around">
     <v-card
-      v-for="card in cards"
+      v-for="item in features"
       flat
-      :key="card.title"
-      class="mb-10"
-      max-width="500"
+      :key="item.title"
+      class="pa-0 mb-10"
+      max-width="480"
     >
-      <v-icon large color="primary" right class="ml-md-3"
-        >mdi-{{ card.icon }}</v-icon
+      <v-icon x-large color="primary" right class="ml-3"
+        >mdi-{{ item.icon }}</v-icon
       >
       <v-card-title
         ><h4 class="text-h6 font-weight-bold mb-2">
-          {{ card.title }}
+          {{ item.title }}
         </h4></v-card-title
       >
       <v-card-text
-        ><p class="body-2 text-lg-body-1">{{ card.text }}</p></v-card-text
+        ><p class="body-2 text-lg-body-1">{{ item.text }}</p></v-card-text
       >
       <v-card-actions>
-        <v-btn title="button" outlined color="primary" :to="card.to">
+        <v-btn
+          title="button"
+          outlined
+          color="primary"
+          :to="item.to"
+          class="ml-1"
+        >
           Érdekel <v-icon>mdi-chevron-right</v-icon>
         </v-btn>
       </v-card-actions>
@@ -30,10 +36,19 @@
 <script>
 export default {
   props: {
-    cards: {
+    features: {
       type: Array,
       required: true,
     },
+    // individual: {
+    //   type: Array,
+    // },
+    // condominium: {
+    //   type: Array,
+    // },
+    // company: {
+    //   type: Array,
+    // },
   },
   data() {
     return {

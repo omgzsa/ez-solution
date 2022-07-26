@@ -27,6 +27,11 @@ export default {
           icon: 'mdi-solar-power',
         },
         {
+          name: 'Hűtés-fűtés',
+          to: '/maganszemely/gepeszet',
+          icon: 'mdi-fan',
+        },
+        {
           name: 'EV töltő',
           to: '/maganszemely/ev-tolto',
           icon: 'mdi-battery-charging',

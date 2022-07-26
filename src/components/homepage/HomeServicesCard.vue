@@ -15,7 +15,23 @@
         <p class="body-2 ">{{ item.text }}</p>
       </v-col>
     </v-row>
+
     <v-spacer></v-spacer>
+
+    <v-row
+      align="start"
+      justify="center"
+      class="d-flex flex-column flex-sm-row"
+    >
+      <v-col v-for="item in plantServices" :key="item.title" class="pa-4">
+        <v-icon large color="primary">mdi-{{ item.icon }}</v-icon>
+        <h4 class="text-h6 font-weight-bold mb-2">{{ item.title }}</h4>
+        <p class="body-2 ">{{ item.text }}</p>
+      </v-col>
+    </v-row>
+
+    <v-spacer></v-spacer>
+
     <v-row
       align="start"
       justify="center"
@@ -34,6 +50,9 @@
 export default {
   props: {
     solarServices: {
+      type: Array,
+    },
+    plantServices: {
       type: Array,
     },
     chargerServices: {

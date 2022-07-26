@@ -3,7 +3,7 @@
     <v-row class="d-flex mr-md-auto">
       <v-col
         cols="12"
-        sm="8"
+        sm="10"
         offset-sm="1"
         md="8"
         offset-md="0"
@@ -25,7 +25,7 @@
     </v-row>
 
     <v-row justify="start" align="center">
-      <v-col cols="11" sm="6" md="4" offset-lg="1">
+      <v-col cols="11" sm="6" md="5" offset-lg="1" class="pa-0">
         <v-timeline dense clipped align-top class="ml-n6">
           <v-timeline-item
             v-for="item in benefits"
@@ -51,12 +51,7 @@
           </v-timeline-item>
         </v-timeline>
       </v-col>
-      <v-col
-        cols="6"
-        offset="1"
-        class="d-none d-md-flex relative"
-        align-self="start"
-      >
+      <v-col cols="6" class="d-none d-md-flex relative pa-0 align-start">
         <v-img
           alt="A house with solar panels on the roof"
           cover
@@ -66,9 +61,8 @@
         />
       </v-col>
       <v-col
-        cols="5"
-        offset="1"
-        class="d-none d-sm-flex d-md-none"
+        cols="6"
+        class="d-none d-sm-flex d-md-none pr-0"
         align-self="start"
       >
         <v-img

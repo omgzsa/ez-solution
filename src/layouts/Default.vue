@@ -5,14 +5,14 @@
     <scroll-to-top />
 
     <transition appear name="fade">
-      <v-main class="pa-0">
-        <v-container style="max-width: 120em;" fluid pa-0>
+      <v-main>
+        <v-container fluid pa-0 style="max-width: 120em;">
           <slot />
         </v-container>
       </v-main>
     </transition>
 
-    <PageFooter />
+    <page-footer />
   </v-app>
 </template>
 

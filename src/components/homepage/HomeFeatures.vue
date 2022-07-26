@@ -1,8 +1,16 @@
 <template>
-  <v-container>
-    <v-row align="start" justify="center">
-      <home-features-item :cards="cards" />
+  <v-container class="home-features">
+    <v-row class="mb-6 mb-lg-16">
+      <v-col>
+        <h2 class="overline font-weight-bold mb-2 green--text text--accent-4">
+          kiknek szól
+        </h2>
+        <h3 class="text-h5 text-sm-h4 text-lg-h3 font-weight-bold">
+          Rendszereinket kínáljuk
+        </h3>
+      </v-col>
     </v-row>
+    <home-features-item :features="features" />
   </v-container>
 </template>
 
@@ -13,7 +21,7 @@ export default {
   components: { HomeFeaturesItem },
   data() {
     return {
-      cards: [
+      features: [
         {
           title: 'Magánszemélyeknek',
           text:
@@ -40,3 +48,10 @@ export default {
   },
 };
 </script>
+
+<style>
+.home-features {
+  max-width: 100em !important;
+  margin-inline: auto;
+}
+</style>

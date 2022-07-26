@@ -32,13 +32,13 @@
       </v-container>
     </v-app-bar>
 
-    <v-navigation-drawer v-model="drawer" app>
+    <!-- <v-navigation-drawer v-model="drawer" app>
       <v-list class="d-flex flex-column">
         <g-link class="ml-4" to="/maganszemely/solar">Magánszemély</g-link>
         <g-link class="ml-4" to="/tarsashaz/solar">Társasház</g-link>
         <g-link class="ml-4" to="/ceg/solar">Cég</g-link>
       </v-list>
-    </v-navigation-drawer>
+    </v-navigation-drawer> -->
   </nav>
 </template>
 

@@ -1,12 +1,10 @@
 <template>
   <Layout>
-    <v-container fill-height fluid pa-0>
-      <solar-hero />
-      <product-navigation :links="links" />
-      <solar-intro />
-      <!-- <solar-intro-results /> -->
-      <solar-process />
-    </v-container>
+    <solar-hero />
+    <product-navigation :links="links" />
+    <solar-intro />
+    <!-- <solar-intro-results /> -->
+    <solar-process />
   </Layout>
 </template>
 
@@ -33,6 +31,11 @@ export default {
           name: 'Napelem',
           to: '/maganszemely/solar',
           icon: 'mdi-solar-power',
+        },
+        {
+          name: 'Hűtés-fűtés',
+          to: '/maganszemely/gepeszet',
+          icon: 'mdi-fan',
         },
         {
           name: 'EV töltő',
