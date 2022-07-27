@@ -3,7 +3,6 @@
     <solar-hero />
     <product-navigation :links="links" />
     <solar-intro />
-    <!-- <solar-intro-results /> -->
     <solar-process />
   </Layout>
 </template>
@@ -11,7 +10,6 @@
 <script>
 import SolarHero from '../../components/customer/SolarHero.vue';
 import SolarIntro from '../../components/customer/SolarIntro.vue';
-import SolarIntroResults from '../../components/customer/SolarIntroResults.vue';
 import SolarProcess from '../../components/customer/SolarProcess.vue';
 
 import ProductNavigation from '../../components/ProductNavigation.vue';
@@ -20,7 +18,6 @@ export default {
   components: {
     SolarHero,
     SolarIntro,
-    SolarIntroResults,
     SolarProcess,
     ProductNavigation,
   },

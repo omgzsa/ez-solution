@@ -1,5 +1,5 @@
 <template>
-  <v-container class="solar-intro-results my-2 my-md-10">
+  <v-container class="my-2 my-md-10 plant-intro">
     <v-row justify="center" align="center" class="d-flex relative" no-gutters>
       <svg
         width="2440"
@@ -11,29 +11,32 @@
       >
         <path d="M0 0H4096V557H0V0Z" fill="#F3F3F3" />
       </svg>
-      <v-col cols="12" sm="10" offset-sm="" md="6" lg="6 " offset-lg="1">
+      <v-col cols="12" sm="10" offset-sm="" md="6" lg="5" offset-lg="1">
         <h3 class="text-h5 text-sm-h4 text-lg-h3 font-weight-bold mb-10">
           {{ results.title }}
         </h3>
         <p class="body-2 text-lg-body-1 mb-8">
           {{ results.text }}
         </p>
-
-        <v-col cols="12" align-self="center" class="d-none d-md-flex">
+        <v-col
+          cols="12"
+          align-self="center"
+          class="d-none d-md-flex justify-space-between"
+        >
           <div class="results-numbers">
-            <span class="text-h5 text-sm-h4 orange--text text--darken-3"
-              >80%</span
+            <span class="text-h5 text-sm-h4 blue--text text--darken-4"
+              >3,5x több</span
             >
             <p class="caption text-uppercase font-weight-bold">
-              -kal kevesebb áramfogyasztás
+              a kondenzációs kazánhoz képest
             </p>
           </div>
           <div class="results-numbers">
-            <span class="text-h5 text-sm-h4 orange--text text--darken-3"
-              >76 000</span
+            <span class="text-h5 text-sm-h4 blue--text text--darken-4"
+              >4,5x több</span
             >
             <p class="caption text-uppercase font-weight-bold">
-              megspórolt károsanyag kibocsájtás
+              a hagyományos gázkazánhoz képest
             </p>
           </div>
         </v-col>
@@ -45,19 +48,23 @@
         offset-sm="1"
         order-md="2"
         offset-md="1"
-        class="d-flex flex-column d-md-none justify-space-around"
+        class="d-flex flex-column d-md-none justify-space-between"
       >
         <div class="pa-2 mb-4 mb-sm-16">
-          <span class="text-h6 text-sm-h4 red--text text--darken-4">80%</span>
+          <span class="text-h6 text-sm-h4 blue--text text--darken-4"
+            >3,5x több</span
+          >
           <p class="caption text-uppercase font-weight-bold">
-            -kal kevesebb fogyasztás
+            kondenzációs kazánhoz képest
           </p>
         </div>
         <!-- <v-divider></v-divider> -->
         <div class="pa-2">
-          <span class="text-h6 text-sm-h4 red--text text--darken-4">76000</span>
+          <span class="text-h6 text-sm-h4 blue--text text--darken-4"
+            >4,5x több</span
+          >
           <p class="caption text-uppercase font-weight-bold">
-            megspórolt károsanyag kibocsátás
+            hagyományos gázkazánhoz képest
           </p>
         </div>
       </v-col>
@@ -74,7 +81,7 @@
           alt="A house with solar panels on the roof"
           max-height="700"
           cover
-          :src="require('../../assets/images/magan-solar-intro.jpg')"
+          :src="require('../../assets/images/magan-plant-intro.jpg')"
           class="elevation-3"
         />
       </v-col>
@@ -87,9 +94,9 @@ export default {
   data() {
     return {
       results: {
-        title: 'Eredmények napelemes háztartásoknál',
+        title: 'Válassza a nap ingyenes energiáját fűtésre, hűtésre!',
         text:
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris tincidunt proin arcu, tellus libero fusce. Sit tortor in nec amet odio vitae sed. Urna sed bibendum amet arcu quis diam at vitae. Dignissim ornare pretium augue molestie quisque.',
+          'A hőszivattyú 1 egységnyi villamos energiából átlagosan 3,5 egységnyi fűtési/hűtési energiát állít elő, míg a hagyományos gázkazán csupán 0,8-at, a kondenzációs kazán 1-et.',
       },
     };
   },
@@ -97,6 +104,11 @@ export default {
 </script>
 
 <style>
+.plant-intro {
+  max-width: 90em !important;
+  margin-inline: auto;
+}
+
 .results-numbers {
   max-width: 200px;
 }

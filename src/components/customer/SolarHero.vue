@@ -2,7 +2,7 @@
   <v-container fill-height fluid class="solar-hero">
     <v-row no-gutters justify="center" align="center">
       <v-col sm="10" md="8" lg="6" class="my-16 text-center">
-        <h1 class="text-h3 text-sm-h2 white--text mb-8">
+        <h1 class="text-h4 text-sm-h2 white--text mb-8 font-weight-bold">
           Napelemes megújuló energia otthonába
         </h1>
         <v-btn color="solar" class="white--text">Kérj ajánlatot!</v-btn>

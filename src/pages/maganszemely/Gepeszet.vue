@@ -2,17 +2,23 @@
   <Layout>
     <plant-hero />
     <product-navigation :links="links" />
+    <plant-intro />
+    <plant-intro-results />
   </Layout>
 </template>
 
 <script>
 import PlantHero from '../../components/customer/PlantHero.vue';
+import PlantIntro from '../../components/customer/PlantIntro.vue';
+import PlantIntroResults from '../../components/customer/PlantIntroResults.vue';
 
 import ProductNavigation from '../../components/ProductNavigation.vue';
 
 export default {
   components: {
     PlantHero,
+    PlantIntro,
+    PlantIntroResults,
     ProductNavigation,
   },
   data() {
