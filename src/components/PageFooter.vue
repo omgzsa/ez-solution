@@ -1,6 +1,6 @@
 <template>
   <v-container fluid pa-0>
-    <v-footer color="black" padless class="d-flex flex-column justify-center">
+    <v-footer color="plant" padless class="d-flex flex-column justify-center">
       <ul class="footer-list pt-10  ">
         <li class="white--text body-2 mb-2">
           <v-icon class="pr-4" color="primary">mdi-map-marker</v-icon>1060

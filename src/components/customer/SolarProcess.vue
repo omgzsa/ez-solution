@@ -1,5 +1,5 @@
 <template>
-  <v-container class="my-16 home-intro">
+  <v-container class="my-16 site-wrapper">
     <v-row class="d-flex mr-md-auto">
       <v-col
         cols="12"

@@ -47,6 +47,7 @@ export default function(Vue, { appOptions, router, head, isClient }) {
   // Set default layout as a global component
   Vue.component('Layout', DefaultLayout);
   Vue.component('ProductNavigation', ProductNavigation);
+  // Vue.component('ProductCarousel', ProductCarousel);
   // Vue.component('BaseIcon', BaseIcon)
 
   // const requireComponent = require.context('./components', true, /Base[A-Z]/)

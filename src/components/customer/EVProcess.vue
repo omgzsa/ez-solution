@@ -1,12 +1,12 @@
 <template>
-  <v-container class="home-intro my-16">
+  <v-container class="site-wrapper my-16">
     <v-row class="d-flex mr-md-auto">
       <v-col
         cols="12"
         sm="10"
         offset-sm="1"
         md="8"
-        offset-md="0"
+        offset-md="1"
         lg="6"
         offset-lg="1"
         class="mb-sm-10"
@@ -24,8 +24,8 @@
       </v-col>
     </v-row>
 
-    <v-row justify="start" align="start">
-      <v-col cols="11" sm="6" md="6" offset-lg="1" class="pa-0">
+    <v-row justify="center" align="start">
+      <v-col cols="11" sm="6" md="5" offset-lg="1" class="pa-0">
         <v-timeline dense clipped align-top class="ml-n6">
           <v-timeline-item
             v-for="item in benefits"
@@ -51,7 +51,7 @@
           </v-timeline-item>
         </v-timeline>
       </v-col>
-      <v-col cols="6" md="5" class="d-none d-md-flex relative pa-0">
+      <v-col cols="6" md="6" class="d-none d-md-flex relative pa-0">
         <v-img
           alt="EV charger plugged into a car"
           cover

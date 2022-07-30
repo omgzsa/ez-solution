@@ -67,9 +67,21 @@ h2::after {
 
 // utility
 
+.site-wrapper {
+  max-width: 90em !important;
+  margin-inline: auto;
+}
+
 .relative {
   position: relative;
   z-index: 1;
+}
+
+// results numbers ( *Intro.vue // *Products.vue )
+
+.results-numbers {
+  // max-width: 200px;
+  padding-inline: .5em;
 }
 
 // process timeline styles
@@ -82,4 +94,25 @@ h2::after {
 
 .theme--light.v-timeline .v-timeline-item__dot {
 border: 1px solid rgb(191, 191, 191);
+}
+
+// transition bug jump disable
+
+.fade-transition-leave-active{
+  position: absolute;
+  width:100%;
+}
+
+// transition styling
+
+.fade-enter-active {
+  transition: all .5s ease;
+}
+.fade-leave-active {
+  transition: all .5s cubic-bezier(1, 0.5, 0.8, 1);
+}
+.fade-enter,
+.fade-leave-to {
+  transform: translateX(50px);
+  opacity: 0;
 }

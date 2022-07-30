@@ -1,5 +1,5 @@
 <template>
-  <v-container class="home-features">
+  <v-container class="site-wrapper">
     <v-row justify="start" class="mb-10 mb-lg-16">
       <v-col>
         <h2 class="overline font-weight-bold mb-2 green--text text--accent-4">
@@ -49,9 +49,4 @@ export default {
 };
 </script>
 
-<style>
-.home-features {
-  max-width: 90em !important;
-  margin-inline: auto;
-}
-</style>
+<style></style>

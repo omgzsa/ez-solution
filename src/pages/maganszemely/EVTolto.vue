@@ -5,6 +5,7 @@
     <e-v-intro />
     <!-- <e-v-intro-results /> -->
     <e-v-process />
+    <e-v-products />
   </Layout>
 </template>
 
@@ -13,6 +14,7 @@ import EVHero from '../../components/customer/EVHero.vue';
 import EVIntro from '../../components/customer/EVIntro.vue';
 // import EVIntroResults from '../../components/customer/EVIntroResults.vue';
 import EVProcess from '../../components/customer/EVProcess.vue';
+import EVProducts from '../../components/customer/EVProducts.vue';
 
 import ProductNavigation from '../../components/ProductNavigation.vue';
 
@@ -22,6 +24,7 @@ export default {
     EVIntro,
     // EVIntroResults,
     EVProcess,
+    EVProducts,
     ProductNavigation,
   },
   data() {

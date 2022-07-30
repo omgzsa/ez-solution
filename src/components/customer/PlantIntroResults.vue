@@ -1,5 +1,5 @@
 <template>
-  <v-container class="my-2 my-md-10 plant-intro">
+  <v-container class="my-2 my-md-10 site-wrapper">
     <v-row justify="center" align="center" class="d-flex relative" no-gutters>
       <svg
         width="2440"
@@ -104,15 +104,6 @@ export default {
 </script>
 
 <style>
-.plant-intro {
-  max-width: 90em !important;
-  margin-inline: auto;
-}
-
-.results-numbers {
-  max-width: 200px;
-}
-
 .grey-background {
   position: absolute;
 

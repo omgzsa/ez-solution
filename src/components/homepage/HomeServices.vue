@@ -1,7 +1,7 @@
 <template>
-  <v-container class="home-service">
-    <v-row justify="start" class="mb-6 mb-lg-16 justify-space-around">
-      <v-col cols="12">
+  <v-container class="site-wrapper">
+    <v-row justify="start" class="mb-6 mb-lg-16">
+      <v-col cols="12" md="8" lg="8">
         <h2 class="overline font-weight-bold mb-2 green--text text--accent-4">
           szolgáltatások
         </h2>
@@ -92,11 +92,6 @@ export default {
 </script>
 
 <style>
-.home-service {
-  max-width: 90em !important;
-  margin-inline: auto;
-}
-
 .service-solar {
   background: url(../../assets/images/homepage-services-solar.jpg) no-repeat
     right;

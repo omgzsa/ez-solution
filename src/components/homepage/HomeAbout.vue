@@ -1,6 +1,6 @@
 <template>
-  <v-container class="mb-16 home-about">
-    <v-row justify="start" class="mb-sm-10 justify-space-between">
+  <v-container class="mb-16 site-wrapper">
+    <v-row justify="center" class="mb-sm-10 ">
       <v-col cols="12" md="5" lg="5" class="d-md-flex order-2">
         <v-img
           cover
@@ -45,9 +45,4 @@ export default {
 };
 </script>
 
-<style>
-.home-about {
-  max-width: 90em !important;
-  margin-inline: auto;
-}
-</style>
+<style></style>

@@ -1,5 +1,5 @@
 <template>
-  <v-container pa-0 class="home-benefits">
+  <v-container class="site-wrapper">
     <v-row
       justify="center"
       class="d-flex flex-column flex-sm-row justify-space-around"
@@ -73,9 +73,4 @@ export default {
 };
 </script>
 
-<style>
-.home-benefits {
-  max-width: 90em !important;
-  margin-inline: auto;
-}
-</style>
+<style></style>

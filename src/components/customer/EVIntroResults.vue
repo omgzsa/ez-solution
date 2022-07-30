@@ -54,10 +54,6 @@ export default {
 </script>
 
 <style>
-.results-numbers {
-  max-width: 200px;
-}
-
 .grey-background {
   position: absolute;
 
