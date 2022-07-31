@@ -24,6 +24,10 @@ $heading-font-family: 'Montserrat';
 
 // h2 style with line
 
+h1 {
+  line-height: 1.25 !important;
+}
+
 h2 {
   display: flex;
   align-items: center;
@@ -38,7 +42,7 @@ h2::after {
   opacity: .7;
 }
 
-// styling router-link
+// styling links & router link
 
 .underline {
   position: relative;
@@ -64,6 +68,19 @@ h2::after {
   }
 }
 
+a {
+  text-decoration: none;
+  color: rgb(0, 0, 0, 0.87) !important;
+}
+
+.solar--active {
+  color: #EF8F20 !important;
+  font-weight: bold;
+}
+.primary--active {
+  color: #0EAB51 !important;
+  font-weight: bold;
+}
 
 // utility
 
@@ -84,7 +101,7 @@ h2::after {
   padding-inline: .5em;
 }
 
-// process timeline styles
+// process timeline styles tweak
 
 .v-timeline-item__dot--small .v-timeline-item__inner-dot {
   height: 6px;
@@ -115,4 +132,9 @@ border: 1px solid rgb(191, 191, 191);
 .fade-leave-to {
   transform: translateX(50px);
   opacity: 0;
+}
+
+.v-tab--active {
+  font-weight: bold !important;
+  color: #0EAB51 !important;
 }

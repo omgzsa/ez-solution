@@ -46,9 +46,4 @@ export default {
 .custom-marker > li {
   padding-left: 0.5em;
 }
-
-/* .custom-marker li::marker {
-  font-size: 150%;
-  color: #0eab51;
-} */
 </style>

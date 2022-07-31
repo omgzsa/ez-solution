@@ -6,7 +6,7 @@
 
 module.exports = {
   siteName: 'EZ Solutions',
-  siteDescription: 'A megújuló energiák szakértője. Napelem, elektromos tötő.',
+  siteDescription:
+    'A megújuló energiák szakértője. Napelem, elektromos tötő, hőszivattyú.',
   plugins: [],
-  // pathPrefix: '/gridsome',
 };

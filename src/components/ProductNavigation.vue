@@ -5,6 +5,7 @@
     grow
     :vertical="$vuetify.breakpoint.smAndDown"
     slider-color="primary"
+    slider-size="2"
     class="mb-6 mb-sm-10 mb-md-16"
   >
     <v-tab
@@ -13,8 +14,7 @@
       :to="to"
       :class="{ active: tab === index }"
     >
-      <v-icon color="grey darken-3" role="img" dark left>{{ icon }}</v-icon
-      >{{ name }}
+      <v-icon role="img" dark left> {{ icon }} </v-icon>{{ name }}
     </v-tab>
   </v-tabs>
 </template>
@@ -36,19 +36,4 @@ export default {
 };
 </script>
 
-<style scoped>
-.v-application a {
-  text-decoration: none;
-  font-weight: bold;
-  color: rgb(0, 0, 0, 0.87) !important;
-}
-
-.v-application a:hover,
-.v-application a:active {
-  font-weight: bold !important;
-}
-
-.v-tab--active {
-  font-weight: bold !important;
-}
-</style>
+<style></style>

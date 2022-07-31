@@ -6,7 +6,9 @@
       >
         Úton együtt, egy fenntartható jövőbe!
       </h1>
-      <v-btn color="primary">Kérj ajánlatot!</v-btn>
+      <v-btn to="#footer" color="primary" class="white--text"
+        >Kérj ajánlatot!</v-btn
+      >
     </v-col>
   </v-row>
 </template>

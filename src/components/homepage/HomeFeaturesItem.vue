@@ -40,15 +40,6 @@ export default {
       type: Array,
       required: true,
     },
-    // individual: {
-    //   type: Array,
-    // },
-    // condominium: {
-    //   type: Array,
-    // },
-    // company: {
-    //   type: Array,
-    // },
   },
   data() {
     return {

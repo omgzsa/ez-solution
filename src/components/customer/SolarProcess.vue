@@ -15,7 +15,7 @@
           folyamat
         </h2>
         <h3 class="text-h5 text-sm-h4 text-lg-h3 font-weight-bold mb-10">
-          Napelem szolgáltatás bemutatása
+          Az Ön kényelmét szolgáljuk
         </h3>
         <p class="body-2 text-lg-body-1">
           Szolgáltatásunk teljeskörű. A telepítési folyamatot úgy dolgoztuk ki,

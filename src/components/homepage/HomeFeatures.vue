@@ -34,14 +34,14 @@ export default {
           text:
             'Társasházak teljeskörű energetikai felmérését és modernizálását válláljuk. Megoldásainkkal jobb életkörülményeket és alacsonyabb számlákat teremtünk a lakóközösségének.',
           icon: 'domain',
-          to: 'tarsashaz/solar',
+          to: 'tarsashazak',
         },
         {
           title: 'Cégeknek',
           text:
             'A magas energia árak a cégeket érintik leginkább. Szolárra épített elektrifikációs megoldásainkkal azonban biztonságban tudhatja vállalkozását a növekvő energia áraktól.',
           icon: 'factory',
-          to: 'ceg/solar',
+          to: 'cegek',
         },
       ],
     };

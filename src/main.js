@@ -4,13 +4,13 @@
 import DefaultLayout from '~/layouts/Default.vue';
 
 import ProductNavigation from '~/components/ProductNavigation.vue';
-// import BaseIcon from '~/components/BaseIcon.vue'
 
 import Vuetify from 'vuetify';
 import 'vuetify/dist/vuetify.min.css';
 import '@/assets/styles.scss';
 
 export default function(Vue, { appOptions, router, head, isClient }) {
+  head.htmlAttrs = { lang: 'hu' };
   head.link.push({
     rel: 'stylesheet',
     href:
@@ -23,7 +23,7 @@ export default function(Vue, { appOptions, router, head, isClient }) {
       'https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap',
   });
 
-  // Import all base components
+  //opts includes, vuetify themes, icons, etc.
 
   const opts = {
     theme: {
@@ -39,7 +39,7 @@ export default function(Vue, { appOptions, router, head, isClient }) {
         },
       },
     },
-  }; //opts includes, vuetify themes, icons, etc.
+  };
   Vue.use(Vuetify);
 
   appOptions.vuetify = new Vuetify(opts);
@@ -47,8 +47,8 @@ export default function(Vue, { appOptions, router, head, isClient }) {
   // Set default layout as a global component
   Vue.component('Layout', DefaultLayout);
   Vue.component('ProductNavigation', ProductNavigation);
-  // Vue.component('ProductCarousel', ProductCarousel);
-  // Vue.component('BaseIcon', BaseIcon)
+
+  // Import all base components
 
   // const requireComponent = require.context('./components', true, /Base[A-Z]/)
   // requireComponent.keys().forEach((fileName) => {
@@ -61,4 +61,18 @@ export default function(Vue, { appOptions, router, head, isClient }) {
   // )
   // Vue.component(baseComponentName, baseComponentConfig)
   // })
+
+  router.options.scrollBehavior = function(to, from, savedPosition) {
+    if (savedPosition) {
+      return savedPosition;
+    }
+    if (to.hash) {
+      return window.scrollTo({
+        top: document.querySelector(to.hash).offsetTop,
+        behavior: 'smooth',
+      });
+    } else {
+      return { x: 0, y: 0 };
+    }
+  };
 }

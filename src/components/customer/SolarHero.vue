@@ -5,7 +5,9 @@
         <h1 class="text-h4 text-sm-h2 white--text mb-8 font-weight-bold">
           Napelemes megújuló energia otthonába
         </h1>
-        <v-btn color="solar" class="white--text">Kérj ajánlatot!</v-btn>
+        <v-btn to="#footer" color="solar" class="white--text"
+          >Kérj ajánlatot!</v-btn
+        >
       </v-col>
     </v-row>
   </v-container>
