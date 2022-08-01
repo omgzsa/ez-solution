@@ -1,7 +1,7 @@
 <template>
   <v-container class="my-2 my-10 site-wrapper">
     <v-row justify="center" align="center" class="d-flex">
-      <v-col cols="12" sm="10" md="7" lg="6" offset-lg="1">
+      <v-col cols="12" sm="10" md="5" lg="6" offset-lg="1">
         <h2 class="overline font-weight-bold mb-2 blue--text text--darken-4">
           bevezetés
         </h2>

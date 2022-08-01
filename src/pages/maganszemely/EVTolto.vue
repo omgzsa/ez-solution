@@ -3,7 +3,7 @@
     <e-v-hero />
     <product-navigation :links="links" />
     <e-v-intro />
-    <!-- <e-v-intro-results /> -->
+    <e-v-intro-results />
     <e-v-process />
     <e-v-products />
   </Layout>
@@ -12,7 +12,7 @@
 <script>
 import EVHero from '../../components/customer/EVHero.vue';
 import EVIntro from '../../components/customer/EVIntro.vue';
-// import EVIntroResults from '../../components/customer/EVIntroResults.vue';
+import EVIntroResults from '../../components/customer/EVIntroResults.vue';
 import EVProcess from '../../components/customer/EVProcess.vue';
 import EVProducts from '../../components/customer/EVProducts.vue';
 
@@ -22,7 +22,7 @@ export default {
   components: {
     EVHero,
     EVIntro,
-    // EVIntroResults,
+    EVIntroResults,
     EVProcess,
     EVProducts,
     ProductNavigation,

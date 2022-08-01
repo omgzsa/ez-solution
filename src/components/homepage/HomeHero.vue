@@ -2,7 +2,7 @@
   <v-row justify="center" align="center" class="home-hero mb-16">
     <v-col sm="10" md="8" lg="6" class="my-16 text-center">
       <h1
-        class="text-h4 text-sm-h2 white--text mb-8 mt-16 home-title font-weight-bold"
+        class="text-h4 text-sm-h2 white--text mb-8 px-1 home-title font-weight-bold"
       >
         Úton együtt, egy fenntartható jövőbe!
       </h1>
@@ -28,7 +28,7 @@ export default {
   background: url(../../assets/images/home-hero-image.jpg) no-repeat bottom;
   background-size: cover;
   box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.3);
-  min-height: 70vh;
+  min-height: 90vh;
 }
 
 .home-title {

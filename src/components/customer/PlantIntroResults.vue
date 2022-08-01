@@ -11,7 +11,7 @@
       >
         <path d="M0 0H4096V557H0V0Z" fill="#F3F3F3" />
       </svg>
-      <v-col cols="12" sm="10" offset-sm="" md="6" lg="5" offset-lg="1">
+      <v-col cols="12" sm="10" offset-md="1" md="5" lg="5" offset-lg="1">
         <h3 class="text-h5 text-sm-h4 text-lg-h3 font-weight-bold mb-10">
           {{ results.title }}
         </h3>
@@ -103,11 +103,4 @@ export default {
 };
 </script>
 
-<style>
-.grey-background {
-  position: absolute;
-
-  overflow: hidden;
-  z-index: -1;
-}
-</style>
+<style></style>

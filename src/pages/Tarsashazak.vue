@@ -13,7 +13,7 @@
 <script>
 export default {
   metaInfo: {
-    title: 'Társasházaknak',
+    title: 'Társasházaknak | EZ Solutions',
   },
 };
 </script>

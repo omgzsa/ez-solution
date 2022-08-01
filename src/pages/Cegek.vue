@@ -10,6 +10,9 @@ import FirmsHero from '../components/firms/FirmsHero.vue';
 import FirmsList from '../components/firms/FirmsList.vue';
 
 export default {
+  metaInfo: {
+    title: 'Cégeknek | EZ Solutions',
+  },
   components: { FirmsHero, FirmsList },
   data() {
     return {
