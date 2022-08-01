@@ -3,7 +3,12 @@
     <v-app-bar app dense fixed hide-on-scroll color="#eeeeee" height="70">
       <v-app-bar-title shrink-on-scroll>
         <g-link to="/" style="cursor: pointer">
-          <g-image src="~/assets/images/ez-logo.png" width="50" fit="cover" />
+          <g-image
+            class="logo"
+            src="~/assets/images/ez-logo.png"
+            width="50"
+            fit="cover"
+          />
         </g-link>
       </v-app-bar-title>
 
@@ -98,11 +103,11 @@ export default {
       drawer: false,
     };
   },
-  // watch: {
-  //   group() {
-  //     this.drawer = false;
-  //   },
-  // },
+  watch: {
+    group() {
+      this.drawer = false;
+    },
+  },
 };
 </script>
 
