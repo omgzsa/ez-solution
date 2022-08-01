@@ -112,6 +112,11 @@ a {
 
 // process timeline styles tweak
 
+.v-timeline::before {
+  top: 50px;
+  height: calc(100% - 110px);
+}
+
 .v-timeline-item__dot--small .v-timeline-item__inner-dot {
   height: 6px;
   margin: 8px;

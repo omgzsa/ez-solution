@@ -38,12 +38,4 @@ export default {
 };
 </script>
 
-<style>
-/* .custom-marker li::marker {
-  content: url(../../assets/svgs/doublecircle.svg);
-}
-
-.custom-marker > li {
-  padding-left: 0.5em;
-} */
-</style>
+<style></style>

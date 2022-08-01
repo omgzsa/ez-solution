@@ -32,9 +32,6 @@
     <v-row>
       <product-carousel :items="items" />
     </v-row>
-    <!-- <v-row>
-      <product-carousel :inverters="inverters" />
-    </v-row> -->
   </v-container>
 </template>
 

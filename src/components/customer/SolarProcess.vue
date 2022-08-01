@@ -125,30 +125,4 @@ export default {
 };
 </script>
 
-<style>
-.v-timeline::before {
-  top: 50px;
-  height: calc(100% - 110px);
-}
-
-/* .theme--light.v-timeline:before {
-    background: #313131 !important;
-} */
-
-/* .sticky {
-  position: sticky;
-  top: 20px;
-} */
-/* .v-timeline-item__dot, .v-timeline-item__dot--small {
-  border-radius: 50%;
-  width: 30px !important;
-  height: 30px !important;
-  border: 1px black solid !important;
-}
-
-.v-timeline-item__dot--small .v-timeline-item__inner-dot {
-  height: 8px;
-  width: 8px;
-  
-} */
-</style>
+<style></style>

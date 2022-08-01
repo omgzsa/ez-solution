@@ -11,13 +11,13 @@
 
       <v-toolbar-items class="hidden-sm-and-down">
         <v-btn text active-class="solar--active" to="/maganszemely/solar">
-          Magánszemély
+          Magánszemélyeknek
         </v-btn>
         <v-btn text active-class="primary--active" to="/tarsashazak">
-          Társasház
+          Társasházaknak
         </v-btn>
         <v-btn text active-class="primary--active" to="/cegek">
-          Cég
+          Cégeknek
         </v-btn>
 
         <v-menu open-on-hover offset-y="">
@@ -51,36 +51,43 @@
       </span>
     </v-app-bar>
 
-    <!-- <v-navigation-drawer v-model="drawer" app>
+    <v-navigation-drawer floating right height="205" v-model="drawer" app>
       <v-list class="d-flex flex-column align-start">
-        <v-btn text>
-          <v-btn to="/maganszemely/solar">Magánszemély</v-btn>
+        <v-btn text active-class="solar--active" to="/maganszemely/solar">
+          Magánszemélyeknek
         </v-btn>
-        <v-btn text>
-          <v-btn to="/tarsashaz/solar">Társasház</v-btn>
+        <v-btn text active-class="primary--active" to="/tarsashazak">
+          Társasházaknak
         </v-btn>
-        <v-btn text>
-          <v-btn to="/ceg/solar">Cég</v-btn>
+        <v-btn text active-class="primary--active" to="/cegek">
+          Cégeknek
         </v-btn>
       </v-list>
-      <v-menu open-on-hover tile>
+      <v-menu open-on-hover offset-y="">
         <template v-slot:activator="{ on }">
           <v-btn text v-on="on">Toborzás</v-btn>
         </template>
-        <v-list flat class="d-flex flex-column text-center">
+        <v-list
+          elevation="1"
+          text
+          flat
+          light
+          tile
+          dense
+          class="d-flex flex-column"
+        >
           <v-list-item>
-            <v-btn text>
-              <v-btn to="/toborzas/partnerek">Legyél a partnerünk</v-btn>
-            </v-btn>
+            <v-btn text to="/toborzas/partnerek">Legyél a partnerünk</v-btn>
           </v-list-item>
           <v-list-item>
-            <v-btn text>
-              <v-btn to="/toborzas/tanacsadok">Legyél a tanácsadónk</v-btn>
-            </v-btn>
+            <v-btn text to="/toborzas/tanacsadok">Legyél a tanácsadónk</v-btn>
           </v-list-item>
         </v-list>
       </v-menu>
-    </v-navigation-drawer> -->
+      <v-btn text active-class="primary--active" to="/kalkulator">
+        Kalkulátor
+      </v-btn>
+    </v-navigation-drawer>
   </nav>
 </template>
 
