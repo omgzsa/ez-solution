@@ -9,7 +9,7 @@
         />
       </v-col>
       <v-col sm="12" md="6" lg="6">
-        <h2 class="overline font-weight-bold mb-2 green--text text--accent-4">
+        <h2 class="overline font-weight-bold mb-2 green--text text--darken-2">
           Rólunk
         </h2>
         <h3 class="text-h5 text-sm-h4 text-lg-h3 font-weight-bold mb-10">

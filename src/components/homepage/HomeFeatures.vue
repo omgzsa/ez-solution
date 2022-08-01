@@ -2,7 +2,7 @@
   <v-container class="site-wrapper">
     <v-row justify="start" class="mb-10 mb-lg-16">
       <v-col>
-        <h2 class="overline font-weight-bold mb-2 green--text text--accent-4">
+        <h2 class="overline font-weight-bold mb-2 green--text text--darken-2">
           kiknek szól
         </h2>
         <h3 class="text-h5 text-sm-h4 text-lg-h3 font-weight-bold">

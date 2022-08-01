@@ -82,7 +82,7 @@ export default {
           description:
             'Az I-CON fali dobozokat kis méret és kifinomult dizájn jellemzi, így tökéletes otthoni használatra. Biztosítják bármely jármű gyors, biztonságos és megbízható feltöltését, hiszen minden nemzetközi biztonsági előírásnak megfelelnek.',
           performance: '7,4 / 11 / 22 kW',
-          extra: 'Autostart, App, DLM, RFID, Háttérvilágítás, Érintőképernyő',
+          extra: 'Autostart, App, DLM, RFID, Érintőképernyő',
         },
       ],
     };

@@ -6,9 +6,11 @@
     class="d-flex flex-column justify-center py-10"
   >
     <v-container>
-      <v-row justify="center">
+      <v-row justify="center" class="mx-auto text-center">
         <v-col cols="10" sm="8">
-          <h2 class="overline font-weight-bold mb-2 green--text darken-2">
+          <h2
+            class="overline font-weight-bold mb-2 green--text darken-2 justify-center"
+          >
             kapcsolat
           </h2>
           <h3

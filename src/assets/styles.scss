@@ -138,3 +138,14 @@ border: 1px solid rgb(191, 191, 191);
   font-weight: bold !important;
   color: #0EAB51 !important;
 }
+
+
+// custom marker
+
+.custom-marker li::marker {
+  content: url(../assets/svgs/doublecircle.svg);
+}
+
+.custom-marker > li {
+  padding-left: 0.5em;
+}

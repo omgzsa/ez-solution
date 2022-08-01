@@ -34,7 +34,7 @@
             class="d-flex flex-column text-center flex-sm-row align-center justify-space-around"
           >
             <div class="results-numbers px-2">
-              <span class="text-h6 green--text text--darken-1">{{
+              <span class="text-h6 green--text text--darken-2">{{
                 item.performance
               }}</span>
               <p class="caption text-uppercase font-weight-bold">
@@ -43,7 +43,7 @@
             </div>
             <v-divider vertical />
             <div class="results-numbers px-2">
-              <span class="text-h6 green--text text--darken-1">{{
+              <span class="text-h6 green--text text--darken-2">{{
                 item.extra
               }}</span>
               <p class="caption text-uppercase font-weight-bold">

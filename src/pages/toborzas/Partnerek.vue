@@ -1,19 +1,17 @@
 <template>
   <Layout>
-    <v-container fill-height fluid class="partner-hero"> </v-container>
+    <partner-page />
+    <partner-page-content />
   </Layout>
 </template>
 
 <script>
-export default {};
+import PartnerPage from '../../components/recruitment/PartnerPage.vue';
+import PartnerPageContent from '../../components/recruitment/PartnerPageContent.vue';
+
+export default {
+  components: { PartnerPage, PartnerPageContent },
+};
 </script>
 
-<style>
-.partner-hero {
-  background: url(../../assets/images/partner-hero.jpg) no-repeat top;
-  background-position: 65%;
-  background-size: cover;
-
-  height: 250px;
-}
-</style>
+<style></style>

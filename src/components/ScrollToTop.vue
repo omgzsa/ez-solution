@@ -37,7 +37,7 @@ export default {
     },
     showButton() {
       if (typeof window !== 'undefined') {
-        if (window.scrollY > 0) {
+        if (window.scrollY > 500) {
           this.userScrolled = true;
         } else if (window.scrollY <= 0) {
           this.userScrolled = false;
