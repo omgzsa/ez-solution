@@ -8,6 +8,7 @@
             src="~/assets/images/ez-logo.png"
             width="50"
             fit="cover"
+            transition="fade-transition"
           />
         </g-link>
       </v-app-bar-title>
@@ -56,7 +57,13 @@
       </span>
     </v-app-bar>
 
-    <v-navigation-drawer floating right height="205" v-model="drawer" app>
+    <v-navigation-drawer
+      disable-resize-watcher
+      right
+      height="205"
+      v-model="drawer"
+      app
+    >
       <v-list class="d-flex flex-column align-start">
         <v-btn text active-class="solar--active" to="/maganszemely/solar">
           Magánszemélyeknek
@@ -103,11 +110,11 @@ export default {
       drawer: false,
     };
   },
-  watch: {
-    group() {
-      this.drawer = false;
-    },
-  },
+  // watch: {
+  //   group() {
+  //     this.drawer = false;
+  //   },
+  // },
 };
 </script>
 
