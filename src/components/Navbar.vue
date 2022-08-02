@@ -1,6 +1,6 @@
 <template>
   <nav id="nav">
-    <v-app-bar app dense fixed hide-on-scroll color="#eeeeee" height="70">
+    <v-app-bar app dense fixed hide-on-scroll height="70">
       <v-app-bar-title shrink-on-scroll>
         <g-link to="/" style="cursor: pointer">
           <g-image
@@ -16,40 +16,33 @@
       <v-spacer />
 
       <v-toolbar-items class="hidden-sm-and-down">
-        <v-btn text active-class="solar--active" to="/maganszemely/solar">
+        <v-btn text tile active-class="solar--active" to="/maganszemely/solar">
           Magánszemélyeknek
         </v-btn>
-        <v-btn text active-class="primary--active" to="/tarsashazak">
+        <v-btn text tile active-class="primary--active" to="/tarsashazak">
           Társasházaknak
         </v-btn>
-        <v-btn text active-class="primary--active" to="/cegek">
+        <v-btn text tile active-class="primary--active" to="/cegek">
           Cégeknek
         </v-btn>
 
-        <v-menu open-on-hover offset-y="">
-          <template v-slot:activator="{ on }">
-            <v-btn text v-on="on">Toborzás</v-btn>
-          </template>
-          <v-list
-            elevation="1"
-            text
-            flat
-            light
-            tile
-            dense
-            class="d-flex flex-column"
-          >
-            <v-list-item>
-              <v-btn text to="/toborzas/partnerek">Legyél a partnerünk</v-btn>
-            </v-list-item>
-            <v-list-item>
-              <v-btn text to="/toborzas/tanacsadok">Legyél a tanácsadónk</v-btn>
-            </v-list-item>
-          </v-list>
-        </v-menu>
-        <v-btn text active-class="primary--active" to="/kalkulator">
+        <v-btn text tile active-class="primary--active" to="/kalkulator">
           Kalkulátor
         </v-btn>
+        <v-menu open-on-hover offset-y>
+          <template v-slot:activator="{ on }">
+            <v-btn text tile v-on="on">Toborzás</v-btn>
+          </template>
+          <v-list class="d-flex flex-column align-end">
+            <v-btn text tile to="/toborzas/partnerek"
+              >Legyél a partnerünk</v-btn
+            >
+
+            <v-btn text tile to="/toborzas/tanacsadok"
+              >Legyél a tanácsadónk</v-btn
+            >
+          </v-list>
+        </v-menu>
       </v-toolbar-items>
 
       <span class="hidden-md-and-up">
@@ -60,45 +53,38 @@
     <v-navigation-drawer
       disable-resize-watcher
       right
-      height="205"
+      height="200"
       v-model="drawer"
       app
     >
-      <v-list class="d-flex flex-column align-start">
-        <v-btn text active-class="solar--active" to="/maganszemely/solar">
+      <v-list class="d-flex flex-column align-end">
+        <v-btn text tile active-class="solar--active" to="/maganszemely/solar">
           Magánszemélyeknek
         </v-btn>
-        <v-btn text active-class="primary--active" to="/tarsashazak">
+        <v-btn text tile active-class="primary--active" to="/tarsashazak">
           Társasházaknak
         </v-btn>
-        <v-btn text active-class="primary--active" to="/cegek">
+        <v-btn text tile active-class="primary--active" to="/cegek">
           Cégeknek
         </v-btn>
+        <v-btn text tile active-class="primary--active" to="/kalkulator">
+          Kalkulátor
+        </v-btn>
+        <v-menu open-on-hover offset-y>
+          <template v-slot:activator="{ on }">
+            <v-btn text tile v-on="on">Toborzás</v-btn>
+          </template>
+          <v-list class="d-flex flex-column align-end">
+            <v-btn text tile to="/toborzas/partnerek"
+              >Legyél a partnerünk</v-btn
+            >
+
+            <v-btn text tile to="/toborzas/tanacsadok"
+              >Legyél a tanácsadónk</v-btn
+            >
+          </v-list>
+        </v-menu>
       </v-list>
-      <v-menu open-on-hover offset-y="">
-        <template v-slot:activator="{ on }">
-          <v-btn text v-on="on">Toborzás</v-btn>
-        </template>
-        <v-list
-          elevation="1"
-          text
-          flat
-          light
-          tile
-          dense
-          class="d-flex flex-column"
-        >
-          <v-list-item>
-            <v-btn text to="/toborzas/partnerek">Legyél a partnerünk</v-btn>
-          </v-list-item>
-          <v-list-item>
-            <v-btn text to="/toborzas/tanacsadok">Legyél a tanácsadónk</v-btn>
-          </v-list-item>
-        </v-list>
-      </v-menu>
-      <v-btn text active-class="primary--active" to="/kalkulator">
-        Kalkulátor
-      </v-btn>
     </v-navigation-drawer>
   </nav>
 </template>

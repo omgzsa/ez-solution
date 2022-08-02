@@ -4,6 +4,7 @@
     <product-navigation :links="links" />
     <plant-intro />
     <plant-intro-results />
+    <plant-products />
   </Layout>
 </template>
 
@@ -11,6 +12,7 @@
 import PlantHero from '../../components/customer/PlantHero.vue';
 import PlantIntro from '../../components/customer/PlantIntro.vue';
 import PlantIntroResults from '../../components/customer/PlantIntroResults.vue';
+import PlantProducts from '../../components/customer/PlantProducts.vue';
 
 import ProductNavigation from '../../components/ProductNavigation.vue';
 
@@ -19,6 +21,7 @@ export default {
     PlantHero,
     PlantIntro,
     PlantIntroResults,
+    PlantProducts,
     ProductNavigation,
   },
   data() {

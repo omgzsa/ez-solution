@@ -69,7 +69,7 @@ export default {
         {
           id: 1,
           name: 'Gewiss Charger - JoinOn Icon',
-          image: 'gewiss-charger-joinon-1.png',
+          image: 'gewiss-charger-joinon-1.jpg',
           description:
             'Az I-CON fali dobozokat kis méret és kifinomult dizájn jellemzi, így tökéletes otthoni használatra. Biztosítják bármely jármű gyors, biztonságos és megbízható feltöltését, hiszen minden nemzetközi biztonsági előírásnak megfelelnek.',
           performance: '7,4 / 11 / 22 kW',
@@ -78,7 +78,7 @@ export default {
         {
           id: 2,
           name: 'Gewiss Charger - JoinOn Icon Premium',
-          image: 'gewiss-charger-joinon-2.png',
+          image: 'gewiss-charger-joinon-2.jpg',
           description:
             'Az I-CON fali dobozokat kis méret és kifinomult dizájn jellemzi, így tökéletes otthoni használatra. Biztosítják bármely jármű gyors, biztonságos és megbízható feltöltését, hiszen minden nemzetközi biztonsági előírásnak megfelelnek.',
           performance: '7,4 / 11 / 22 kW',

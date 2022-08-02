@@ -30,7 +30,10 @@
     </v-row>
 
     <v-row>
-      <product-carousel :items="items" />
+      <product-carousel :solarPanels="solarPanels" />
+    </v-row>
+    <v-row>
+      <product-carousel :inverters="inverters" />
     </v-row>
   </v-container>
 </template>
@@ -45,11 +48,11 @@ export default {
       products: {
         title: 'Elérhető termékeink',
       },
-      items: [
+      solarPanels: [
         {
           id: 1,
           name: 'Kensol Solar Panel 1',
-          image: 'kensol-solar-panel-1.png',
+          image: 'kensol-solar-panel-1.jpg',
           description:
             'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris tincidunt proin arcu, tellus libero fusce. Sit tortor in nec amet odio vitae sed. Urna sed bibendum amet arcu quis diam at vitae. Dignissim ornare pretium augue molestie quisque.',
           performance: '2600 kWp',
@@ -58,7 +61,27 @@ export default {
         {
           id: 2,
           name: 'Phono Solar Panel 1',
-          image: 'phono-solar-panel-1.png',
+          image: 'phono-solar-panel-1.jpg',
+          description:
+            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris tincidunt proin arcu, tellus libero fusce. Sit tortor in nec amet odio vitae sed. Urna sed bibendum amet arcu quis diam at vitae. Dignissim ornare pretium augue molestie quisque.',
+          performance: '2600 kWp',
+          extra: '300 WP',
+        },
+      ],
+      inverters: [
+        {
+          id: 1,
+          name: 'GreenCell Inverter 3.0',
+          image: 'greencell-inverter-3.jpg',
+          description:
+            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris tincidunt proin arcu, tellus libero fusce. Sit tortor in nec amet odio vitae sed. Urna sed bibendum amet arcu quis diam at vitae. Dignissim ornare pretium augue molestie quisque.',
+          performance: '2600 kWp',
+          extra: '300 WP',
+        },
+        {
+          id: 2,
+          name: 'GoodWe Inverter 1.0',
+          image: 'goodwe-inverter-1.jpg',
           description:
             'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris tincidunt proin arcu, tellus libero fusce. Sit tortor in nec amet odio vitae sed. Urna sed bibendum amet arcu quis diam at vitae. Dignissim ornare pretium augue molestie quisque.',
           performance: '2600 kWp',

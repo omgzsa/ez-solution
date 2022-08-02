@@ -24,7 +24,7 @@
           class="d-none d-md-flex justify-space-between"
         >
           <div class="results-numbers">
-            <span class="text-h5 text-sm-h4 green--text text--darken-2"
+            <span class="text-h5 text-sm-h5 green--text text--darken-2"
               >99 Ft/kWh</span
             >
             <p class="caption text-uppercase font-weight-bold">
@@ -32,7 +32,7 @@
             </p>
           </div>
           <div class="results-numbers">
-            <span class="text-h5 text-sm-h4 green--text text--darken-2"
+            <span class="text-h5 text-sm-h5 green--text text--darken-2"
               >140 Ft/kWh</span
             >
             <p class="caption text-uppercase font-weight-bold">
@@ -51,7 +51,7 @@
         class="d-flex flex-column d-md-none justify-space-between"
       >
         <div class="pa-2 mb-4 mb-sm-16">
-          <span class="text-h6 text-sm-h4 green--text text--darken-2"
+          <span class="text-h6 text-sm-h5 green--text text--darken-2"
             >3,5x több</span
           >
           <p class="caption text-uppercase font-weight-bold">
@@ -60,7 +60,7 @@
         </div>
         <!-- <v-divider></v-divider> -->
         <div class="pa-2">
-          <span class="text-h6 text-sm-h4 green--text text--darken-2"
+          <span class="text-h6 text-sm-h5 green--text text--darken-2"
             >4,5x több</span
           >
           <p class="caption text-uppercase font-weight-bold">
