@@ -1,19 +1,49 @@
 <template>
   <Layout>
-    <h1>társasház</h1>
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error doloremque
-      omnis animi, eligendi magni a voluptatum, vitae, consequuntur rerum illum
-      odit fugit assumenda rem dolores inventore iste reprehenderit maxime!
-      Iusto.
-    </p>
+    <houses-hero />
+    <houses-list :houses="houses" />
   </Layout>
 </template>
 
 <script>
+import HousesHero from '../components/houses/HousesHero.vue';
+import HousesList from '../components/houses/HousesList.vue';
+
+// import axios from 'axios';
 export default {
   metaInfo: {
     title: 'Társasházaknak | EZ Solutions',
+  },
+  components: { HousesHero, HousesList },
+  data() {
+    return {
+      houses: [
+        {
+          id: 1,
+          title: 'Rezsiköltség nullázása',
+          text:
+            'Napelemes rendszer a társasházi közös költség csökkentésére, közös világítás, liftek, szivattyúk áramdíjának nullázásával.',
+        },
+        {
+          id: 2,
+          title: 'Felülvizsgálat',
+          text:
+            'Meglévő villanyórák és hálózati teljesítmény felülvizsgálata, gázfűtési költségek csökkentése ingatlanonként egyedileg H tarifával és hőszivattyúval.',
+        },
+        {
+          id: 3,
+          title: 'Egyedi fűtés-hűtés',
+          text:
+            'Komplex fűtési-hűtési megoldások a társasházaknak. Napelemes és hőszivattyús megoldások egyedileg a lakástulajdonosoknak.',
+        },
+        {
+          id: 4,
+          title: 'Finanszírozás',
+          text:
+            'Finanszírozási megoldások, a társasház és a tulajdonosok beruházásaihoz is. ',
+        },
+      ],
+    };
   },
 };
 </script>

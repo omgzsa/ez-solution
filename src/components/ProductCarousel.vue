@@ -7,7 +7,7 @@
     class="pb-16 mt-10"
   >
     <v-carousel-item
-      v-for="item in items"
+      v-for="item in chargers"
       :key="item.id"
       transition="fade-transition"
       class="my-auto"
@@ -20,6 +20,7 @@
         <v-col cols="12" sm="4">
           <v-img
             height="100%"
+            :alt="item.alt"
             contain
             aspect-ratio="1"
             :src="require('../assets/images/products/' + item.image)"
@@ -71,6 +72,7 @@
         <v-col cols="12" sm="4">
           <v-img
             height="100%"
+            :alt="item.alt"
             contain
             aspect-ratio="1"
             :src="require('../assets/images/products/' + item.image)"
@@ -80,6 +82,13 @@
           <h4 class="text-h6 text-md-h5 font-weight-bold mb-2">
             {{ item.name }}
           </h4>
+          <div class="d-flex flex-column align-start">
+            <v-img
+              width="180"
+              contain
+              :src="require('../assets/images/logos/' + item.logo)"
+            />
+          </div>
           <p class="body-2 text-lg-body-1 mb-8">{{ item.description }}</p>
           <v-col
             class="d-flex flex-column text-center flex-sm-row align-center justify-space-around"
@@ -89,7 +98,7 @@
                 item.performance
               }}</span>
               <p class="caption text-uppercase font-weight-bold">
-                max. teljesítmény
+                termékgarancia
               </p>
             </div>
             <v-divider vertical />
@@ -98,7 +107,7 @@
                 item.extra
               }}</span>
               <p class="caption text-uppercase font-weight-bold">
-                extrák
+                teljesítménygarancia
               </p>
             </div>
           </v-col>
@@ -122,6 +131,7 @@
         <v-col cols="12" sm="4">
           <v-img
             height="100%"
+            :alt="item.alt"
             contain
             aspect-ratio="1"
             :src="require('../assets/images/products/' + item.image)"
@@ -131,6 +141,13 @@
           <h4 class="text-h6 text-md-h5 font-weight-bold mb-2">
             {{ item.name }}
           </h4>
+          <div class="d-flex flex-column align-start">
+            <v-img
+              width="180"
+              contain
+              :src="require('../assets/images/logos/' + item.logo)"
+            />
+          </div>
           <p class="body-2 text-lg-body-1 mb-8">{{ item.description }}</p>
           <v-col
             class="d-flex flex-column text-center flex-sm-row align-center justify-space-around"
@@ -140,7 +157,7 @@
                 item.performance
               }}</span>
               <p class="caption text-uppercase font-weight-bold">
-                max. teljesítmény
+                termékgarancia
               </p>
             </div>
             <v-divider vertical />
@@ -149,7 +166,7 @@
                 item.extra
               }}</span>
               <p class="caption text-uppercase font-weight-bold">
-                extrák
+                védelem
               </p>
             </div>
           </v-col>
@@ -161,7 +178,7 @@
 
 <script>
 export default {
-  props: ['items', 'solarPanels', 'inverters'],
+  props: ['chargers', 'solarPanels', 'inverters'],
   data() {
     return {};
   },

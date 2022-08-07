@@ -16,7 +16,12 @@
       <v-spacer />
 
       <v-toolbar-items class="hidden-sm-and-down">
-        <v-btn text tile active-class="solar--active" to="/maganszemely/solar">
+        <v-btn
+          text
+          tile
+          active-class="primary--active"
+          to="/maganszemely/solar"
+        >
           Magánszemélyeknek
         </v-btn>
         <v-btn text tile active-class="primary--active" to="/tarsashazak">
@@ -58,7 +63,12 @@
       app
     >
       <v-list class="d-flex flex-column align-end">
-        <v-btn text tile active-class="solar--active" to="/maganszemely/solar">
+        <v-btn
+          text
+          tile
+          active-class="primary--active"
+          to="/maganszemely/solar"
+        >
           Magánszemélyeknek
         </v-btn>
         <v-btn text tile active-class="primary--active" to="/tarsashazak">

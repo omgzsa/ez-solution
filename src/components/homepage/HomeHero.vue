@@ -4,11 +4,31 @@
       <h1
         class="text-h4 text-sm-h2 white--text mb-8 px-1 home-title font-weight-bold"
       >
-        Úton együtt, egy fenntartható jövőbe!
+        Szabadulj a Rezsicsapdából!
       </h1>
-      <v-btn to="#footer" color="primary" class="white--text"
-        >Kérj ajánlatot!</v-btn
+      <v-btn to="/kalkulator" color="primary" class="white--text mb-10"
+        >EZ Kalkulátor</v-btn
       >
+      <p
+        class="caption text-sm-body-1 text-uppercase font-weight-bold white--text"
+      >
+        megoldást — árat — szerződést
+      </p>
+      <p
+        class="caption text-sm-body-1 text-uppercase font-weight-bold white--text"
+      >
+        napelemre — hőszivattyúra — e-autóra
+      </p>
+      <p
+        class="caption text-sm-body-1 text-uppercase font-weight-bold white--text"
+      >
+        családi és társasházra
+      </p>
+      <p
+        class="caption text-sm-body-1 text-uppercase font-weight-bold white--text"
+      >
+        most — online
+      </p>
     </v-col>
   </v-row>
 </template>
@@ -17,7 +37,7 @@
 export default {
   data() {
     return {
-      // overlay: true
+      //
     };
   },
 };

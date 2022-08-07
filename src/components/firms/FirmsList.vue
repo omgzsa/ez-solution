@@ -12,7 +12,7 @@
     </v-row>
     <v-row justify="center">
       <v-col cols="10" md="8" lg="6">
-        <ul class="custom-marker">
+        <ul class="custom-marker pa-0">
           <li v-for="item in firms" :key="item.id" class="py-2">
             <h5 class="text-h6 font-weight-bold mb-2">
               {{ item.title }}

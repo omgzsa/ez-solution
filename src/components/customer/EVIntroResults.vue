@@ -28,7 +28,7 @@
               >99 Ft/kWh</span
             >
             <p class="caption text-uppercase font-weight-bold">
-              megtakarítás olcsó lakossági árammal
+              megtakarítás lakossági árammal
             </p>
           </div>
           <div class="results-numbers">
@@ -36,7 +36,7 @@
               >140 Ft/kWh</span
             >
             <p class="caption text-uppercase font-weight-bold">
-              megtakarítás otthoni napelemes rendszerrel
+              megtakarítás napelemes rendszerrel
             </p>
           </div>
         </v-col>
@@ -55,7 +55,7 @@
             >3,5x több</span
           >
           <p class="caption text-uppercase font-weight-bold">
-            kondenzációs kazánhoz képest
+            megtakarítás lakossági árammal
           </p>
         </div>
         <!-- <v-divider></v-divider> -->
@@ -64,7 +64,7 @@
             >4,5x több</span
           >
           <p class="caption text-uppercase font-weight-bold">
-            hagyományos gázkazánhoz képest
+            megtakarítás napelemes rendszerrel
           </p>
         </div>
       </v-col>
@@ -78,7 +78,7 @@
         align-self="start"
       >
         <v-img
-          alt="A house with solar panels on the roof"
+          alt="Nyitott garázsban egy falraszerelt EV töltő"
           max-height="700"
           cover
           :src="require('../../assets/images/magan-charger-intro.jpg')"

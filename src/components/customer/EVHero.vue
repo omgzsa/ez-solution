@@ -5,8 +5,8 @@
         <h1 class="text-h4 text-sm-h3 white--text mb-8 font-weight-bold">
           Otthoni E-autó töltő megoldás — Egy lépés, hogy ingyen „tankolhasson”!
         </h1>
-        <v-btn to="#footer" color="charger" class="white--text"
-          >Kérj ajánlatot!</v-btn
+        <v-btn to="/kalkulator" color="charger" class="white--text"
+          >EZ Kalkulátor</v-btn
         >
       </v-col>
     </v-row>

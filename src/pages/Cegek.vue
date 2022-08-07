@@ -44,8 +44,5 @@ export default {
       ],
     };
   },
-  metaInfo: {
-    title: 'EZ Solutions | Cégeknek',
-  },
 };
 </script>

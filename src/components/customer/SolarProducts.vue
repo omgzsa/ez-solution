@@ -15,21 +15,6 @@
     </v-row>
 
     <v-row>
-      <v-col offset="1">
-        <v-list class="pa-0" dense v-for="item in properties" :key="item.id">
-          <v-list-item>
-            <v-list-item-icon class="ml-0 mr-3"
-              ><v-icon color="charger">mdi-check-bold</v-icon></v-list-item-icon
-            >
-            <span class="body-2 text-lg-body-1">
-              {{ item.text }}
-            </span>
-          </v-list-item>
-        </v-list>
-      </v-col>
-    </v-row>
-
-    <v-row>
       <product-carousel :solarPanels="solarPanels" />
     </v-row>
     <v-row>
@@ -47,45 +32,77 @@ export default {
     return {
       products: {
         title: 'Elérhető termékeink',
+        text:
+          'Megoldásaink részeként csak prémium napelemeket ajánlunk ügyfeleinknek, hogy rendszerük minősége megkérdőjelezhetetlen legyen! Invertereink kiválasztásakor pedig elengedhetetlen szempont volt, hogy ár-érték arányban a legjobbak legyenek kategóriájukban.',
       },
       solarPanels: [
         {
           id: 1,
-          name: 'Kensol Solar Panel 1',
+          name: 'Kensol Solar Panel',
+          alt: 'Kensol Solar Panel',
+          logo: 'kensol-logo.jpg',
           image: 'kensol-solar-panel-1.jpg',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris tincidunt proin arcu, tellus libero fusce. Sit tortor in nec amet odio vitae sed. Urna sed bibendum amet arcu quis diam at vitae. Dignissim ornare pretium augue molestie quisque.',
-          performance: '2600 kWp',
-          extra: '300 WP',
+            '- 400 Wp Teljesítmény - Monokristály szerkezet - Zsindely technológia - Európai garanciával',
+          performance: '12 év',
+          extra: '25 év',
         },
         {
           id: 2,
-          name: 'Phono Solar Panel 1',
+          name: 'Phono Solar Panel',
+          alt: 'Phono Solar Panel',
+          logo: 'phonosolar-logo.jpg',
           image: 'phono-solar-panel-1.jpg',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris tincidunt proin arcu, tellus libero fusce. Sit tortor in nec amet odio vitae sed. Urna sed bibendum amet arcu quis diam at vitae. Dignissim ornare pretium augue molestie quisque.',
-          performance: '2600 kWp',
-          extra: '300 WP',
+            '- 405 Wp Teljesítmény - Monokristály szerkezet - PERC technológia - Tier1-es gyártó',
+          performance: '12 év',
+          extra: '25 év',
+        },
+        {
+          id: 3,
+          name: 'WattPower Solar Panel',
+          alt: 'WattPower Solar Panel',
+          logo: 'wattpower-logo.jpg',
+          image: 'wattpower-solar-panel-1.jpg',
+          description:
+            '- 405 Wp teljesítmény - Monokristály szerkezet - PERC technológia - Német tervezés',
+          performance: '12 év',
+          extra: '25 év',
         },
       ],
       inverters: [
         {
           id: 1,
-          name: 'GreenCell Inverter 3.0',
-          image: 'greencell-inverter-3.jpg',
+          name: 'FoxEss Inverter',
+          alt: 'FoxEss Inverter',
+          logo: 'foxess-logo.jpg',
+          image: 'foxess-inverter-2.jpg',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris tincidunt proin arcu, tellus libero fusce. Sit tortor in nec amet odio vitae sed. Urna sed bibendum amet arcu quis diam at vitae. Dignissim ornare pretium augue molestie quisque.',
-          performance: '2600 kWp',
-          extra: '300 WP',
+            '- Hálózati csatlakozás 230/400V - Optimalizálási lehetőség - Európai garancia',
+          performance: '12 év',
+          extra: 'AC/DC',
         },
         {
           id: 2,
           name: 'GoodWe Inverter 1.0',
+          alt: 'GoodWe Inverter',
+          logo: 'goodwe-logo.jpg',
           image: 'goodwe-inverter-1.jpg',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris tincidunt proin arcu, tellus libero fusce. Sit tortor in nec amet odio vitae sed. Urna sed bibendum amet arcu quis diam at vitae. Dignissim ornare pretium augue molestie quisque.',
-          performance: '2600 kWp',
-          extra: '300 WP',
+            '- Hálózati csatlakozás 230/400V - Optimalizálási lehetőség - Kiemelkedő ár-érték arány',
+          performance: '12 év',
+          extra: 'AC/DC',
+        },
+        {
+          id: 3,
+          name: 'Huawei Inverter 1.0',
+          alt: 'Huawei Inverter',
+          logo: 'huawei-logo.jpg',
+          image: 'huawei-inverter-2.jpg',
+          description:
+            '- Hálózati csatlakozás 230/400V - Optimalizálási lehetőség - Nemzetközileg elismert gyártó',
+          performance: '12 év',
+          extra: 'AC/DC',
         },
       ],
     };

@@ -53,7 +53,7 @@
       </v-col>
       <v-col cols="6" md="6" class="d-none d-md-flex relative pa-0">
         <v-img
-          alt="EV charger plugged into a car"
+          alt="EV töltő egy autóba csatlakoztatva"
           cover
           height="760"
           :src="require('../../assets/images/magan-charger-timeline.jpg')"
@@ -66,7 +66,7 @@
       >
         <v-img
           class=""
-          alt="EV charger plugged into a car"
+          alt="EV töltő egy autóba csatlakoztatva"
           contain
           :src="require('../../assets/images/magan-charger-timeline.jpg')"
         />

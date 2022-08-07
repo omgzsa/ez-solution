@@ -51,18 +51,14 @@
         class="d-flex flex-column d-md-none justify-space-between"
       >
         <div class="pa-2 mb-4 mb-sm-16">
-          <span class="text-h6 text-sm-h5 blue--text text--darken-4"
-            >3,5x több</span
-          >
+          <span class="text-h6 text-sm-h5 blue--text text--darken-4">3,5x</span>
           <p class="caption text-uppercase font-weight-bold">
             kondenzációs kazánhoz képest
           </p>
         </div>
         <!-- <v-divider></v-divider> -->
         <div class="pa-2">
-          <span class="text-h6 text-sm-h5 blue--text text--darken-4"
-            >4,5x több</span
-          >
+          <span class="text-h6 text-sm-h5 blue--text text--darken-4">4,5x</span>
           <p class="caption text-uppercase font-weight-bold">
             hagyományos gázkazánhoz képest
           </p>

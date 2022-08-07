@@ -1,12 +1,12 @@
 <template>
   <v-container fill-height fluid class="solar-hero">
-    <v-row no-gutters justify="center" align="center">
+    <v-row justify="center" align="center">
       <v-col sm="10" md="8" lg="6" class="my-16 text-center">
         <h1 class="text-h4 text-sm-h2 white--text mb-8 font-weight-bold">
           Napelemes megújuló energia otthonába
         </h1>
-        <v-btn to="#footer" color="solar" class="white--text"
-          >Kérj ajánlatot!</v-btn
+        <v-btn to="/kalkulator" color="solar" class="white--text"
+          >EZ Kalkulátor</v-btn
         >
       </v-col>
     </v-row>

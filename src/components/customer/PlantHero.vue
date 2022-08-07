@@ -5,8 +5,8 @@
         <h1 class="text-h4 text-sm-h3 white--text mb-8 font-weight-bold">
           Innovatív fűtő-hűtő megoldás — Szabaduljon ki végleg a Rezsicsapdából!
         </h1>
-        <v-btn to="#footer" color="plant" class="white--text"
-          >Kérj ajánlatot!</v-btn
+        <v-btn to="/kalkulator" color="plant" class="white--text"
+          >EZ Kalkulátor</v-btn
         >
       </v-col>
     </v-row>

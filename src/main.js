@@ -33,9 +33,6 @@ export default function(Vue, { appOptions, router, head, isClient }) {
           solar: '#EF8F20',
           charger: '#009537',
           plant: '#03318D',
-          // secondary: '#b0bec5',
-          // accent: '#8c9eff',
-          // error: '#b71c1c',
         },
       },
     },
@@ -47,20 +44,6 @@ export default function(Vue, { appOptions, router, head, isClient }) {
   // Set default layout as a global component
   Vue.component('Layout', DefaultLayout);
   Vue.component('ProductNavigation', ProductNavigation);
-
-  // Import all base components
-
-  // const requireComponent = require.context('./components', true, /Base[A-Z]/)
-  // requireComponent.keys().forEach((fileName) => {
-  //   let baseComponentConfig = requireComponent(fileName)
-  //   baseComponentConfig = baseComponentConfig.default || baseComponentConfig
-  // const baseComponentName = baseComponentConfig.name || (
-  //   fileName
-  //     .replace(/^.+\//, '')
-  //     .replace(/\.\w+$/, '')
-  // )
-  // Vue.component(baseComponentName, baseComponentConfig)
-  // })
 
   router.options.scrollBehavior = function(to, from, savedPosition) {
     if (savedPosition) {

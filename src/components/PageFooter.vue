@@ -16,7 +16,7 @@
           <h3
             class="text-h5 text-sm-h4 text-lg-h3 white--text font-weight-bold mb-10"
           >
-            Használja ki a Napot Ön is!
+            Szabadulj a Rezsicsapdából!
           </h3>
           <p class="body-2 text-lg-body-1 white--text">
             Kérjen ajánlatot szakértő kollégánktól elérhetőségeink valamelyikén!
@@ -35,7 +35,9 @@
       </li>
       <li class="white--text body-2 mb-2">
         <v-icon class="pr-4" color="primary">mdi-email</v-icon
-        ><a class="underline" href="mailto:#">info@ezsolutions.hu</a>
+        ><a class="underline" href="mailto:info@ezsolutions.hu"
+          >info@ezsolutions.hu</a
+        >
       </li>
     </ul>
     <v-spacer />
