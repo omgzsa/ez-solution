@@ -30,8 +30,13 @@
           ajánlatunkkal.
         </p>
         <div>
-          <v-icon color="charger" class="mr-3">mdi-file-document-outline</v-icon
-          ><a class="underline" href=""
+          <v-icon color="charger" class="mr-3"
+            >mdi-file-document-outline</v-icon
+          >
+          <a
+            href="../../tajekoztatas-kozos-kepviseloknek.pdf"
+            class="underline"
+            download="tajekoztatas-kozos-kepviseloknek"
             >Letölthető dokumentum közös képviselők számára</a
           >
         </div>
@@ -43,6 +48,10 @@
 <script>
 export default {
   props: ['houses'],
+
+  data() {
+    return {};
+  },
 };
 </script>
 
