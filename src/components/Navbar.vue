@@ -38,12 +38,12 @@
           <template v-slot:activator="{ on }">
             <v-btn text tile v-on="on">Toborzás</v-btn>
           </template>
-          <v-list class="d-flex flex-column align-end">
-            <v-btn text tile to="/toborzas/partnerek"
+          <v-list class="d-flex flex-column align-end pa-0">
+            <v-btn block text tile to="/toborzas/partnerek"
               >Legyél a partnerünk</v-btn
             >
 
-            <v-btn text tile to="/toborzas/tanacsadok"
+            <v-btn block text tile to="/toborzas/tanacsadok"
               >Legyél a tanácsadónk</v-btn
             >
           </v-list>
@@ -58,12 +58,14 @@
     <v-navigation-drawer
       disable-resize-watcher
       right
-      height="200"
+      height="180"
       v-model="drawer"
       app
     >
-      <v-list class="d-flex flex-column align-end">
+      <v-list class="d-flex flex-column align-end pa-0">
         <v-btn
+          right
+          block
           text
           tile
           active-class="primary--active"
@@ -71,25 +73,25 @@
         >
           Magánszemélyeknek
         </v-btn>
-        <v-btn text tile active-class="primary--active" to="/tarsashazak">
+        <v-btn block text tile active-class="primary--active" to="/tarsashazak">
           Társasházaknak
         </v-btn>
-        <v-btn text tile active-class="primary--active" to="/cegek">
+        <v-btn block text tile active-class="primary--active" to="/cegek">
           Cégeknek
         </v-btn>
-        <v-btn text tile active-class="primary--active" to="/kalkulator">
+        <v-btn block text tile active-class="primary--active" to="/kalkulator">
           Kalkulátor
         </v-btn>
         <v-menu open-on-hover offset-y>
           <template v-slot:activator="{ on }">
-            <v-btn text tile v-on="on">Toborzás</v-btn>
+            <v-btn block text tile v-on="on">Toborzás</v-btn>
           </template>
-          <v-list class="d-flex flex-column align-end">
-            <v-btn text tile to="/toborzas/partnerek"
+          <v-list class="d-flex flex-column align-end pa-0">
+            <v-btn block text tile to="/toborzas/partnerek"
               >Legyél a partnerünk</v-btn
             >
 
-            <v-btn text tile to="/toborzas/tanacsadok"
+            <v-btn block text tile to="/toborzas/tanacsadok"
               >Legyél a tanácsadónk</v-btn
             >
           </v-list>
