@@ -6,7 +6,7 @@
           Innovatív fűtő-hűtő megoldás — Szabaduljon ki végleg a Rezsicsapdából!
         </h1>
         <v-btn to="/kalkulator" color="plant" class="white--text"
-          >EZ Kalkulátor</v-btn
+          >EZ KITT Kalkulátor</v-btn
         >
       </v-col>
     </v-row>

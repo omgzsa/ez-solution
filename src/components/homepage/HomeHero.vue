@@ -7,7 +7,7 @@
         Szabadulj a Rezsicsapdából!
       </h1>
       <v-btn to="/kalkulator" color="primary" class="white--text mb-10"
-        >EZ Kalkulátor</v-btn
+        >EZ KITT Kalkulátor</v-btn
       >
       <p
         class="caption text-sm-body-1 text-uppercase font-weight-bold white--text"

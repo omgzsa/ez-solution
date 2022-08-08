@@ -6,7 +6,7 @@
           Napelemes megújuló energia otthonába
         </h1>
         <v-btn to="/kalkulator" color="solar" class="white--text"
-          >EZ Kalkulátor</v-btn
+          >EZ KITT Kalkulátor</v-btn
         >
       </v-col>
     </v-row>
