@@ -5,7 +5,11 @@
         <h1 class="text-h4 text-sm-h2 white--text mb-8 font-weight-bold">
           Napelemes megújuló energia otthonába
         </h1>
-        <v-btn to="/kalkulator" color="solar" class="white--text"
+        <v-btn
+          title="Tovább az EZ KITT Kalkulátorhoz"
+          to="/kalkulator"
+          color="solar"
+          class="white--text"
           >EZ KITT Kalkulátor</v-btn
         >
       </v-col>

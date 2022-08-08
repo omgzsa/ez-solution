@@ -1,6 +1,6 @@
 <template>
   <v-container class="site-wrapper my-16">
-    <v-row justify="start" class="mb-10 mb-lg-16">
+    <v-row justify="center" class="mb-10 mb-lg-16">
       <v-col cols="10" offset-md="1">
         <h2 class="overline font-weight-bold mb-2 blue--text text--darken-4">
           fűtés-hűtés

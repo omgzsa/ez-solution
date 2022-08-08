@@ -6,8 +6,12 @@
           Cégek esetében 50 kW-os vagy többször 50kW-os, komplett rendszerek
           telepítését vállaljuk.
         </h1>
-        <v-btn to="#footer" color="plant" class="white--text"
-          >Kérj ajánlatot!</v-btn
+        <v-btn
+          title="Tovább az EZ KITT Kalkulátorhoz"
+          to="#footer"
+          color="plant"
+          class="white--text"
+          >EZ KITT Kalkulátor</v-btn
         >
       </v-col>
     </v-row>

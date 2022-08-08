@@ -20,7 +20,7 @@
       >
       <v-card-actions>
         <v-btn
-          title="button"
+          title="Szolgáltatások részletes bemutatása"
           outlined
           color="primary"
           :to="item.to"

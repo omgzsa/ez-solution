@@ -1,6 +1,6 @@
 <template>
   <v-container class="site-wrapper my-16">
-    <v-row justify="start" class="mb-10 mb-lg-16">
+    <v-row justify="center" class="mb-10 mb-lg-16">
       <v-col cols="10" md="8" offset-md="1">
         <h2 class="overline font-weight-bold mb-2 indigo--text text--darken-3">
           megoldásaink
@@ -22,9 +22,9 @@
         </ul>
       </v-col>
     </v-row>
-    <v-row justify="start">
-      <v-col cols="10" offset-md="1">
-        <p class="text-h5 font-weight-bold">
+    <v-row justify="center">
+      <v-col cols="10" md="8" offset-md="1">
+        <p class="text-h6 text-sm-h5 font-weight-bold">
           Az EZ kalkulátor a társasház közös képviselőjével együttműködve ad
           pontos adatokat, amit a közös képviselő részére küldünk meg
           ajánlatunkkal.

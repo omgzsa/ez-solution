@@ -5,7 +5,11 @@
         <h1 class="text-h4 text-sm-h3 white--text mb-8 font-weight-bold">
           Otthoni E-autó töltő megoldás — Egy lépés, hogy ingyen „tankolhasson”!
         </h1>
-        <v-btn to="/kalkulator" color="charger" class="white--text"
+        <v-btn
+          title="Tovább az EZ KITT Kalkulátorhoz"
+          to="/kalkulator"
+          color="charger"
+          class="white--text"
           >EZ KITT Kalkulátor</v-btn
         >
       </v-col>

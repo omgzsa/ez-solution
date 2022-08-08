@@ -5,7 +5,11 @@
         <h1 class="text-h4 text-sm-h3 white--text mb-8 font-weight-bold">
           Innovatív fűtő-hűtő megoldás — Szabaduljon ki végleg a Rezsicsapdából!
         </h1>
-        <v-btn to="/kalkulator" color="plant" class="white--text"
+        <v-btn
+          title="Tovább az EZ KITT Kalkulátorhoz"
+          to="/kalkulator"
+          color="plant"
+          class="white--text"
           >EZ KITT Kalkulátor</v-btn
         >
       </v-col>

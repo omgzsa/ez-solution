@@ -1,6 +1,7 @@
 <template>
   <transition name="bounce">
     <v-btn
+      title="Az oldal tetejére"
       class="mb-5 mr-3"
       dark
       fab
