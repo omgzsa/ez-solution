@@ -1,7 +1,7 @@
 <template>
   <v-carousel
     hide-delimiter-background
-    :show-arrows="false"
+    :show-arrows="true"
     height="100%"
     light
     class="pb-16 mt-10"

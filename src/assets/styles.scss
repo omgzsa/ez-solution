@@ -134,17 +134,28 @@ border: 1px solid rgb(191, 191, 191);
   width:100%;
 }
 
-// transition styling
+// transition styling on components
 
-.fade-enter-active {
+.fade-transition-enter-active {
   transition: all .5s ease;
 }
-.fade-leave-active {
+.fade-transition-leave-active {
   transition: all .5s cubic-bezier(1, 0.5, 0.8, 1);
+}
+.fade-transition-enter,
+.fade-transition-leave-to {
+  transform: translateX(50px);
+  opacity: 0;
+}
+
+// transition styles between pages
+
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.5s;
 }
 .fade-enter,
 .fade-leave-to {
-  transform: translateX(50px);
   opacity: 0;
 }
 
