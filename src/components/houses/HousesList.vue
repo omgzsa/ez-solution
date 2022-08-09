@@ -24,7 +24,7 @@
     </v-row>
     <v-row justify="center">
       <v-col cols="10" md="8" offset-md="1">
-        <p class="text-h6 text-sm-h5 font-weight-bold">
+        <p class="text-h6 text-sm-h5 font-weight-bold mb-8">
           Az EZ kalkulátor a társasház közös képviselőjével együttműködve ad
           pontos adatokat, amit a közös képviselő részére küldünk meg
           ajánlatunkkal.

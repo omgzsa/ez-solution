@@ -1,10 +1,10 @@
 <template>
-  <v-container class="mb-16 site-wrapper">
+  <v-container class="my-16 site-wrapper">
     <v-row justify="center" class="mb-sm-10 ">
       <v-col cols="12" md="5" lg="5" class="d-md-flex order-2">
         <v-img
           cover
-          aspect-ratio="1.7"
+          aspect-ratio="1.4"
           :src="require('../../assets/images/home-about.jpg')"
         />
       </v-col>
@@ -27,6 +27,17 @@
           műszaki, építőipari, jogi, számviteli és értékesítő tapasztalatára
           alapozzuk.
         </p>
+        <div>
+          <v-icon color="charger" class="mr-3"
+            >mdi-file-document-outline</v-icon
+          >
+          <a
+            href="../../termekbemutato.pdf"
+            class="underline"
+            download="termekbemutato"
+            >Töltse le termékbemutatónkat!</a
+          >
+        </div>
       </v-col>
     </v-row>
     <v-row>

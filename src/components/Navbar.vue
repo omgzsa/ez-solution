@@ -52,7 +52,9 @@
         </v-btn>
         <v-menu open-on-hover offset-y>
           <template v-slot:activator="{ on }">
-            <v-btn title="Toborzás menü" text v-on="on">Toborzás</v-btn>
+            <v-btn title="Toborzás menü" text v-on="on"
+              >Toborzás<v-icon>mdi-chevron-down</v-icon></v-btn
+            >
           </template>
           <v-list class="d-flex flex-column align-end pa-0">
             <v-btn
@@ -126,7 +128,9 @@
         </v-btn>
         <v-menu open-on-hover offset-y>
           <template v-slot:activator="{ on }">
-            <v-btn title="Toborzás menü" block text v-on="on">Toborzás</v-btn>
+            <v-btn block title="Toborzás menü" text v-on="on"
+              >Toborzás<v-icon>mdi-chevron-down</v-icon></v-btn
+            >
           </template>
           <v-list class="d-flex flex-column align-end pa-0">
             <v-btn

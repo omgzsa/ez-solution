@@ -1,11 +1,13 @@
 <template>
   <v-carousel
     hide-delimiter-background
-    :show-arrows="true"
+    show-arrows-on-hover
     height="100%"
     light
     class="pb-16 mt-10"
   >
+    <!-- EV TÖLTŐK -->
+
     <v-carousel-item
       v-for="item in chargers"
       :key="item.id"
@@ -19,7 +21,7 @@
       >
         <v-col cols="12" sm="4">
           <v-img
-            height="100%"
+            height="360"
             :alt="item.alt"
             contain
             aspect-ratio="1"
@@ -71,7 +73,7 @@
       >
         <v-col cols="12" sm="4">
           <v-img
-            height="100%"
+            height="360"
             :alt="item.alt"
             contain
             aspect-ratio="1"
@@ -130,7 +132,7 @@
       >
         <v-col cols="12" sm="4">
           <v-img
-            height="100%"
+            height="360"
             :alt="item.alt"
             contain
             aspect-ratio="1"

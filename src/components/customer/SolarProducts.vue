@@ -14,11 +14,21 @@
       </v-col>
     </v-row>
 
-    <v-row>
-      <product-carousel :solarPanels="solarPanels" />
+    <v-row align="center" justify="center" class="my-4">
+      <v-col cols="11" md="10" lg="10">
+        <h4 class="text-h5 text-md-h4 font-weight-bold mb-16">
+          Napelemek
+        </h4>
+        <product-carousel :solarPanels="solarPanels" />
+      </v-col>
     </v-row>
-    <v-row>
-      <product-carousel :inverters="inverters" />
+    <v-row align="center" justify="center" class="my-10">
+      <v-col cols="11" md="10" lg="10">
+        <h4 class="text-h5 text-md-h4 font-weight-bold mb-16">
+          Inverterek
+        </h4>
+        <product-carousel :inverters="inverters" />
+      </v-col>
     </v-row>
   </v-container>
 </template>
