@@ -1,6 +1,6 @@
 <template>
   <v-container class="my-16 site-wrapper">
-    <v-row justify="center" class="mb-sm-10 ">
+    <v-row justify="center" class="mb-sm-10">
       <v-col cols="12" md="5" lg="5" class="d-md-flex order-2">
         <v-img
           cover

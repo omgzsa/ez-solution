@@ -1,5 +1,5 @@
 <template>
-  <div class="d-flex flex-column align-center flex-md-row justify-space-around">
+  <div class="d-flex flex-column align-start flex-md-row justify-space-around">
     <v-card
       v-for="item in features"
       flat
@@ -26,7 +26,7 @@
           :to="item.to"
           class="ml-1"
         >
-          <strong>Érdekel</strong><v-icon>mdi-chevron-right</v-icon>
+          <strong>Érdekel</strong><v-icon>mdi-chevron-double-right</v-icon>
         </v-btn>
       </v-card-actions>
     </v-card>

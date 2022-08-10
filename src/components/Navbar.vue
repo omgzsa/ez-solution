@@ -7,9 +7,9 @@
             class="logo"
             alt="EZ Solutions logó"
             src="~/assets/images/ez-logo.png"
-            width="50"
-            fit="cover"
-            transition="fade-transition"
+            width="49"
+            height="50"
+            fit="contain"
           />
         </g-link>
       </v-app-bar-title>
@@ -77,7 +77,7 @@
       </v-toolbar-items>
 
       <span class="hidden-md-and-up">
-        <v-app-bar-nav-icon @click="drawer = !drawer" title="Menü gomb">
+        <v-app-bar-nav-icon @click="drawer = !drawer" title="Menü">
         </v-app-bar-nav-icon>
       </span>
     </v-app-bar>
@@ -171,7 +171,7 @@ export default {
 </script>
 
 <style>
-.logo {
+/* .logo {
   opacity: 1;
-}
+} */
 </style>

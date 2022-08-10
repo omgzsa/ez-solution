@@ -1,7 +1,7 @@
 <template>
   <v-container class="site-wrapper">
-    <v-row justify="start" class="mb-10 mb-lg-16">
-      <v-col>
+    <v-row justify="center" class="mb-10 mb-lg-16">
+      <v-col cols="11">
         <h2 class="overline font-weight-bold mb-2 green--text text--darken-2">
           kiknek szól
         </h2>
@@ -10,7 +10,11 @@
         </h3>
       </v-col>
     </v-row>
-    <home-features-item :features="features" />
+    <v-row justify="center">
+      <v-col cols="11" class="pa-0">
+        <home-features-item :features="features" />
+      </v-col>
+    </v-row>
   </v-container>
 </template>
 

@@ -1,7 +1,7 @@
 <template>
   <v-container class="site-wrapper">
-    <v-row justify="start" class="mb-6 mb-lg-16">
-      <v-col cols="12" md="8" lg="8">
+    <v-row justify="center" class="mb-2 mb-lg-16">
+      <v-col cols="11">
         <h2 class="overline font-weight-bold mb-2 green--text text--darken-2">
           szolgáltatások
         </h2>
@@ -15,7 +15,7 @@
       class="service-solar mb-4 mb-sm-8 mb-lg-16 align-sm-center"
       align="end"
     >
-      <v-col sm="11" md="7" class="">
+      <v-col sm="10" md="7" class="pa-0">
         <home-services-card :solar-services="solarServices">
           Napelemes rendszerek
         </home-services-card>
@@ -27,7 +27,7 @@
       justify="end"
       align="end"
     >
-      <v-col sm="11" md="7" class="">
+      <v-col sm="10" md="7" class="pa-0">
         <home-services-card :plant-services="plantServices">
           Gépészeti megoldásaink
         </home-services-card>
@@ -38,7 +38,7 @@
       class="service-charger mb-4 mb-sm-8 mb-lg-16 align-sm-center"
       align="end"
     >
-      <v-col sm="11" md="7" class="">
+      <v-col sm="10" md="7" class="pa-0">
         <home-services-card :charger-services="chargerServices">
           EV töltők otthon
         </home-services-card>
