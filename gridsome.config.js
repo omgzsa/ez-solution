@@ -8,6 +8,6 @@ module.exports = {
   siteName: 'EZ Solutions',
   siteDescription:
     'A megújuló energiák szakértője. Napelem, elektromos tötő, hőszivattyú.',
-  plugins: [],
   icon: './src/favicon.png',
+  plugins: [],
 };

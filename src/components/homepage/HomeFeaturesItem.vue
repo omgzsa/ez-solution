@@ -1,5 +1,7 @@
 <template>
-  <div class="d-flex flex-column align-start flex-md-row justify-space-around">
+  <div
+    class="d-flex flex-column align-center align-md-start flex-md-row justify-space-around"
+  >
     <v-card
       v-for="item in features"
       flat

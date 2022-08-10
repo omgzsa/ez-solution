@@ -12,6 +12,7 @@
       </v-main>
     </transition>
 
+    <!-- <page-contact /> -->
     <page-footer />
   </v-app>
 </template>
@@ -28,6 +29,7 @@ query {
 import Navbar from '~/components/Navbar.vue';
 import ScrollToTop from '../components/ScrollToTop.vue';
 import PageFooter from '../components/PageFooter.vue';
+// import PageContact from '../components/PageContact.vue';
 
 export default {
   components: { Navbar, ScrollToTop, PageFooter },

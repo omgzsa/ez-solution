@@ -5,7 +5,10 @@
         <h2 class="overline font-weight-bold mb-2 green--text text--darken-2">
           szolgáltatások
         </h2>
-        <h3 class="text-h5 text-sm-h4 text-lg-h3 font-weight-bold">
+        <h3
+          style="max-width: 20em !important"
+          class="text-h5 text-sm-h4 text-lg-h3 font-weight-bold"
+        >
           Szabadulj ki a Rezsicsapdából megoldásainkkal
         </h3>
       </v-col>
@@ -15,7 +18,7 @@
       class="service-solar mb-4 mb-sm-8 mb-lg-16 align-sm-center"
       align="end"
     >
-      <v-col sm="10" md="7" class="pa-0">
+      <v-col sm="10" md="7" class="">
         <home-services-card :solar-services="solarServices">
           Napelemes rendszerek
         </home-services-card>
@@ -27,7 +30,7 @@
       justify="end"
       align="end"
     >
-      <v-col sm="10" md="7" class="pa-0">
+      <v-col sm="10" md="7" class="">
         <home-services-card :plant-services="plantServices">
           Gépészeti megoldásaink
         </home-services-card>
@@ -38,7 +41,7 @@
       class="service-charger mb-4 mb-sm-8 mb-lg-16 align-sm-center"
       align="end"
     >
-      <v-col sm="10" md="7" class="pa-0">
+      <v-col sm="10" md="7" class="">
         <home-services-card :charger-services="chargerServices">
           EV töltők otthon
         </home-services-card>

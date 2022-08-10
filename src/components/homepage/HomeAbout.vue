@@ -32,9 +32,9 @@
             >mdi-file-document-outline</v-icon
           >
           <a
-            href="../../termekbemutato.pdf"
+            href="../../ez-solutions-termekbemutato.pdf"
             class="underline"
-            download="termekbemutato"
+            download="ez-solutions-termekbemutato"
             >Töltse le termékbemutatónkat!</a
           >
         </div>
