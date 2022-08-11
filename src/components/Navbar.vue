@@ -18,6 +18,15 @@
 
       <v-toolbar-items class="hidden-sm-and-down">
         <v-btn
+          title="Tovább az EZ KITT Kalkulátorhoz"
+          text
+          active-class="primary--active"
+          to="/kalkulator"
+          class="indigo--text font-weight-bold"
+        >
+          Kalkulátor
+        </v-btn>
+        <v-btn
           title="Tovább a Magánszemélyek oldalára"
           text
           active-class="primary--active"
@@ -42,14 +51,6 @@
           Cégeknek
         </v-btn>
 
-        <v-btn
-          title="Tovább az EZ KITT Kalkulátorhoz"
-          text
-          active-class="primary--active"
-          to="/kalkulator"
-        >
-          Kalkulátor
-        </v-btn>
         <v-menu open-on-hover offset-y>
           <template v-slot:activator="{ on }">
             <v-btn title="Toborzás menü" text v-on="on"
@@ -91,6 +92,16 @@
     >
       <v-list class="d-flex flex-column align-end pa-0">
         <v-btn
+          title="Tovább az EZ KITT Kalkulátorhoz"
+          block
+          text
+          active-class="primary--active"
+          to="/kalkulator"
+          class="indigo--text"
+        >
+          Kalkulátor
+        </v-btn>
+        <v-btn
           title="Tovább a Magánszemélyek oldalára"
           block
           text
@@ -116,15 +127,6 @@
           to="/cegek"
         >
           Cégeknek
-        </v-btn>
-        <v-btn
-          title="Tovább az EZ KITT Kalkulátorhoz"
-          block
-          text
-          active-class="primary--active"
-          to="/kalkulator"
-        >
-          Kalkulátor
         </v-btn>
         <v-menu open-on-hover offset-y>
           <template v-slot:activator="{ on }">

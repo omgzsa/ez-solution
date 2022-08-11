@@ -19,24 +19,30 @@ export default {
       firms: [
         {
           id: 1,
+          title: 'Hotelek',
+          text:
+            'Komplex, helységenkénti hőszivattyús, napelemes energiatárolós rendszerek telepítése, egyedi felmérések alapján.',
+        },
+        {
+          id: 2,
           title: 'Irodaházak',
           text:
             'KKV-k irodáiba, irodaházaiba a lakóházakkal azonos megoldásainkat javasoljuk.',
         },
         {
-          id: 2,
+          id: 3,
           title: 'Ipari csarnokok',
           text:
             'Az Ipari csarnokok fűtésére egyedi hőszivattyút javaslunk, ami képes termomotoros levegőfűtéses vagy vizes, sugárzó fűtéses hőleadókat is működtetni.',
         },
         {
-          id: 3,
+          id: 4,
           title: 'Programunk előnye',
           text:
             'Az EZ KITT szoftver javaslatot tesz új, személyreszabott hőszivattyús rendszerére, pontosan kiszámolja cége megtakarítását és beruházása megtérülési idejét.',
         },
         {
-          id: 4,
+          id: 5,
           title: 'Nullázza le rezsijét',
           text:
             'Ingyen fűtheti és hűtheti épületeit. Irodaháza és/vagy üzeme tetején elhelyezett napelemek sokszorosan képesek biztosítani a fűtési, hűtési igényt.',

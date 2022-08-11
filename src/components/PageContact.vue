@@ -22,7 +22,7 @@
             <v-row class="">
               <v-col cols="12">
                 <v-text-field
-                  v-model="firstname"
+                  v-model="firstName"
                   :rules="nameRules"
                   label="Vezetéknév"
                   required
@@ -32,7 +32,7 @@
 
               <v-col cols="12">
                 <v-text-field
-                  v-model="lastname"
+                  v-model="lastName"
                   :rules="nameRules"
                   label="Keresztnév"
                   required
@@ -73,8 +73,8 @@
 export default {
   data: () => ({
     valid: false,
-    firstname: '',
-    lastname: '',
+    firstName: '',
+    lastName: '',
     nameRules: [
       (v) => !!v || 'Name is required',
       (v) => v.length <= 10 || 'Name must be less than 10 characters',

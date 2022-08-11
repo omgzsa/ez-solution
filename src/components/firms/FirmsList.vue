@@ -1,18 +1,24 @@
 <template>
   <v-container class="site-wrapper my-16">
-    <v-row justify="center" class="mb-10 mb-lg-16">
-      <v-col cols="10" offset-md="1">
+    <v-row justify="center" class="mb-10 mb-lg-16 mx-auto">
+      <v-col cols="12" md="8">
         <h2 class="overline font-weight-bold mb-2 blue--text text--darken-4">
           fűtés-hűtés
         </h2>
-        <h3 class="text-h5 text-sm-h4 text-lg-h3 font-weight-bold">
+        <h3 class="text-h5 text-sm-h4 text-lg-h3 font-weight-bold mb-6">
           Hőszivattyús rendszereink céges ingatlanokhoz
         </h3>
+        <p class="body-2 text-sm-body-1 mb-n2 " style="max-width: 860px;">
+          Irodaházak, hotelek, ipari csarnokok részére fogyasztási helyenként,
+          maximum 50kw-os, jogszabálynak megfelelő energiatárolóval és komplett
+          hőszivattyús megoldásokkal együtt telepített napelemes rendszerek
+          telepítését vállaljuk egyedi felmérés alapján.
+        </p>
       </v-col>
     </v-row>
     <v-row justify="center">
-      <v-col cols="10" md="8" lg="6">
-        <ul class="custom-marker pa-0">
+      <v-col cols="12" sm="10" md="8" lg="6">
+        <ul class="custom-marker">
           <li v-for="item in firms" :key="item.id" class="py-2">
             <h5 class="text-h6 font-weight-bold mb-2">
               {{ item.title }}

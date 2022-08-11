@@ -6,7 +6,7 @@
 
     <transition appear name="fade">
       <v-main>
-        <v-container fluid pa-0 style="max-width: 120em;">
+        <v-container fluid pa-0>
           <slot />
         </v-container>
       </v-main>
@@ -32,7 +32,12 @@ import PageFooter from '../components/PageFooter.vue';
 // import PageContact from '../components/PageContact.vue';
 
 export default {
-  components: { Navbar, ScrollToTop, PageFooter },
+  components: {
+    Navbar,
+    ScrollToTop,
+    PageFooter,
+    // PageContact,
+  },
 };
 </script>
 

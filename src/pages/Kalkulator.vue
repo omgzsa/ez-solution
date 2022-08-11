@@ -1,7 +1,7 @@
 <template>
-  <div>
+  <Layout>
     kalkulator
-  </div>
+  </Layout>
 </template>
 
 <script>
