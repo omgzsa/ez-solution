@@ -8,7 +8,7 @@
         </h1>
         <v-btn
           title="Tovább az EZ KITT Kalkulátorhoz"
-          to="#footer"
+          to="/kalkulator"
           color="plant"
           class="white--text"
           >EZ KITT Kalkulátor</v-btn

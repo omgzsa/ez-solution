@@ -56,11 +56,11 @@ export default {
 
 <style scoped>
 .bounce-enter-active {
-  animation: bounce-in 0.5s;
+  animation: bounce-in 0.3s;
 }
 
 .bounce-leave-active {
-  animation: bounce-in 0.5s reverse;
+  animation: bounce-in 0.3s reverse;
 }
 
 @keyframes bounce-in {
