@@ -1,7 +1,9 @@
 <template>
   <v-container pa-0 fluid fill-height class="mx-auto tanacsado-hero">
     <v-row justify="center">
-      <h1 class="text-h5 text-sm-h4 text-lg-h2 font-weight-bold white--text">
+      <h1
+        class="text-h5 text-sm-h4 text-lg-h2 font-weight-bold white--text animate blur"
+      >
         Legyél a tanácsadónk!
       </h1>
     </v-row>

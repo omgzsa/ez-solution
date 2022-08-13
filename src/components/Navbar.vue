@@ -4,13 +4,19 @@
       <v-container pa-0 fill-height style="max-width: 100em !important">
         <v-app-bar-title shrink-on-scroll>
           <g-link to="/" style="cursor: pointer" title="EZ Solutions logo">
-            <g-image
+            <!-- <g-image
               class="logo"
               alt="EZ Solutions logó"
               src="~/assets/images/ez-logo.png"
               width="49"
               height="50"
               fit="contain"
+            /> -->
+            <v-img
+              contain
+              width="49"
+              height="50"
+              :src="require('../assets/images/ez-logo.png')"
             />
           </g-link>
         </v-app-bar-title>
@@ -98,6 +104,7 @@
     >
       <v-list class="d-flex flex-column align-end pa-0">
         <v-btn
+          class="py-6"
           block
           text
           title="Kezdőoldal"

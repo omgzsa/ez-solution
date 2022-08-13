@@ -2,13 +2,20 @@
   <v-container fluid fill-height class="houses-hero">
     <v-row justify="center">
       <v-col sm="10" md="8" lg="6" class="text-center">
-        <h1 class="text-h4 text-sm-h3 white--text mb-8 mt-16 font-weight-bold">
+        <h1
+          class="text-h4 text-sm-h3 white--text mb-8 mt-16 font-weight-bold animate blur"
+        >
           Az első pontos rezsiköltség és megtakarítás kalkulátor társasházaknak!
         </h1>
-        <v-btn to="/kalkulator" color="plant" class="white--text mb-10"
+        <v-btn
+          to="/kalkulator"
+          color="plant"
+          class="white--text mb-10 animate blur delay-1"
           >EZ KITT Kalkulátor</v-btn
         >
-        <p class="body-2 text-sm-body-1 white--text font-weight-bold">
+        <p
+          class="body-2 text-sm-body-1 white--text font-weight-bold animate blur delay-2"
+        >
           Komplex napelemes és gépészeti megoldást adunk társasházaknak,
           társasházi lakásoknak gázkonvektoros, egyedi és központi fűtéses
           társasházaknak is.
