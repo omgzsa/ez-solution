@@ -1,7 +1,7 @@
 <template>
   <v-container class="my-2 my-10 site-wrapper">
-    <v-row justify="center" align="center" class="d-flex">
-      <v-col cols="12" sm="10" md="7" lg="6" offset-lg="1">
+    <v-row justify="center">
+      <v-col cols="12" sm="11" md="5" lg="6" offset-lg="1">
         <h2 class="overline font-weight-bold mb-2 orange--text text--darken-3">
           bevezetés
         </h2>
@@ -11,7 +11,7 @@
         <p class="body-2 text-lg-body-1">{{ introduction.text }}</p>
       </v-col>
 
-      <v-col sm="10" md="5" align-self="end">
+      <v-col cols="12" sm="11" md="5" align-self="end">
         <v-list class="pa-0" dense v-for="item in benefits" :key="item.text">
           <v-list-item>
             <v-list-item-icon class="ml-0 mr-3"

@@ -1,16 +1,7 @@
 <template>
   <v-container class="my-16 site-wrapper">
-    <v-row class="d-flex mr-md-auto">
-      <v-col
-        cols="12"
-        sm="10"
-        offset-sm="1"
-        md="8"
-        offset-md="0"
-        lg="6"
-        offset-lg="1"
-        class="mb-sm-10"
-      >
+    <v-row justify="center" class="d-flex mr-md-auto">
+      <v-col sm="11" md="10" class="mb-sm-10">
         <h2 class="overline font-weight-bold mb-2 orange--text text--darken-3">
           folyamat
         </h2>
@@ -24,7 +15,7 @@
       </v-col>
     </v-row>
 
-    <v-row justify="start" align="center">
+    <v-row justify="center" align="center">
       <v-col cols="11" sm="6" md="5" offset-lg="1" class="pa-0">
         <v-timeline dense clipped align-top class="ml-n6">
           <v-timeline-item

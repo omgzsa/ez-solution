@@ -2,14 +2,16 @@
   <v-container fill-height fluid class="solar-hero">
     <v-row justify="center" align="center">
       <v-col sm="10" md="8" lg="6" class="my-16 text-center">
-        <h1 class="text-h4 text-sm-h2 white--text mb-8 font-weight-bold">
+        <h1
+          class="text-h4 text-sm-h2 white--text mb-8 font-weight-bold animate blur"
+        >
           Napelemes megújuló energia otthonába
         </h1>
         <v-btn
           title="Tovább az EZ KITT Kalkulátorhoz"
           to="/kalkulator"
           color="solar"
-          class="white--text"
+          class="white--text animate blur delay-1"
           >EZ KITT Kalkulátor</v-btn
         >
       </v-col>
@@ -27,7 +29,6 @@ export default {};
   background-position: 65%;
   background-size: cover;
 
-  padding-top: clamp(8rem, 11vw, 12rem);
-  padding-bottom: clamp(4rem, 11vw, 12rem);
+  height: 70vh;
 }
 </style>

@@ -1,5 +1,5 @@
 <template>
-  <v-card flat color="grey lighten-3" class="pa-4 pa-sm-8 pa-md-12">
+  <v-card flat tile color="grey lighten-3" class="pa-4 pa-sm-8 pa-md-12">
     <h3 class="text-h5 text-md-h4 font-weight-bold mb-10">
       <slot />
     </h3>

@@ -2,11 +2,6 @@
   <v-container class="my-16">
     <v-row justify="center" class="mx-auto">
       <v-col cols="11" sm="8" md="6">
-        <h1
-          class="text-h5 text-sm-h4 text-lg-h2 font-weight-bold mb-10 indigo--text darken-3"
-        >
-          Legyél a partnerünk!
-        </h1>
         <ul class="custom-marker">
           <li v-for="item in partners" :key="item.id" class="py-2">
             <h5 class="text-h6 font-weight-bold mb-2">

@@ -1,5 +1,11 @@
 <template>
-  <v-container pa-0 fluid class="tanacsado-hero"> </v-container>
+  <v-container pa-0 fluid fill-height class="mx-auto tanacsado-hero">
+    <v-row justify="center">
+      <h1 class="text-h5 text-sm-h4 text-lg-h2 font-weight-bold white--text">
+        Legyél a tanácsadónk!
+      </h1>
+    </v-row>
+  </v-container>
 </template>
 
 <script>

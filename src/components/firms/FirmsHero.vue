@@ -27,6 +27,6 @@ export default {};
   background: url(../../assets/images/ceg-hero.jpg) no-repeat bottom;
   background-size: cover;
 
-  height: 95vh;
+  height: 90vh;
 }
 </style>

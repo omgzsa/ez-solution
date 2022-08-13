@@ -27,6 +27,6 @@ export default {};
   background: url(../../assets/images/tarsashaz-hero.jpg) no-repeat bottom;
   background-size: cover;
 
-  height: 80vh;
+  height: 90vh;
 }
 </style>

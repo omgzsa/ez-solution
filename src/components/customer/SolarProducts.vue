@@ -1,7 +1,7 @@
 <template>
   <v-container class="my-2 my-10 site-wrapper">
-    <v-row>
-      <v-col cols="12" sm="10" offset-sm="1" md="8" lg="6" offset-lg="1">
+    <v-row justify="center">
+      <v-col cols="12" sm="11" md="10">
         <h2 class="overline font-weight-bold mb-2 orange--text text--darken-2">
           termékek
         </h2>

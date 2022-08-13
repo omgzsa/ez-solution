@@ -8,6 +8,7 @@ import ProductNavigation from '~/components/ProductNavigation.vue';
 import Vuetify from 'vuetify';
 import 'vuetify/dist/vuetify.min.css';
 import '@/assets/styles.scss';
+import '@/assets/animations.css';
 
 export default function(Vue, { appOptions, router, head, isClient }) {
   head.htmlAttrs = { lang: 'hu' };

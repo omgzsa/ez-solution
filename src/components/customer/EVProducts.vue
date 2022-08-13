@@ -30,7 +30,7 @@
     </v-row>
 
     <v-row align="center" justify="center" class="my-4">
-      <v-col cols="11" md="10" lg="10">
+      <v-col cols="11" sm="10" md="10" lg="10">
         <h4 class="text-h5 text-md-h4 font-weight-bold mt-6 mb-16">
           EV töltők
         </h4>

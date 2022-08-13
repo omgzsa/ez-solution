@@ -8,7 +8,7 @@
           :src="require('../../assets/images/home-about.jpg')"
         />
       </v-col>
-      <v-col sm="12" md="6" lg="6">
+      <v-col cols="12" sm="11" md="6" lg="6">
         <h2 class="overline font-weight-bold mb-2 green--text text--darken-2">
           Rólunk
         </h2>
@@ -27,7 +27,7 @@
           műszaki, építőipari, jogi, számviteli és értékesítő tapasztalatára
           alapozzuk.
         </p>
-        <div>
+        <div class="my-6">
           <v-icon color="charger" class="mr-3"
             >mdi-file-document-outline</v-icon
           >
