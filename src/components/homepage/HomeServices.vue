@@ -62,7 +62,7 @@ export default {
           icon: 'sprout-outline',
           title: 'Nullázza le villanyszámláját',
           text:
-            'Függetlenedjen az energia áraktól és teljes egészében használja ki a nap erejét. Spórolja meg havi villanyszámlájának összegét napelemmel',
+            'Függetlenedjen az energiaáraktól és teljes egészében használja ki a nap erejét! Spórolja meg havi villanyszámlájának összegét napelemmel!',
         },
         {
           icon: 'wallet-outline',
@@ -90,7 +90,7 @@ export default {
           icon: 'ev-station',
           title: 'Otthoni EV töltő',
           text:
-            'Töltse autóját otthon és élvezze prémium töltőink minden előnyét otthona kényelméből. Töltsön a nappal megoldásunkkal termelje meg a szükséges áramot napelemmel!',
+            'Töltse autóját otthon és élvezze prémium töltőink minden előnyét, otthona kényelméből! Töltsön a nappal, megoldásunkkal termelje meg a szükséges áramot napelemmel!',
         },
         {
           icon: 'car-electric',

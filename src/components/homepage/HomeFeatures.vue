@@ -43,7 +43,7 @@ export default {
         {
           title: 'Cégeknek',
           text:
-            'A magas energia árak a cégeket érintik leginkább. Szolárra épített elektrifikációs megoldásainkkal azonban biztonságban tudhatja vállalkozását a növekvő energia áraktól.',
+            'A magas energiaárak a cégeket érintik leginkább. Szolárra épített elektrifikációs megoldásainkkal azonban biztonságban tudhatja vállalkozását a növekvő energiaáraktól.',
           icon: 'factory',
           to: 'cegek',
         },

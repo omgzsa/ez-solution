@@ -7,11 +7,11 @@
         Szabadulj a Rezsicsapdából!
       </h1>
       <v-btn
-        title="Tovább az EZ KITT Kalkulátorhoz"
+        title="Tovább az EZ Kalkulátorhoz"
         to="/kalkulator"
         color="primary"
         class="white--text mb-10 animate blur delay-1"
-        >EZ KITT Kalkulátor</v-btn
+        >EZ Kalkulátor</v-btn
       >
       <p
         class="animate blur delay-2 caption text-sm-body-1 text-uppercase font-weight-bold white--text"

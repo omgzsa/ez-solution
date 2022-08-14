@@ -2,16 +2,8 @@
   <nav id="nav">
     <v-app-bar app dense fixed hide-on-scroll height="70" elevation="0">
       <v-container pa-0 fill-height style="max-width: 100em !important">
-        <v-app-bar-title shrink-on-scroll>
+        <v-app-bar-title>
           <g-link to="/" style="cursor: pointer" title="EZ Solutions logo">
-            <!-- <g-image
-              class="logo"
-              alt="EZ Solutions logó"
-              src="~/assets/images/ez-logo.png"
-              width="49"
-              height="50"
-              fit="contain"
-            /> -->
             <v-img
               contain
               width="49"
@@ -31,6 +23,7 @@
             title="Tovább az EZ KITT Kalkulátorhoz"
             text
             active-class="primary--active"
+            class="indigo--text text--darken-3"
             to="/kalkulator"
           >
             Kalkulátor
@@ -41,7 +34,7 @@
             active-class="primary--active"
             to="/maganszemely/solar"
           >
-            Magánszemélyeknek
+            Családi ház/lakás
           </v-btn>
           <v-btn
             title="Tovább a Társasházak oldalára"
@@ -49,7 +42,7 @@
             active-class="primary--active"
             to="/tarsashazak"
           >
-            Társasházaknak
+            Társasház/lakás
           </v-btn>
           <v-btn
             title="Tovább a Cégek oldalára"
@@ -57,7 +50,7 @@
             active-class="primary--active"
             to="/cegek"
           >
-            Cégeknek
+            Ipar/Hotel/Üzleti
           </v-btn>
 
           <v-menu open-on-hover offset-y>
@@ -114,7 +107,7 @@
           Kezdőoldal
         </v-btn>
         <v-btn
-          class="py-6"
+          class="py-6 indigo--text text--darken-3"
           title="Tovább az EZ KITT Kalkulátorhoz"
           block
           text
@@ -131,7 +124,7 @@
           active-class="primary--active"
           to="/maganszemely/solar"
         >
-          Magánszemélyeknek
+          Családi ház/lakás
         </v-btn>
         <v-btn
           class="py-6"
@@ -141,7 +134,7 @@
           active-class="primary--active"
           to="/tarsashazak"
         >
-          Társasházaknak
+          Társasház/lakás
         </v-btn>
         <v-btn
           class="py-6"
@@ -151,7 +144,7 @@
           active-class="primary--active"
           to="/cegek"
         >
-          Cégeknek
+          Ipar/Hotel/Üzleti
         </v-btn>
         <v-menu open-on-hover offset-y>
           <template v-slot:activator="{ on }">

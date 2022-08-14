@@ -33,7 +33,7 @@ export default {
           id: 1,
           title: 'Maximális megtakarítás',
           text:
-            'Telepíttessen napelemes rendszert otthonába csapatunkkal. Nullázza le villanyszámláját és növelje megtakarítását további termékeink kihasználásával.',
+            'Telepíttessen napelemes rendszert otthonába csapatunkkal! Nullázza le villanyszámláját és növelje megtakarítását további termékeink kihasználásával!',
         },
         {
           id: 2,
@@ -53,7 +53,7 @@ export default {
           id: 1,
           title: 'Tanácsadókkal dolgozunk',
           text:
-            'Nem értékesítőink vannak, hanem olyan magasan képzett tanácsadóink, akik az Ön érdekeit képviselik és Önért dolgoznak.',
+            'Nem értékesítőink vannak, hanem olyan, magasan képzett tanácsadóink, akik az Ön érdekeit képviselik és Önért dolgoznak.',
         },
         {
           id: 2,
@@ -65,7 +65,7 @@ export default {
           id: 3,
           title: 'Komplex megoldások',
           text:
-            'Komplex rendszerekben gondolkozunk, hiszen megoldásaink erősítik egymást. Kombinálja őket és hozza ki a legtöbbet az otthonában megvalósítható fenntartható beruházásokból.',
+            'Komplex rendszerekben gondolkozunk, hiszen megoldásaink erősítik egymást. Kombinálja őket és hozza ki a legtöbbet az otthonában megvalósítható, fenntartható beruházásokból!',
         },
       ],
     };

@@ -8,10 +8,11 @@
           Az első pontos rezsiköltség és megtakarítás kalkulátor társasházaknak!
         </h1>
         <v-btn
+          title="Tovább az EZ Kalkulátorhoz"
           to="/kalkulator"
           color="plant"
           class="white--text mb-10 animate blur delay-1"
-          >EZ KITT Kalkulátor</v-btn
+          >EZ Kalkulátor</v-btn
         >
         <p
           class="body-2 text-sm-body-1 white--text font-weight-bold animate blur delay-2"

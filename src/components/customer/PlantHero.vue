@@ -8,11 +8,11 @@
           Innovatív fűtő-hűtő megoldás — Szabaduljon ki végleg a Rezsicsapdából!
         </h1>
         <v-btn
-          title="Tovább az EZ KITT Kalkulátorhoz"
+          title="Tovább az EZ Kalkulátorhoz"
           to="/kalkulator"
           color="plant"
           class="white--text animate blur delay-1"
-          >EZ KITT Kalkulátor</v-btn
+          >EZ Kalkulátor</v-btn
         >
       </v-col>
     </v-row>

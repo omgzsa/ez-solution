@@ -27,25 +27,25 @@ export default {
           id: 2,
           title: 'Irodaházak',
           text:
-            'KKV-k irodáiba, irodaházaiba a lakóházakkal azonos megoldásainkat javasoljuk.',
+            'KKV-k kisebb irodáiba, irodaházaiba a lakóházakkal azonos, nagyobb irodaházakba a hotelekkel azonos megoldásainkat javasoljuk.',
         },
         {
           id: 3,
           title: 'Ipari csarnokok',
           text:
-            'Az Ipari csarnokok fűtésére egyedi hőszivattyút javaslunk, ami képes termomotoros levegőfűtéses vagy vizes, sugárzó fűtéses hőleadókat is működtetni.',
+            'Az Ipari csarnokok esetén a napelemes rendszer mellett, a komplex gépészeti és tetőárnyékolási megoldásokat javaslunk, egyedi és központi hőszivattyúkkal levegőfűtéses vagy vizes sugárzó hőleadókkal.',
         },
         {
           id: 4,
           title: 'Programunk előnye',
           text:
-            'Az EZ KITT szoftver javaslatot tesz új, személyreszabott hőszivattyús rendszerére, pontosan kiszámolja cége megtakarítását és beruházása megtérülési idejét.',
+            'Az EZ KITT szoftver javaslatot tesz egy olyan komplex rezsicsökkentést eredményező rendszerre és pontosan kiszámolja cége megtakarítását, a beruházás összegét és beruházása megtérülési idejét.',
         },
         {
           id: 5,
-          title: 'Nullázza le rezsijét',
+          title: 'Csökkentse le rezsijét',
           text:
-            'Ingyen fűtheti és hűtheti épületeit. Irodaháza és/vagy üzeme tetején elhelyezett napelemek sokszorosan képesek biztosítani a fűtési, hűtési igényt.',
+            'A villamos fogyasztás kiváltásán túl, a napelemes rendszerrel akár Ingyen is fűtheti és hűtheti épületeit. Épületei tetején elhelyezett napelemek sok esetben képesek biztosítani a fűtési, hűtési igényt is amellett, hogy a villamos fogyasztás költségeit lenullázzák.',
         },
       ],
     };

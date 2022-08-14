@@ -19,82 +19,86 @@
       </v-col>
     </v-row>
     <v-row justify="center" align="center" class="justify-space-around">
-      <!-- <plant-products-item /> -->
       <v-col sm="10" md="5">
-        <v-img
-          alt="Fintek Oslo air conditioner"
-          max-height="400"
-          contain
-          :src="require('../../assets/images/products/fintek-oslo-2.jpg')"
-        />
+        <v-carousel
+          hide-delimiter-background
+          show-arrows-on-hover
+          height="100%"
+          light
+        >
+          <v-carousel-item transition="fade-transition">
+            <h4 class="text-h6 text-md-h5 font-weight-bold mb-2">
+              EZ 12+ burgundi
+            </h4>
+            <v-img
+              alt="EZ 12 burgundi klíma"
+              max-height="400"
+              contain
+              :src="require('../../assets/images/products/ez12-burgundi.jpg')"
+            />
+          </v-carousel-item>
+          <v-carousel-item transition="fade-transition">
+            <h4 class="text-h6 text-md-h5 font-weight-bold mb-2">
+              EZ 12+ fekete
+            </h4>
+            <v-img
+              alt="EZ 12 fekete klíma"
+              max-height="400"
+              contain
+              :src="require('../../assets/images/products/ez12-fekete.jpg')"
+            />
+          </v-carousel-item>
+        </v-carousel>
       </v-col>
       <v-col sm="10" md="5">
         <h4
-          class="text-h5 text-md-h4 font-weight-bold mb-6 indigo--text darken-4"
+          class="text-h5 text-md-h4 font-weight-bold mb-6 indigo--text text--darken-3"
         >
-          Hagyományos klíma, inverterrel
+          Monoblokk hőszivattyú
         </h4>
         <p class="body-2 text-lg-body-1">
-          A hagyományos klíma berendezések, inverteres változatai átmeneti
-          időjárásban fűteni is képesek otthonát. A tél nagyrészén azonban
-          jelenleg meglévő fűtését kell használnia. Ezek a gépek a legolcsóbbak
-          kínálatunkban, viszont a beszerelésük körülményes és drága, mert
-          komoly belső munkálatokat igényel. Szabályozásuk kényelmes, mert a
-          megfelelő hőmérsékletet helységeken belül tudjuk beállítani.
+          Monoblokk hőszivattyú az egyedüli, tökéletes és költséghatékony
+          fűtési-hűtési megoldás, ami -20°C foktól + 50°C fokig teljes fűtést és
+          hűtést biztosít. Beszereléséhez nem kell klímaszerelő, nem kell
+          rombolni és festeni, nincs kültéri egysége. Ára beszereléssel
+          megegyezik egy téliesített inverteres klíma árával és esztétikus
+          beszerelésével. Az EZ monoblokk hőszivattyú megjelenésével, egy
+          radiátor méretével azonos nagyságú dizájneleme a lakásnak. Elhelyezése
+          lehetséges ablak alá, fölé vagy más helyre, minden olyan falra, aminek
+          külső kapcsolata van. A hőszivattyú 1 egység áramból, több, mint 4
+          egység hőt/hideget állít elő a külső levegőből. A berendezések
+          helyiségenként, távirányítóval szabályozható és programozható.
         </p>
       </v-col>
     </v-row>
     <v-row justify="center" align="center" class="justify-space-around">
-      <!-- <plant-products-item /> -->
       <v-col sm="10" md="5">
+        <h4 class="text-h6 text-md-h5 font-weight-bold mb-2">
+          EZ 428
+        </h4>
         <v-img
-          alt="Fintek Oslo air conditioner"
+          alt="Fintek UES klíma"
           max-height="400"
           contain
-          :src="require('../../assets/images/products/fintek-oslo-1.jpg')"
+          :src="require('../../assets/images/products/fintek-ues-1.jpg')"
         />
       </v-col>
       <v-col sm="10" md="5">
         <h4
-          class="text-h5 text-md-h4 font-weight-bold mb-6 indigo--text darken-4"
+          class="text-h5 text-md-h4 font-weight-bold mb-6 indigo--text text--darken-3"
         >
           Központi hőszivattyú
         </h4>
         <p class="body-2 text-lg-body-1">
-          Lakóházakba csak akkor javasoljuk a központi hőszivattyút, ha
-          mennyezetfűtés van, amivel a hűtés is megoldható. Tapasztalataink
-          alapján csak ebben az esetben költséghatékony a hőszivattyú.
-        </p>
-      </v-col>
-    </v-row>
-    <v-row justify="center" align="center" class="justify-space-around">
-      <!-- <plant-products-item /> -->
-      <v-col sm="10" md="5">
-        <v-img
-          alt="Fintek Oslo air conditioner"
-          max-height="400"
-          contain
-          :src="require('../../assets/images/products/foxess-inverter-1.jpg')"
-        />
-      </v-col>
-      <v-col sm="10" md="5">
-        <h4
-          class="text-h5 text-md-h4 font-weight-bold mb-6 indigo--text darken-4"
-        >
-          Monoblokk hőszivattyús klíma
-        </h4>
-        <p class="body-2 text-lg-body-1">
-          Az Innova 2.0 nem csak kiegészítő fűtésként alkalmazható, mint a
-          hagyományos klímák, hanem egymaga gondoskodik az épület teljeskörű
-          fűtéséről, hűtéséről. Beszereléséhez nem kell klímás, nem kell
-          rombolni és festeni. A radiátor csővezetékeire, radiátor helyett is
-          beépíthető, így az igazán hideg napokon radiátorként is működik a
-          jelenlegi kazánjával.<br />
-          ELEC modellje elektromos kiegészítő fűtéssel érkezik és 5,7 COP-re
-          képes, így gázfűtés nélkül, teljeskörűen el tudja látni a fűtését
-          egész évben. Helyiségenként kerül beszerelésre és úgy is
-          szabályozható. Van berendezés kúti fűtésre és hűtésre is, 6.5 feletti
-          COP-vel.
+          Az EZ szabadalmaztatott technológiájának köszönhetően egyedülálló
+          kisteljesítményű központi hőszivattyúkat kínálunk. Egy központi
+          egységhez akár 4 beltéri egység is csatlakoztatható. Az UES
+          rendszernek nincs kültéri egysége, mert a központi egység is az
+          ingatlanon belül helyezkedik el. A rendszer olyan kiegészítő
+          funkciókat tartalmaz, melyek garantálják, hogy -25°C fokban is
+          megfelelő hatásfokkal fűtsön. A berendezés minden, már kiépített
+          fűtési rendszerre rászabható. Az Ön számára tökéletes megoldást
+          tanácsadói felmérésünk során találjuk meg.
         </p>
       </v-col>
     </v-row>
@@ -102,10 +106,8 @@
 </template>
 
 <script>
-// import PlantProductsItem from './PlantProductsItem.vue';
-
 export default {
-  // components: { PlantProductsItem },
+  //
 };
 </script>
 
