@@ -14,6 +14,10 @@
     "vuetify": "^2.6.4"
   },
   "devDependencies": {
+<<<<<<< HEAD
+=======
+    "@mdi/font": "^7.0.96",
+>>>>>>> faef7de4014bfc88af603b76a52b62979d7a7854
     "gridsome-plugin-htaccess": "^0.2.1",
     "sass": "^1.50.1",
     "sass-loader": "^10.1.1",
