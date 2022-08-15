@@ -80,7 +80,7 @@
           alt="Fintek UES klíma"
           max-height="400"
           contain
-          :src="require('../../assets/images/products/fintek-ues-1.jpg')"
+          :src="require('../../assets/images/products/fintek-ez428.jpg')"
         />
       </v-col>
       <v-col sm="10" md="5">

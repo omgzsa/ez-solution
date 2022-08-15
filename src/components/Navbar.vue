@@ -16,9 +16,9 @@
         <v-spacer />
 
         <v-toolbar-items class="hidden-md-and-down">
-          <v-btn title="Kezdőoldal" text active-class="primary--active" to="/">
+          <!-- <v-btn title="Kezdőoldal" text active-class="primary--active" to="/">
             Kezdőoldal
-          </v-btn>
+          </v-btn> -->
           <v-btn
             title="Tovább az EZ KITT Kalkulátorhoz"
             text
@@ -96,7 +96,7 @@
       app
     >
       <v-list class="d-flex flex-column align-end pa-0">
-        <v-btn
+        <!-- <v-btn
           class="py-6"
           block
           text
@@ -105,7 +105,7 @@
           to="/"
         >
           Kezdőoldal
-        </v-btn>
+        </v-btn> -->
         <v-btn
           class="py-6 indigo--text text--darken-3"
           title="Tovább az EZ KITT Kalkulátorhoz"
