@@ -14,7 +14,10 @@
     "vuetify": "^2.6.4"
   },
   "devDependencies": {
+<<<<<<< Updated upstream
     "@mdi/font": "^7.0.96",
+=======
+>>>>>>> Stashed changes
     "gridsome-plugin-htaccess": "^0.2.1",
     "sass": "^1.50.1",
     "sass-loader": "^10.1.1",
