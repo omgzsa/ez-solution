@@ -12,7 +12,14 @@ import HousesList from '../components/houses/HousesList.vue';
 // import axios from 'axios';
 export default {
   metaInfo: {
-    title: 'Társasházaknak | EZ Solutions',
+    title: 'Társasházak',
+    meta: [
+      {
+        name: 'EZ Solutions',
+        content:
+          'Komplex napelemes és gépészeti megoldást adunk társasházaknak, társasházi lakásoknak gázkonvektoros, egyedi és központi fűtéses társasházaknak is.',
+      },
+    ],
   },
   components: { HousesHero, HousesList },
   data() {

@@ -17,6 +17,17 @@ import PlantProducts from '../../components/customer/PlantProducts.vue';
 import ProductNavigation from '../../components/ProductNavigation.vue';
 
 export default {
+  name: 'Gepeszet',
+  metaInfo: {
+    title: 'Magánszemély | Hűtés-fűtés',
+    meta: [
+      {
+        name: 'EZ Solutions',
+        content:
+          'Hőszivattyúk családi házakba és lakásokba magánszemélyek számára.',
+      },
+    ],
+  },
   components: {
     PlantHero,
     PlantIntro,
@@ -44,9 +55,6 @@ export default {
         },
       ],
     };
-  },
-  metaInfo: {
-    title: 'Magánszemély | Gépészet',
   },
 };
 </script>

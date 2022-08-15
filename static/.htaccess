@@ -1,0 +1,7 @@
+# Custom headers
+Header set X-Content-Type-Options "nosniff"
+
+
+# Content Security Policy
+Header set Content-Security-Policy "font-src fonts.google.com"
+

@@ -11,7 +11,14 @@ import FirmsList from '../components/firms/FirmsList.vue';
 
 export default {
   metaInfo: {
-    title: 'Cégeknek | EZ Solutions',
+    title: 'Cégek',
+    meta: [
+      {
+        name: 'EZ Solutions',
+        content:
+          'Ipari Ingatlanok, Hotelek és Irodaházak számára napelem, hőszivattyú, tetőárnyékoló és egyedi gépészeti megoldások.',
+      },
+    ],
   },
   components: { FirmsHero, FirmsList },
   data() {

@@ -17,6 +17,17 @@ import SolarProducts from '../../components/customer/SolarProducts.vue';
 import ProductNavigation from '../../components/ProductNavigation.vue';
 
 export default {
+  name: 'solar',
+  metaInfo: {
+    title: 'Magánszemély | Napelem',
+    meta: [
+      {
+        name: 'EZ Solutions',
+        content:
+          'Napelemek családi házakba és lakásokba magánszemélyek számára.',
+      },
+    ],
+  },
   components: {
     SolarHero,
     SolarIntro,
@@ -47,9 +58,6 @@ export default {
         },
       ],
     };
-  },
-  metaInfo: {
-    title: 'Magánszemély | Solar Panel',
   },
 };
 </script>
