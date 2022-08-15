@@ -19,6 +19,17 @@ import EVProducts from '../../components/customer/EVProducts.vue';
 import ProductNavigation from '../../components/ProductNavigation.vue';
 
 export default {
+  name: 'ev-tolto',
+  metaInfo: {
+    title: 'Magánszemély | EV Töltő',
+    meta: [
+      {
+        name: 'EZ Solutions',
+        content:
+          'Elektromos autó töltők családi házakba és lakásokba magánszemélyek számára.',
+      },
+    ],
+  },
   components: {
     EVHero,
     EVIntro,
@@ -47,9 +58,6 @@ export default {
         },
       ],
     };
-  },
-  metaInfo: {
-    title: 'Magánszemély | EV Töltő',
   },
 };
 </script>

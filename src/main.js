@@ -9,6 +9,7 @@ import Vuetify from 'vuetify';
 import 'vuetify/dist/vuetify.min.css';
 import '@/assets/styles.scss';
 import '@/assets/animations.css';
+// import '@mdi/font/css/materialdesignicons.css';
 
 export default function(Vue, { appOptions, router, head, isClient }) {
   head.htmlAttrs = { lang: 'hu' };
@@ -27,6 +28,9 @@ export default function(Vue, { appOptions, router, head, isClient }) {
   //opts includes, vuetify themes, icons, etc.
 
   const opts = {
+    icons: {
+      iconfont: 'mdi',
+    },
     theme: {
       themes: {
         light: {
@@ -44,7 +48,7 @@ export default function(Vue, { appOptions, router, head, isClient }) {
 
   // Set default layout as a global component
   Vue.component('Layout', DefaultLayout);
-  Vue.component('ProductNavigation', ProductNavigation);
+  // Vue.component('ProductNavigation', ProductNavigation);
 
   router.options.scrollBehavior = function(to, from, savedPosition) {
     if (savedPosition) {
