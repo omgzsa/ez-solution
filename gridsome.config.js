@@ -13,9 +13,6 @@ module.exports = {
       options: {
         host: 'https://ezsolutions.hu',
         sitemap: 'https://ezsolutions.hu/sitemap.xml',
-        contentSecurityPolicy: {
-          'font-src': ['fonts.google.com'],
-        },
       },
     },
     {
@@ -23,14 +20,14 @@ module.exports = {
       options: {
         host: 'https://www.ezsolutions.hu',
         sitemap: 'https://www.ezsolutions.hu/sitemap.xml',
-        env: {
-          development: {
-            policy: [{ userAgent: '*', disallow: ['/'] }],
-          },
-          production: {
-            policy: [{ userAgent: '*', allow: '/' }],
-          },
-        },
+        // env: {
+        //   development: {
+        //     policy: [{ userAgent: '*', disallow: ['/'] }],
+        //   },
+        //   production: {
+        //     policy: [{ userAgent: '*', allow: '/' }],
+        //   },
+        // },
       },
     },
   ],
