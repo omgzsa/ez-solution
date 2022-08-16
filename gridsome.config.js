@@ -31,6 +31,7 @@ module.exports = {
       options: {
         host: 'https://ezsolutions.hu',
         sitemap: 'https://ezsolutions.hu/sitemap.xml',
+        blockedUserAgents: ['googlebot', 'yandexbot', 'bingbot'],
       },
     },
     {
