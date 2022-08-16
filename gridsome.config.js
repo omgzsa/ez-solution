@@ -4,6 +4,24 @@ module.exports = {
   siteDescription:
     'A megújuló energiák szakértője. Napelem, elektromos tötő, hőszivattyú.',
   icon: './src/favicon.png',
+  css: {
+    rules: [
+      {
+        test: /\.css$/i,
+        use: ['style-loader', 'css-loader'],
+      },
+    ],
+  },
+  loaderOptions: {
+    scss: {
+      rules: [
+        {
+          test: /\.s[ac]ss$/i,
+          use: ['style-loader', 'css-loader', 'sass-loader'],
+        },
+      ],
+    },
+  },
   plugins: [
     {
       use: '@gridsome/plugin-sitemap',

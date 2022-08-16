@@ -26,18 +26,16 @@
     </v-container>
     <ul class="footer-list pt-10  ">
       <li class="white--text body-2 mb-2">
-        <v-icon class="pr-4" color="primary">mdi-map-marker</v-icon>1060
-        Budapest, Minta u. 25
+        <v-icon class="pr-4" color="primary">mdi-map-marker</v-icon
+        >{{ location }}
       </li>
       <li class="white--text body-2 mb-2">
         <v-icon class="pr-4" color="primary">mdi-phone</v-icon
-        ><a class="underline" href="tel:#">+36 30 123 45 67</a>
+        ><a class="underline" href="tel:#">{{ telNumber }}</a>
       </li>
       <li class="white--text body-2 mb-2">
         <v-icon class="pr-4" color="primary">mdi-email</v-icon
-        ><a class="underline" href="mailto:info@ezsolutions.hu"
-          >info@ezsolutions.hu</a
-        >
+        ><a class="underline" href="mailto:info@ezsolutions.hu">{{ email }}</a>
       </li>
     </ul>
     <v-spacer />
@@ -52,13 +50,9 @@
 export default {
   data() {
     return {
-      contact: [
-        {
-          location: '9022 Győr, Móricz Zsigmond rakpart 1. földszint 24.',
-          number: '+36 70 398 5988',
-          email: 'info@ezsolutions.hu',
-        },
-      ],
+      location: '9022 Győr, Móricz Zsigmond rkp. 1. fsz. 24.',
+      telNumber: '+36 70 398 5988',
+      email: 'info@ezsolutions.hu',
     };
   },
 };

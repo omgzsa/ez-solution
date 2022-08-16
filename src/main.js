@@ -3,6 +3,7 @@
 
 import DefaultLayout from '~/layouts/Default.vue';
 
+// import '@mdi/font/css/materialdesignicons.css';
 import Vuetify from 'vuetify';
 import 'vuetify/dist/vuetify.min.css';
 import '@/assets/styles.scss';
@@ -45,6 +46,8 @@ export default function(Vue, { appOptions, router, head, isClient }) {
 
   // Set default layout as a global component
   Vue.component('Layout', DefaultLayout);
+
+  // Vue.component('ProductNavigation', ProductNavigation);
 
   router.options.scrollBehavior = function(to, from, savedPosition) {
     if (savedPosition) {
