@@ -54,8 +54,8 @@ export default {
     return {
       contact: [
         {
-          location: '1060 Budapest, Minta u. 25',
-          number: '+36 30 123 45 67',
+          location: '9022 Győr, Móricz Zsigmond rakpart 1. földszint 24.',
+          number: '+36 70 398 5988',
           email: 'info@ezsolutions.hu',
         },
       ],

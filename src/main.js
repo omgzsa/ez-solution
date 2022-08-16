@@ -3,11 +3,11 @@
 
 import DefaultLayout from '~/layouts/Default.vue';
 
+// import '@mdi/font/css/materialdesignicons.css';
 import Vuetify from 'vuetify';
 import 'vuetify/dist/vuetify.min.css';
 import '@/assets/styles.scss';
 import '@/assets/animations.css';
-// import '@mdi/font/css/materialdesignicons.css';
 
 export default function(Vue, { appOptions, router, head, isClient }) {
   head.htmlAttrs = { lang: 'hu' };
