@@ -42,16 +42,19 @@ export default {
           name: 'Napelem',
           to: '/maganszemely/solar',
           icon: 'mdi-solar-power',
+          color: 'solar',
         },
         {
           name: 'Hűtés-fűtés',
           to: '/maganszemely/gepeszet',
           icon: 'mdi-fan',
+          color: 'plant',
         },
         {
-          name: 'EV töltő',
+          name: 'Autó töltő',
           to: '/maganszemely/ev-tolto',
           icon: 'mdi-battery-charging',
+          color: 'primary',
         },
       ],
     };

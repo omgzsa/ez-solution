@@ -16,9 +16,6 @@
         <v-spacer />
 
         <v-toolbar-items class="hidden-md-and-down">
-          <!-- <v-btn title="Kezdőoldal" text active-class="primary--active" to="/">
-            Kezdőoldal
-          </v-btn> -->
           <v-btn
             title="Tovább az EZ KITT Kalkulátorhoz"
             text
@@ -28,21 +25,51 @@
           >
             Kalkulátor
           </v-btn>
-          <v-btn
-            title="Tovább a Magánszemélyek oldalára"
-            text
-            active-class="primary--active"
-            to="/maganszemely/solar"
-          >
-            Családi ház/lakás
-          </v-btn>
+          <v-menu open-on-hover offset-y>
+            <template v-slot:activator="{ on }">
+              <v-btn title="Magánszemélyeknek menü" text v-on="on"
+                >Magánszemély<v-icon>mdi-chevron-down</v-icon></v-btn
+              >
+            </template>
+            <v-list class="d-flex flex-column align-end pa-0">
+              <v-btn
+                title="Tovább a napelemekhez"
+                class="py-6"
+                active-class="solar--active"
+                block
+                text
+                to="/maganszemely/solar"
+                >Napelem</v-btn
+              >
+
+              <v-btn
+                title="Tovább a hőszivattyúkhoz"
+                class="py-6"
+                active-class="plant--active"
+                block
+                text
+                to="/maganszemely/gepeszet"
+                >Hűtés-Fűtés</v-btn
+              >
+
+              <v-btn
+                title="Tovább az elektromos autó töltőkhöz"
+                class="py-6"
+                active-class="primary--active"
+                block
+                text
+                to="/maganszemely/ev-tolto"
+                >Autó töltő</v-btn
+              >
+            </v-list>
+          </v-menu>
           <v-btn
             title="Tovább a Társasházak oldalára"
             text
             active-class="primary--active"
             to="/tarsashazak"
           >
-            Társasház/lakás
+            Társasház
           </v-btn>
           <v-btn
             title="Tovább a Cégek oldalára"
@@ -50,7 +77,7 @@
             active-class="primary--active"
             to="/cegek"
           >
-            Ipar/Hotel/Üzleti
+            Cég
           </v-btn>
 
           <v-menu open-on-hover offset-y>
@@ -96,16 +123,6 @@
       app
     >
       <v-list class="d-flex flex-column align-end pa-0">
-        <!-- <v-btn
-          class="py-6"
-          block
-          text
-          title="Kezdőoldal"
-          active-class="primary--active"
-          to="/"
-        >
-          Kezdőoldal
-        </v-btn> -->
         <v-btn
           class="py-6 indigo--text text--darken-3"
           title="Tovább az EZ KITT Kalkulátorhoz"
@@ -116,16 +133,44 @@
         >
           Kalkulátor
         </v-btn>
-        <v-btn
-          class="py-6"
-          title="Tovább a Magánszemélyek oldalára"
-          block
-          text
-          active-class="primary--active"
-          to="/maganszemely/solar"
-        >
-          Családi ház/lakás
-        </v-btn>
+        <v-menu open-on-hover offset-y>
+          <template v-slot:activator="{ on }">
+            <v-btn title="Magánszemélyeknek menü" block text v-on="on"
+              >Magánszemély<v-icon>mdi-chevron-down</v-icon></v-btn
+            >
+          </template>
+          <v-list class="d-flex flex-column align-end pa-0">
+            <v-btn
+              title="Tovább a napelemekhez"
+              class="py-6"
+              active-class="solar--active"
+              block
+              text
+              to="/maganszemely/solar"
+              >Napelem</v-btn
+            >
+
+            <v-btn
+              title="Tovább a hőszivattyúkhoz"
+              class="py-6"
+              active-class="primary--active"
+              block
+              text
+              to="/maganszemely/gepeszet"
+              >Hűtés-Fűtés</v-btn
+            >
+
+            <v-btn
+              title="Tovább az elektromos autó töltőkhöz"
+              class="py-6"
+              active-class="plant--active"
+              block
+              text
+              to="/maganszemely/ev-tolto"
+              >Autó töltő</v-btn
+            >
+          </v-list>
+        </v-menu>
         <v-btn
           class="py-6"
           title="Tovább a Társasházak oldalára"
@@ -134,7 +179,7 @@
           active-class="primary--active"
           to="/tarsashazak"
         >
-          Társasház/lakás
+          Társasház
         </v-btn>
         <v-btn
           class="py-6"
@@ -144,7 +189,7 @@
           active-class="primary--active"
           to="/cegek"
         >
-          Ipar/Hotel/Üzleti
+          Cég
         </v-btn>
         <v-menu open-on-hover offset-y>
           <template v-slot:activator="{ on }">

@@ -24,14 +24,14 @@
         </v-col>
       </v-row>
     </v-container>
-    <ul class="footer-list pt-10  ">
+    <ul class="footer-list pt-10">
       <li class="white--text body-2 mb-2">
         <v-icon class="pr-4" color="primary">mdi-map-marker</v-icon
         >{{ location }}
       </li>
       <li class="white--text body-2 mb-2">
         <v-icon class="pr-4" color="primary">mdi-phone</v-icon
-        ><a class="underline" href="tel:#">{{ telNumber }}</a>
+        ><a class="underline" href="tel:+36 70 398 5988">{{ telNumber }}</a>
       </li>
       <li class="white--text body-2 mb-2">
         <v-icon class="pr-4" color="primary">mdi-email</v-icon
@@ -50,7 +50,7 @@
 export default {
   data() {
     return {
-      location: '9022 Győr, Móricz Zsigmond rkp. 1. fsz. 24.',
+      location: '9022 Győr, Móricz Zsigmond rkp. 1. fsz. 9.',
       telNumber: '+36 70 398 5988',
       email: 'info@ezsolutions.hu',
     };

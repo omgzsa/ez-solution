@@ -21,7 +21,7 @@ import ProductNavigation from '../../components/ProductNavigation.vue';
 export default {
   name: 'ev-tolto',
   metaInfo: {
-    title: 'Magánszemély | EV Töltő',
+    title: 'Magánszemély | Elektromos autó töltő',
     meta: [
       {
         name: 'EZ Solutions',
@@ -45,16 +45,19 @@ export default {
           name: 'Napelem',
           to: '/maganszemely/solar',
           icon: 'mdi-solar-power',
+          color: 'solar',
         },
         {
           name: 'Hűtés-fűtés',
           to: '/maganszemely/gepeszet',
           icon: 'mdi-fan',
+          color: 'plant',
         },
         {
-          name: 'EV töltő',
+          name: 'Autó töltő',
           to: '/maganszemely/ev-tolto',
           icon: 'mdi-battery-charging',
+          color: 'primary',
         },
       ],
     };

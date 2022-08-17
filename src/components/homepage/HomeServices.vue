@@ -43,7 +43,7 @@
     >
       <v-col sm="10" md="7" class="">
         <home-services-card :charger-services="chargerServices">
-          EV töltők otthon
+          Autó töltők otthon
         </home-services-card>
       </v-col>
     </v-row>
@@ -88,7 +88,7 @@ export default {
       chargerServices: [
         {
           icon: 'ev-station',
-          title: 'Otthoni EV töltő',
+          title: 'Otthoni elektromos töltő',
           text:
             'Töltse autóját otthon és élvezze prémium töltőink minden előnyét, otthona kényelméből! Töltsön a nappal, megoldásunkkal termelje meg a szükséges áramot napelemmel!',
         },

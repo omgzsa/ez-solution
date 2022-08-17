@@ -51,10 +51,10 @@ export default {
           color: 'plant',
         },
         {
-          name: 'EV töltő',
+          name: 'Autó töltő',
           to: '/maganszemely/ev-tolto',
           icon: 'mdi-battery-charging',
-          color: 'charger',
+          color: 'primary',
         },
       ],
     };

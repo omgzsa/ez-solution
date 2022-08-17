@@ -1,6 +1,9 @@
 module.exports = {
   siteName: 'EZ Solutions',
-  siteUrl: process.env.SITE_URL || 'https://ezsolutions.hu',
+  siteUrl:
+    process.env.SITE_URL ||
+    'https://ezsolutions.hu' ||
+    'https://www.ezsolutions.hu',
   siteDescription:
     'A megújuló energiák szakértője. Napelem, elektromos tötő, hőszivattyú.',
   icon: './src/favicon.png',
@@ -29,24 +32,19 @@ module.exports = {
     {
       use: 'gridsome-plugin-htaccess',
       options: {
-        host: 'https://ezsolutions.hu',
-        sitemap: 'https://ezsolutions.hu/sitemap.xml',
-        blockedUserAgents: ['googlebot', 'yandexbot', 'bingbot'],
+        host: 'https://ezsolutions.hu' || 'https://www.ezsolutions.hu',
+        sitemap:
+          'https://ezsolutions.hu/sitemap.xml' ||
+          'https://www.ezsolutions.hu/sitemap.xml',
       },
     },
     {
       use: 'gridsome-plugin-robots',
       options: {
-        host: 'https://www.ezsolutions.hu',
-        sitemap: 'https://www.ezsolutions.hu/sitemap.xml',
-        // env: {
-        //   development: {
-        //     policy: [{ userAgent: '*', disallow: ['/'] }],
-        //   },
-        //   production: {
-        //     policy: [{ userAgent: '*', allow: '/' }],
-        //   },
-        // },
+        host: 'https://ezsolutions.hu' || 'https://www.ezsolutions.hu',
+        sitemap:
+          'https://ezsolutions.hu/sitemap.xml' ||
+          'https://www.ezsolutions.hu/sitemap.xml',
       },
     },
   ],
