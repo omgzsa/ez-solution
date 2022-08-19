@@ -1,48 +1,87 @@
 <template>
-  <v-footer
-    id="footer"
-    color="plant"
-    padless
-    class="d-flex flex-column justify-center py-10"
-  >
+  <v-footer color="plant" padless>
     <v-container>
-      <v-row justify="center" class="mx-auto text-center">
-        <v-col cols="10" sm="8">
-          <h2
-            class="overline font-weight-bold mb-2 green--text darken-2 justify-center"
-          >
-            kapcsolat
-          </h2>
-          <h3
-            class="text-h5 text-sm-h4 text-lg-h3 white--text font-weight-bold mb-10"
-          >
-            Szabadulj a Rezsicsapdából!
-          </h3>
-          <p class="body-2 text-lg-body-1 white--text">
-            Kérjen ajánlatot szakértő kollégánktól elérhetőségeink valamelyikén!
+      <div class="d-flex">
+        <v-img
+          contain
+          width="49"
+          height="50"
+          :src="require('../assets/images/ez-logo.png')"
+          class="mt-4 mb-6"
+        />
+      </div>
+      <v-divider color="white" class="mb-6" />
+      <v-row justify="center" align="start" class="mb-2">
+        <v-col cols="12" sm="6">
+          <ul class="footer-list pa-0">
+            <li class="white--text caption pb-2">
+              <v-icon class="pr-2" color="primary">mdi-map-marker</v-icon
+              >{{ location }}
+            </li>
+            <li class="white--text caption pb-2">
+              <v-icon class="pr-2" color="primary">mdi-phone</v-icon
+              ><a class="underline" href="tel:+36 70 398 5988">{{
+                telNumber
+              }}</a>
+            </li>
+            <li class="white--text caption pb-2">
+              <v-icon class="pr-2" color="primary">mdi-email</v-icon
+              ><a class="underline" href="mailto:info@ezsolutions.hu">{{
+                email
+              }}</a>
+            </li>
+          </ul>
+        </v-col>
+        <v-col cols="12" sm="6" class="d-flex flex-row">
+          <div class="d-flex flex-column flex-grow-1">
+            <span class="white--text caption font-weight-bold">
+              Magánszemélyek
+            </span>
+            <div class="d-flex flex-column">
+              <g-link to="/maganszemely/solar" class="white--text caption"
+                ><span class="underline">Napelem</span></g-link
+              >
+              <g-link to="/maganszemely/gepeszet" class="white--text caption"
+                ><span class="underline">Hűtés-fűtés</span></g-link
+              >
+              <g-link to="/maganszemely/ev-tolto" class="white--text caption"
+                ><span class="underline">Autó töltő</span></g-link
+              >
+            </div>
+          </div>
+          <div class="d-flex flex-column flex-grow-1">
+            <g-link
+              to="/tarsashazak"
+              class="white--text caption font-weight-bold"
+            >
+              <span class="underline">Társasházak</span>
+            </g-link>
+          </div>
+          <div class="d-flex flex-column flex-grow-1">
+            <g-link to="/cegek" class="white--text caption font-weight-bold">
+              <span class="underline">Cégek</span>
+            </g-link>
+          </div>
+        </v-col>
+      </v-row>
+      <v-divider color="white" class="mb-6" />
+      <v-row justify="center">
+        <v-col cols="12" sm="6" class="order-md-2">
+          <span class="caption">
+            <g-link class="underline white--text"
+              >Adatvédelmi tájékoztató</g-link
+            >
+          </span>
+        </v-col>
+        <v-col cols="12" sm="6">
+          <p class="caption white--text">
+            {{ new Date().getFullYear() }} —
+            <strong><span style="color:#0eab51;">EZ</span> Solutions</strong> ©
+            Minden jog fenntartva
           </p>
         </v-col>
       </v-row>
     </v-container>
-    <ul class="footer-list pt-10">
-      <li class="white--text body-2 mb-2">
-        <v-icon class="pr-4" color="primary">mdi-map-marker</v-icon
-        >{{ location }}
-      </li>
-      <li class="white--text body-2 mb-2">
-        <v-icon class="pr-4" color="primary">mdi-phone</v-icon
-        ><a class="underline" href="tel:+36 70 398 5988">{{ telNumber }}</a>
-      </li>
-      <li class="white--text body-2 mb-2">
-        <v-icon class="pr-4" color="primary">mdi-email</v-icon
-        ><a class="underline" href="mailto:info@ezsolutions.hu">{{ email }}</a>
-      </li>
-    </ul>
-    <v-spacer />
-    <p class="body-2 text-lg-body-1 white--text mt-16">
-      {{ new Date().getFullYear() }} —
-      <strong><span style="color:#0eab51;">EZ</span> Solutions</strong>
-    </p>
   </v-footer>
 </template>
 
@@ -50,7 +89,7 @@
 export default {
   data() {
     return {
-      location: '9022 Győr, Móricz Zsigmond rkp. 1. fsz. 9.',
+      location: '9022 Győr, Móricz Zsigmond rkp. 9.',
       telNumber: '+36 70 398 5988',
       email: 'info@ezsolutions.hu',
     };
@@ -58,18 +97,4 @@ export default {
 };
 </script>
 
-<style>
-.footer-list {
-  list-style: none;
-}
-
-a[href^='tel:'],
-a[href^='mailto:'] {
-  color: white !important;
-  text-decoration: none;
-}
-
-a:hover {
-  color: #0eab51 !important;
-}
-</style>
+<style></style>

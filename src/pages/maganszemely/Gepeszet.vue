@@ -5,6 +5,7 @@
     <plant-intro />
     <plant-intro-results />
     <plant-products />
+    <page-contact />
   </Layout>
 </template>
 
@@ -13,6 +14,8 @@ import PlantHero from '../../components/customer/PlantHero.vue';
 import PlantIntro from '../../components/customer/PlantIntro.vue';
 import PlantIntroResults from '../../components/customer/PlantIntroResults.vue';
 import PlantProducts from '../../components/customer/PlantProducts.vue';
+
+import PageContact from '../../components/PageContact.vue';
 
 import ProductNavigation from '../../components/ProductNavigation.vue';
 
@@ -34,6 +37,7 @@ export default {
     PlantIntroResults,
     PlantProducts,
     ProductNavigation,
+    PageContact,
   },
   data() {
     return {
@@ -42,19 +46,19 @@ export default {
           name: 'Napelem',
           to: '/maganszemely/solar',
           icon: 'mdi-solar-power',
-          color: 'solar',
+          // color: 'solar',
         },
         {
           name: 'Hűtés-fűtés',
           to: '/maganszemely/gepeszet',
           icon: 'mdi-fan',
-          color: 'plant',
+          // color: 'plant',
         },
         {
           name: 'Autó töltő',
           to: '/maganszemely/ev-tolto',
           icon: 'mdi-battery-charging',
-          color: 'primary',
+          // color: 'primary',
         },
       ],
     };

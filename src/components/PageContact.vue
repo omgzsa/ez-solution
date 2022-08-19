@@ -1,26 +1,28 @@
 <template>
-  <v-container fluid class="contact-hero py-10">
+  <v-container id="footer" fluid class="contact-hero py-10">
     <v-row
       justify="center"
       align="start"
       class="site-wrapper justify-space-around"
     >
-      <v-col cols="10" md="5">
+      <v-col cols="12" sm="4" md="5">
         <h2 class="overline font-weight-bold mb-2 white--text">
           kapcsolat
         </h2>
-        <h3 class="text-h5 text-sm-h4 text-lg-h3 font-weight-bold white--text">
+        <h3
+          class="text-h5 text-md-h4 text-lg-h3 font-weight-bold white--text mb-6"
+        >
           Használja ki a Napot Ön is!
         </h3>
         <p class="body-1 white--text">
-          Kérjen ajánlatot szakértő kollégánktól!
+          Vegye fel a kapcsolatot szakértő kollégánikal!
         </p>
       </v-col>
-      <v-col cols="10" md="5" class="">
+      <v-col cols="12" sm="7" md="5" class="">
         <v-form v-model="valid">
-          <v-container>
-            <v-row class="">
-              <v-col cols="12">
+          <v-container pa-0>
+            <v-row>
+              <v-col cols="6">
                 <v-text-field
                   v-model="firstName"
                   :rules="nameRules"
@@ -30,12 +32,20 @@
                 ></v-text-field>
               </v-col>
 
-              <v-col cols="12">
+              <v-col cols="6">
                 <v-text-field
                   v-model="lastName"
                   :rules="nameRules"
                   label="Keresztnév"
                   required
+                  dark
+                ></v-text-field>
+              </v-col>
+
+              <v-col cols="12">
+                <v-text-field
+                  v-model="phoneNumber"
+                  label="Telefonszám"
                   dark
                 ></v-text-field>
               </v-col>
@@ -50,14 +60,14 @@
                 ></v-text-field>
                 <v-col class="pa-0">
                   <v-textarea
-                    name="input-7-1"
+                    label="Üzenet"
                     filled
                     auto-grow
-                    value="The Woodman set to work at once, and so sharp was his axe that the tree was soon chopped nearly through."
+                    :value="value"
                     dark
                   ></v-textarea>
                 </v-col>
-                <v-btn class="mr-4" type="submit" :disabled="invalid">
+                <v-btn class="mr-4" color="primary" type="submit">
                   Elküld
                 </v-btn>
               </v-col>
@@ -72,17 +82,24 @@
 <script>
 export default {
   data: () => ({
+    value: '',
+    phoneNumber: '',
+    // phoneRules: [
+    //   (v) =>
+    //     /^[\+]?[(]?[0-9]{3}[)]?[-\s\.]?[0-9]{3}[-\s\.]?[0-9]{4,6}$/.test(v) ||
+    //     'A telefonszám formátuma nem megfelelő',
+    // ],
     valid: false,
     firstName: '',
     lastName: '',
     nameRules: [
-      (v) => !!v || 'Name is required',
-      (v) => v.length <= 10 || 'Name must be less than 10 characters',
+      (v) => !!v || 'Név megadása kötelező',
+      (v) => v.length <= 30 || 'Név ne legyen hosszabb 30 karakternél',
     ],
     email: '',
     emailRules: [
-      (v) => !!v || 'E-mail is required',
-      (v) => /.+@.+/.test(v) || 'E-mail must be valid',
+      (v) => !!v || 'E-mail megadása kötelező',
+      (v) => /.+@.+/.test(v) || 'Adjon meg egy létező e-mail címet.',
     ],
   }),
 };

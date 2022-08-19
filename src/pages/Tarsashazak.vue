@@ -2,6 +2,7 @@
   <Layout>
     <houses-hero />
     <houses-list :houses="houses" />
+    <page-contact />
   </Layout>
 </template>
 
@@ -9,7 +10,8 @@
 import HousesHero from '../components/houses/HousesHero.vue';
 import HousesList from '../components/houses/HousesList.vue';
 
-// import axios from 'axios';
+import PageContact from '../components/PageContact.vue';
+
 export default {
   metaInfo: {
     title: 'Társasházak',
@@ -21,7 +23,7 @@ export default {
       },
     ],
   },
-  components: { HousesHero, HousesList },
+  components: { HousesHero, HousesList, PageContact },
   data() {
     return {
       houses: [

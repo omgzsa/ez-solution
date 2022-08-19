@@ -55,7 +55,7 @@ h2::after {
   z-index: -1;
 }
 
-// styling links & router link
+// styling links
 
 .underline {
   position: relative;
@@ -86,6 +86,23 @@ a {
   color: rgb(0, 0, 0, 0.87) !important;
 }
 
+.footer-list {
+  list-style: none;
+}
+
+a[href^='tel:'],
+a[href^='mailto:'] {
+  color: white !important;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #0eab51 !important;
+}
+
+
+// CUSTOM active classes ( NavBar/drawer active styles )
+
 .solar--active {
   color: #EF8F20 !important;
   font-weight: bold;
@@ -97,6 +114,14 @@ a {
 .primary--active {
   color: #0EAB51 !important;
   font-weight: bold;
+}
+
+// tab highlighting ( ProductNavigation.vue )
+
+.v-tab--active {
+  font-weight: bold !important;
+  color: #0EAB51 !important;
+  background: #dddddd80 !important;
 }
 
 // utility
@@ -165,11 +190,6 @@ border: 1px solid rgb(191, 191, 191);
 .fade-enter,
 .fade-leave-to {
   opacity: 0;
-}
-
-.v-tab--active {
-  font-weight: bold !important;
-  color: #0EAB51 !important;
 }
 
 // custom marker

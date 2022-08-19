@@ -8,7 +8,6 @@
   },
   "dependencies": {
     "@gridsome/plugin-sitemap": "^0.4.0",
-    "axios": "^0.27.2",
     "gridsome": "^0.7.0",
     "gridsome-plugin-robots": "^0.2.1",
     "vuetify": "^2.6.4"

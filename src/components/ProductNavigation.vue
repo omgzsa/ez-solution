@@ -4,8 +4,8 @@
     background-color="#eeeeee90"
     grow
     :vertical="$vuetify.breakpoint.smAndDown"
-    :slider-color="active"
     slider-size="4"
+    slider-color="primary"
     class="mb-6 mb-sm-10 mb-md-16"
   >
     <v-tab
