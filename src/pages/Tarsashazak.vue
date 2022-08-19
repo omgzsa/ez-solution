@@ -2,7 +2,7 @@
   <Layout>
     <houses-hero />
     <houses-list :houses="houses" />
-    <page-contact />
+    <!-- <page-contact /> -->
   </Layout>
 </template>
 
@@ -10,7 +10,7 @@
 import HousesHero from '../components/houses/HousesHero.vue';
 import HousesList from '../components/houses/HousesList.vue';
 
-import PageContact from '../components/PageContact.vue';
+// import PageContact from '../components/PageContact.vue';
 
 export default {
   metaInfo: {
@@ -23,7 +23,11 @@ export default {
       },
     ],
   },
-  components: { HousesHero, HousesList, PageContact },
+  components: {
+    HousesHero,
+    HousesList,
+    // PageContact
+  },
   data() {
     return {
       houses: [

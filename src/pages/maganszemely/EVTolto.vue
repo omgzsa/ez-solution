@@ -6,7 +6,7 @@
     <e-v-intro-results />
     <e-v-process />
     <e-v-products />
-    <page-contact />
+    <!-- <page-contact /> -->
   </Layout>
 </template>
 
@@ -17,7 +17,7 @@ import EVIntroResults from '../../components/customer/EVIntroResults.vue';
 import EVProcess from '../../components/customer/EVProcess.vue';
 import EVProducts from '../../components/customer/EVProducts.vue';
 
-import PageContact from '../../components/PageContact.vue';
+// import PageContact from '../../components/PageContact.vue';
 
 import ProductNavigation from '../../components/ProductNavigation.vue';
 
@@ -40,7 +40,7 @@ export default {
     EVProcess,
     EVProducts,
     ProductNavigation,
-    PageContact,
+    // PageContact,
   },
   data() {
     return {
@@ -49,19 +49,16 @@ export default {
           name: 'Napelem',
           to: '/maganszemely/solar',
           icon: 'mdi-solar-power',
-          // color: 'solar',
         },
         {
           name: 'Hűtés-fűtés',
           to: '/maganszemely/gepeszet',
           icon: 'mdi-fan',
-          // color: 'plant',
         },
         {
           name: 'Autó töltő',
           to: '/maganszemely/ev-tolto',
           icon: 'mdi-battery-charging',
-          // color: 'primary',
         },
       ],
     };

@@ -5,7 +5,7 @@
       <home-about />
       <home-services />
       <home-features />
-      <page-contact />
+      <!-- <page-contact /> -->
     </v-container>
   </Layout>
 </template>
@@ -16,10 +16,16 @@ import HomeAbout from '../components/homepage/HomeAbout.vue';
 import HomeServices from '../components/homepage/HomeServices.vue';
 import HomeFeatures from '../components/homepage/HomeFeatures.vue';
 
-import PageContact from '../components/PageContact.vue';
+// import PageContact from '../components/PageContact.vue';
 
 export default {
-  components: { HomeHero, HomeAbout, HomeServices, HomeFeatures, PageContact },
+  components: {
+    HomeHero,
+    HomeAbout,
+    HomeServices,
+    HomeFeatures,
+    // PageContact
+  },
   metaInfo: {
     title: 'Kezdőoldal',
   },

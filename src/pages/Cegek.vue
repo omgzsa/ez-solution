@@ -2,7 +2,7 @@
   <Layout>
     <firms-hero />
     <firms-list :firms="firms" />
-    <page-contact />
+    <!-- <page-contact /> -->
   </Layout>
 </template>
 
@@ -10,7 +10,7 @@
 import FirmsHero from '../components/firms/FirmsHero.vue';
 import FirmsList from '../components/firms/FirmsList.vue';
 
-import PageContact from '../components/PageContact.vue';
+// import PageContact from '../components/PageContact.vue';
 
 export default {
   metaInfo: {
@@ -23,7 +23,11 @@ export default {
       },
     ],
   },
-  components: { FirmsHero, FirmsList, PageContact },
+  components: {
+    FirmsHero,
+    FirmsList,
+    // PageContact
+  },
   data() {
     return {
       firms: [
