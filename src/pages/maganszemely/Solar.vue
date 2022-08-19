@@ -5,7 +5,7 @@
     <solar-intro />
     <solar-process />
     <solar-products />
-    <!-- <page-contact /> -->
+    <page-contact />
   </Layout>
 </template>
 
@@ -15,7 +15,7 @@ import SolarIntro from '../../components/customer/SolarIntro.vue';
 import SolarProcess from '../../components/customer/SolarProcess.vue';
 import SolarProducts from '../../components/customer/SolarProducts.vue';
 
-// import PageContact from '../../components/PageContact.vue';
+import PageContact from '../../components/PageContact.vue';
 
 import ProductNavigation from '../../components/ProductNavigation.vue';
 
@@ -37,7 +37,7 @@ export default {
     SolarProcess,
     SolarProducts,
     ProductNavigation,
-    // PageContact,
+    PageContact,
   },
   data() {
     return {

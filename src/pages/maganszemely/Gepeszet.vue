@@ -5,7 +5,7 @@
     <plant-intro />
     <plant-intro-results />
     <plant-products />
-    <!-- <page-contact /> -->
+    <page-contact />
   </Layout>
 </template>
 
@@ -15,7 +15,7 @@ import PlantIntro from '../../components/customer/PlantIntro.vue';
 import PlantIntroResults from '../../components/customer/PlantIntroResults.vue';
 import PlantProducts from '../../components/customer/PlantProducts.vue';
 
-// import PageContact from '../../components/PageContact.vue';
+import PageContact from '../../components/PageContact.vue';
 
 import ProductNavigation from '../../components/ProductNavigation.vue';
 
@@ -37,7 +37,7 @@ export default {
     PlantIntroResults,
     PlantProducts,
     ProductNavigation,
-    // PageContact,
+    PageContact,
   },
   data() {
     return {
