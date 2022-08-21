@@ -1,7 +1,7 @@
 <template>
   <v-footer color="plant" padless>
     <v-container>
-      <div class="d-flex">
+      <div>
         <v-img
           contain
           width="49"
@@ -10,7 +10,7 @@
           class="mt-4 mb-6"
         />
       </div>
-      <v-divider color="white" class="mb-6" />
+      <!-- <v-divider color="white" class="mb-6" /> -->
       <v-row justify="center" align="start" class="mb-2">
         <v-col cols="12" sm="6">
           <ul class="footer-list pa-0">
@@ -64,7 +64,7 @@
           </div>
         </v-col>
       </v-row>
-      <v-divider color="white" class="mb-6" />
+      <v-divider color="grey" class="mb-6" />
       <v-row justify="center">
         <v-col cols="12" sm="6" class="order-md-2">
           <span class="caption">

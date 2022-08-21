@@ -22,17 +22,17 @@
         <v-form v-model="valid">
           <v-container pa-0>
             <v-row>
-              <v-col cols="6">
+              <v-col cols="12">
                 <v-text-field
-                  v-model="firstName"
+                  v-model="fullName"
                   :rules="nameRules"
-                  label="Vezetéknév"
+                  label="Teljes név"
                   required
                   dark
                 ></v-text-field>
               </v-col>
 
-              <v-col cols="6">
+              <!-- <v-col cols="6">
                 <v-text-field
                   v-model="lastName"
                   :rules="nameRules"
@@ -40,15 +40,15 @@
                   required
                   dark
                 ></v-text-field>
-              </v-col>
+              </v-col> -->
 
-              <v-col cols="12">
+              <!-- <v-col cols="12">
                 <v-text-field
                   v-model="phoneNumber"
                   label="Telefonszám"
                   dark
                 ></v-text-field>
-              </v-col>
+              </v-col> -->
 
               <v-col cols="12">
                 <v-text-field
@@ -63,11 +63,16 @@
                     label="Üzenet"
                     filled
                     auto-grow
-                    :value="value"
+                    :value="message"
                     dark
                   ></v-textarea>
                 </v-col>
-                <v-btn class="mr-4" color="primary" type="submit">
+                <v-btn
+                  class="mr-4"
+                  color="primary"
+                  type="submit"
+                  @click="sendEmail"
+                >
                   Elküld
                 </v-btn>
               </v-col>
@@ -82,16 +87,10 @@
 <script>
 export default {
   data: () => ({
-    value: '',
-    phoneNumber: '',
-    // phoneRules: [
-    //   (v) =>
-    //     /^[\+]?[(]?[0-9]{3}[)]?[-\s\.]?[0-9]{3}[-\s\.]?[0-9]{4,6}$/.test(v) ||
-    //     'A telefonszám formátuma nem megfelelő',
-    // ],
+    message: '',
     valid: false,
-    firstName: '',
-    lastName: '',
+    fullName: '',
+    // lastName: '',
     nameRules: [
       (v) => !!v || 'Név megadása kötelező',
       (v) => v.length <= 30 || 'Név ne legyen hosszabb 30 karakternél',
@@ -102,6 +101,25 @@ export default {
       (v) => /.+@.+/.test(v) || 'Adjon meg egy létező e-mail címet.',
     ],
   }),
+  methods: {
+    sendEmail: function(e) {
+      e.preventDefault();
+      let finalMessage = `Név : ${this.fullName} <br>  Email : ${
+        this.email
+      } <br>  Üzenet : ${this.message} <br>`;
+
+      Email.send({
+        Host: 'smtp.yourisp.com',
+        Username: 'username',
+        Password: 'password',
+        To: 'them@website.com',
+        From: 'you@isp.com',
+        Body: finalMessage,
+      }).then((message) => alert(message));
+
+      console.log(finalMessage);
+    },
+  },
 };
 </script>
 
