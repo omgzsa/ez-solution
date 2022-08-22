@@ -32,7 +32,7 @@ module.exports = {
     {
       use: 'gridsome-plugin-htaccess',
       options: {
-        host: 'https://ezsolutions.hu' || 'https://www.ezsolutions.hu',
+        host: 'https://ezsolutions.hu',
         sitemap:
           'https://ezsolutions.hu/sitemap.xml' ||
           'https://www.ezsolutions.hu/sitemap.xml',
@@ -41,7 +41,7 @@ module.exports = {
     {
       use: 'gridsome-plugin-robots',
       options: {
-        host: 'https://ezsolutions.hu' || 'https://www.ezsolutions.hu',
+        host: 'https://ezsolutions.hu',
         sitemap:
           'https://ezsolutions.hu/sitemap.xml' ||
           'https://www.ezsolutions.hu/sitemap.xml',
