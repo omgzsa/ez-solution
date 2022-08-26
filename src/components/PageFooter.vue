@@ -16,7 +16,12 @@
           <ul class="footer-list pa-0">
             <li class="white--text caption pb-2">
               <v-icon class="pr-2" color="primary">mdi-map-marker</v-icon
-              >{{ location }}
+              ><a
+                href="https://goo.gl/maps/FSJeLezxtNxFL3tG8"
+                class="underline"
+                target="_blank"
+                >{{ location }}</a
+              >
             </li>
             <li class="white--text caption pb-2">
               <v-icon class="pr-2" color="primary">mdi-phone</v-icon
@@ -68,7 +73,7 @@
       <v-row justify="center">
         <v-col cols="12" sm="6" class="order-md-2">
           <span class="caption">
-            <g-link class="underline white--text"
+            <g-link to="/privacy-policy" class="underline white--text"
               >Adatvédelmi tájékoztató</g-link
             >
           </span>
@@ -89,7 +94,7 @@
 export default {
   data() {
     return {
-      location: '9022 Győr, Móricz Zsigmond rkp. 9.',
+      location: '9022 Győr, Móricz Zsigmond rkp. 1. fsz 9.',
       telNumber: '+36 70 398 5988',
       email: 'info@ezsolutions.hu',
     };

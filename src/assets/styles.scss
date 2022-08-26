@@ -81,25 +81,24 @@ h2::after {
   }
 }
 
-a {
-  text-decoration: none;
-  color: rgb(0, 0, 0, 0.87) !important;
-}
 
 .footer-list {
   list-style: none;
 }
 
-a[href^='tel:'],
-a[href^='mailto:'] {
-  color: white !important;
+a {
   text-decoration: none;
+}
+
+a[href^='tel:'],
+a[href^='mailto:'],
+a[href^='https:'] {
+  color: white !important;
 }
 
 a:hover {
   color: #0eab51 !important;
 }
-
 
 // CUSTOM active classes ( NavBar/drawer active styles )
 
