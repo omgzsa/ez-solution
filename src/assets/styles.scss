@@ -159,7 +159,7 @@ a:hover {
 border: 1px solid rgb(191, 191, 191);
 }
 
-// transition bug jump disable
+// transition "jump" bug disable
 
 .fade-transition-leave-active{
   position: absolute;
@@ -182,13 +182,17 @@ border: 1px solid rgb(191, 191, 191);
 
 // transition styles between pages
 
-.fade-enter-active,
-.fade-leave-active {
-  transition: opacity 0.5s;
+.slide-enter-active {
+  opacity: 1;
+  transition: all .25s ease;
 }
-.fade-enter,
-.fade-leave-to {
-  opacity: 0;
+.slide-leave-active {
+  opacity: 1;
+  transition: all .5s cubic-bezier(1, 0.5, 0.8, 1);
+}
+.slide-enter,
+.slide-leave-to {
+  transform: translateX(35px);
 }
 
 // custom marker

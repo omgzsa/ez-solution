@@ -4,7 +4,7 @@
 
     <scroll-to-top />
 
-    <transition appear name="fade">
+    <transition appear name="slide">
       <v-main>
         <v-container fluid pa-0>
           <slot />
