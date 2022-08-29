@@ -72,11 +72,11 @@
       <v-divider color="grey" class="mb-6" />
       <v-row justify="center">
         <v-col cols="12" sm="6" class="order-md-2">
-          <span class="caption">
+          <p class="caption">
             <g-link to="/privacy-policy" class="underline white--text"
               >Adatvédelmi tájékoztató</g-link
             >
-          </span>
+          </p>
         </v-col>
         <v-col cols="12" sm="6">
           <p class="caption white--text">
