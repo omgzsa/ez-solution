@@ -10,21 +10,6 @@
             <p class="body-2 text-sm-body-1">{{ item.text }}</p>
           </li>
         </ul>
-        <v-divider />
-        <p class="body-2 text-sm-body-1 pl-8 mt-8">
-          Ha Önt érdekli az energiahatékonyság, rendelkezik műszaki és/vagy
-          pénzügyi és/vagy ingatlan értékesítési, egyéb értékesítési
-          tapasztalattal, töltse ki az alábbi jelentkezési lapot vagy küldjön
-          bemutatkozó e-mailt a
-          <a
-            class="underline indigo--text darken-3 font-weight-bold"
-            href="mailto:partner@ezsolutions.hu"
-            >partner@ezsolutions.hu</a
-          >
-          e-mail címre. Megfelelő bemutatkozás esetén megküldjük részletes
-          tanácsadó-tájékoztató anyagunkat az Ön által megadott e-mail címre és
-          kollégánk telefonon is felveszi Önnel a kapcsolatot.
-        </p>
       </v-col>
     </v-row>
   </v-container>

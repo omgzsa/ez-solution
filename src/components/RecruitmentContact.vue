@@ -12,10 +12,10 @@
         <h3
           class="text-h5 text-md-h4 text-lg-h3 font-weight-bold white--text mb-6"
         >
-          Használja ki a Napot Ön is!
+          Vegye fel velünk a kapcsolatot!
         </h3>
         <p class="body-2 body-lg-1 white--text">
-          Vegye fel a kapcsolatot szakértő kollégánikal!
+          <slot />
         </p>
       </v-col>
       <v-col cols="12" sm="7" md="5" class="">
@@ -114,7 +114,14 @@
 // import emailjs from '@emailjs/browser';
 
 export default {
-  name: 'PageContact',
+  name: 'RecruitmentContact',
+  props: {
+    templateId: {
+      type: String,
+      required: true,
+    },
+  },
+
   data: () => ({
     isFormValid: false,
     dialog: false,
@@ -123,16 +130,16 @@ export default {
     message: '',
     number: '',
     nameRules: [
-      (v) => !!v || 'Név megadása kötelező',
-      (v) => v.length <= 30 || 'Név ne legyen hosszabb 30 karakternél',
+      (v) => (v && !!v) || 'Név megadása kötelező',
+      (v) => (v && v.length <= 30) || 'Név ne legyen hosszabb 30 karakternél',
     ],
     emailRules: [
       (v) => !!v || 'E-mail megadása kötelező',
       (v) => /.+@.+/.test(v) || 'Adjon meg egy létező e-mail címet.',
     ],
     // phoneRules: [
-    //   (v) =>
-    //     v.length <= 14 || 'A telefonszám ne legyen hosszabb 14 karakternél',
+    //   // (v) =>
+    //   //   v.length <= 14 || 'A telefonszám ne legyen hosszabb 14 karakternél',
     //   (v) =>
     //     /\+?\d{1}6(-?|\s)([0-9][0]?)(-?|\/|\s)\d{3}(-?|\/|\s)\d{4}/.test(v) ||
     //     'Nem megfelelő formátum.',
@@ -151,7 +158,7 @@ export default {
     //   try {
     //     emailjs.sendForm(
     //       'service_jt6pdla',
-    //       'template_8gylgjs',
+    //       this.templateId,
     //       e.target,
     //       '3rVamKe-_sb9zLYVs',
     //       {
@@ -164,6 +171,7 @@ export default {
     //   } catch (error) {
     //     console.log({ error });
     //   }
+    //   alert('Az üzenetet sikeresen elküldte');
     //   // Reset form field
     //   this.name = '';
     //   this.email = '';

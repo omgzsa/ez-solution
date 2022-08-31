@@ -96,9 +96,9 @@ a[href^='https:'] {
   color: white !important;
 }
 
-a:hover {
-  color: #0eab51 !important;
-}
+// a:hover {
+//   color: #0eab51 !important;
+// }
 
 // CUSTOM active classes ( NavBar/drawer active styles )
 
@@ -184,7 +184,7 @@ border: 1px solid rgb(191, 191, 191);
 
 .slide-enter-active {
   opacity: 1;
-  transition: all .25s ease;
+  transition: all .25s ease-in;
 }
 .slide-leave-active {
   opacity: 1;
@@ -192,7 +192,7 @@ border: 1px solid rgb(191, 191, 191);
 }
 .slide-enter,
 .slide-leave-to {
-  transform: translateX(35px);
+  transform: translateX(40px);
 }
 
 // custom marker
@@ -203,4 +203,18 @@ border: 1px solid rgb(191, 191, 191);
 
 .custom-marker > li {
   padding-left: 0.5em;
+}
+
+// FORM custom styles
+
+.v-text-field input {
+  padding: .5em .375em !important;
+}
+
+.v-text-field .v-label {
+  top: 4px !important;
+}
+
+.v-text-field--filled .v-label, .v-text-field--full-width .v-label {
+  top: 16px !important;
 }
