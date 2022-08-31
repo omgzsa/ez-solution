@@ -94,7 +94,7 @@
 export default {
   data() {
     return {
-      location: '9022 Győr, Móricz Zsigmond rkp. 1. fsz 9.',
+      location: '9022 Győr, Móricz Zsigmond r. 1. fsz 9.',
       telNumber: '+36 70 398 5988',
       email: 'info@ezsolutions.hu',
     };

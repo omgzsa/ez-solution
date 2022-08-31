@@ -92,6 +92,7 @@
                 class="py-6"
                 block
                 text
+                active-class="primary--active"
                 to="/toborzas/partnerek"
                 >Legyél a partnerünk</v-btn
               >
@@ -101,6 +102,7 @@
                 class="py-6"
                 block
                 text
+                active-class="primary--active"
                 to="/toborzas/tanacsadok"
                 >Legyél a tanácsadónk</v-btn
               >
@@ -204,6 +206,7 @@
               title="Legyél a partnerünk!"
               block
               text
+              active-class="primary--active"
               to="/toborzas/partnerek"
               >Legyél a partnerünk</v-btn
             >
@@ -214,6 +217,7 @@
               title="Legyél a tanácsadónk"
               block
               text
+              active-class="primary--active"
               to="/toborzas/tanacsadok"
               >Legyél a tanácsadónk</v-btn
             >
