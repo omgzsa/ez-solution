@@ -7,7 +7,7 @@
       és/vagy ingatlan értékesítési, egyéb értékesítési tapasztalattal, töltse
       ki az alábbi jelentkezési lapot vagy küldjön bemutatkozó e-mailt a
       <a
-        class="underline indigo--text darken-3 font-weight-bold"
+        class="underline green--text darken-2 font-weight-bold"
         href="mailto:tanacsado@ezsolutions.hu"
         >tanacsado@ezsolutions.hu</a
       >
