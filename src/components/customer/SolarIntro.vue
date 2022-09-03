@@ -34,7 +34,7 @@ export default {
       introduction: {
         title: 'Otthoni napelemes rendszerek előnyei',
         text:
-          'Egy napelemes rendszer telepítésével lenullázhatja villanyszámláját. Azonban olyan további lehetőségek nyílnak meg otthona fejlesztésére, melyekkel maximalizálhatja megtakarítását, tovább függetlenedhet az energia áraktól és teljes egészében kihasználhatja a nap erejét.',
+          'Egy napelemes rendszer telepítésével lenullázhatja villanyszámláját. Azonban olyan további lehetőségek nyílnak meg otthona fejlesztésére, melyekkel maximalizálhatja megtakarítását, tovább függetlenedhet az energiaáraktól és teljes egészében kihasználhatja a nap erejét.',
       },
       benefits: [
         {
@@ -44,7 +44,7 @@ export default {
           text: 'Ingyen töltheti elektromos autóját',
         },
         {
-          text: 'Teljesen megszabadulhat rezsi költségeitől',
+          text: 'Teljesen megszabadulhat rezsiköltségeitől',
         },
         {
           text: 'Növelheti ingatlana értékét',

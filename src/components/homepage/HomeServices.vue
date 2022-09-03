@@ -68,7 +68,7 @@ export default {
           icon: 'wallet-outline',
           title: 'Maximalizálja megtakarítását',
           text:
-            'Napelemre épülő megoldásaink segítségével további rezsiköltségeitől is megszabadulhat. Fűthet, Hűthet vagy tölthet is nappal!',
+            'Napelemre épülő megoldásaink segítségével további rezsiköltségeitől is megszabadulhat. Fűthet, hűthet vagy tölthet is nappal!',
         },
       ],
       plantServices: [

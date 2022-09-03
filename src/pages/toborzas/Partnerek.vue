@@ -8,8 +8,8 @@
       ki az alábbi jelentkezési lapot vagy küldjön bemutatkozó e-mailt a
       <a
         class="underline green--text darken-2 font-weight-bold"
-        href="mailto:partner@ezsolutions.hu"
-        >partner@ezsolutions.hu</a
+        href="mailto:telepito@ezsolutions.hu"
+        >telepito@ezsolutions.hu</a
       >
       e-mail címre. Megfelelő bemutatkozás esetén megküldjük részletes
       tanácsadó-tájékoztató anyagunkat az Ön által megadott e-mail címre és

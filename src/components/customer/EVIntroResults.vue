@@ -96,7 +96,7 @@ export default {
       results: {
         title: 'Otthoni töltővel az EV megtakarítás csúcsán',
         text:
-          'Míg jelenleg egy nyilvános töltő oszlopon való töltéskor (AC) átlagosan 140 ft/kWh áron jutunk áramhoz, addig otthonunkban a rezsicsökkentett 36 forintos árat kell csupán fizetnünk. Termelje meg elektromos autója fogyasztását otthoni napelemes rendszerével és „tankoljon” ingyen saját elektromos töltőjével. (Egy BMW I3 120Ah felhasználható akkumulátor kapacitása 38 kWh)',
+          'Míg jelenleg egy nyilvános töltőoszlopon való töltéskor (AC) átlagosan 140 ft/kWh áron jutunk áramhoz, addig otthonunkban a rezsicsökkentett 36 forintos árat kell csupán fizetnünk. Termelje meg elektromos autója fogyasztását otthoni napelemes rendszerével és „tankoljon” ingyen saját elektromos töltőjével. (Egy BMW I3 120Ah felhasználható akkumulátor kapacitása 38 kWh)',
       },
     };
   },

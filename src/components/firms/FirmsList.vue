@@ -10,11 +10,11 @@
         </h3>
         <p class="body-2 text-sm-body-1 mb-n2 " style="max-width: 860px;">
           Irodaházak, hotelek, ipari csarnokok részére fogyasztási helyenként,
-          EZ K.I.T.T. Kalkulációval maximum 50kw-os, 50 kw fölött egyedi
-          tervezéssel és ajánlattal, - akár a 2023 május 2. után érvényes
-          jogszabálynak megfelelő energiatárolóval - komplett hőszivattyús,
-          árnyékolási és egyéb gépészeti megoldásokkal együtt telepített
-          napelemes rendszerek kivitelezését is vállaljuk.
+          EZ Kalkulációval maximum 50kw- os, 50 kw fölött egyedi tervezéssel és
+          ajánlattal, - akár a 2023 május 2. után érvényes jogszabálynak
+          megfelelő energiatárolóval - komplett hőszivattyús, árnyékolási és
+          egyéb gépészeti megoldásokkal együtt telepített napelemes rendszerek
+          kivitelezését is vállaljuk.
         </p>
       </v-col>
     </v-row>

@@ -50,7 +50,7 @@ export default {
           text: 'Töltsön biztonságosan és gyorsan otthon',
         },
         {
-          text: 'Függetlenedjen a nyilvános töltő hálózatoktól',
+          text: 'Függetlenedjen a nyilvános töltőhálózatoktól',
         },
       ],
     };

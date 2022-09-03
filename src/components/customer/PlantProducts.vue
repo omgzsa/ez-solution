@@ -61,9 +61,9 @@
           fűtési-hűtési megoldás, ami -20°C foktól + 50°C fokig teljes fűtést és
           hűtést biztosít. Beszereléséhez nem kell klímaszerelő, nem kell
           rombolni és festeni, nincs kültéri egysége. Ára beszereléssel
-          megegyezik egy téliesített inverteres klíma árával és esztétikus
-          beszerelésével. Az EZ monoblokk hőszivattyú megjelenésével, egy
-          radiátor méretével azonos nagyságú dizájneleme a lakásnak. Elhelyezése
+          megegyezik egy téliesített inverteres klíma árával és rendkívül
+          esztétikus. Az EZ monoblokk hőszivattyú megjelenésével, egy radiátor
+          méretével azonos nagyságú dizájneleme a lakásnak. Elhelyezése
           lehetséges ablak alá, fölé vagy más helyre, minden olyan falra, aminek
           külső kapcsolata van. A hőszivattyú 1 egység áramból, több, mint 4
           egység hőt/hideget állít elő a külső levegőből. A berendezések

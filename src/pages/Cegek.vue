@@ -53,7 +53,7 @@ export default {
           id: 4,
           title: 'Programunk előnye',
           text:
-            'Az EZ KITT szoftver javaslatot tesz egy olyan komplex rezsicsökkentést eredményező rendszerre és pontosan kiszámolja cége megtakarítását, a beruházás összegét és beruházása megtérülési idejét.',
+            'Az EZ kalkuláló szoftver javaslatot tesz egy komplex rezsicsökkentést eredményező rendszerre és pontosan kiszámolja cége megtakarítását, a beruházás összegét és beruházása megtérülési idejét.',
         },
         {
           id: 5,

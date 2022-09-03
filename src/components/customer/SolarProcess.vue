@@ -88,9 +88,9 @@ export default {
         },
         {
           id: '3',
-          title: 'Szerződés kötés',
+          title: 'Szerződéskötés',
           text:
-            'A szerződést lehetősége van online aláírással hitelesíteni így gyorsítani tudjuk a kivitelezés megkezdését.',
+            'A szerződést lehetősége van online aláírással hitelesíteni, így gyorsítani tudjuk a kivitelezés megkezdését.',
         },
         {
           id: '4',
