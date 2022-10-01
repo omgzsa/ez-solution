@@ -2,7 +2,7 @@
   <Layout>
     <partner-page />
     <partner-page-content />
-    <recruitment-contact :templateId="templateId">
+    <!-- <recruitment-contact :templateId="templateId">
       Ha Önt érdekli az energiahatékonyság, rendelkezik műszaki és/vagy pénzügyi
       és/vagy ingatlan értékesítési, egyéb értékesítési tapasztalattal, töltse
       ki az alábbi jelentkezési lapot vagy küldjön bemutatkozó e-mailt a
@@ -14,7 +14,7 @@
       e-mail címre. Megfelelő bemutatkozás esetén megküldjük részletes
       tanácsadó-tájékoztató anyagunkat az Ön által megadott e-mail címre és
       kollégánk telefonon is felveszi Önnel a kapcsolatot.
-    </recruitment-contact>
+    </recruitment-contact> -->
   </Layout>
 </template>
 
@@ -22,7 +22,7 @@
 import PartnerPage from '../../components/recruitment/PartnerPage.vue';
 import PartnerPageContent from '../../components/recruitment/PartnerPageContent.vue';
 
-import RecruitmentContact from '../../components/RecruitmentContact.vue';
+// import RecruitmentContact from '../../components/RecruitmentContact.vue';
 
 export default {
   name: 'ForPartner',
@@ -38,7 +38,7 @@ export default {
   components: {
     PartnerPage,
     PartnerPageContent,
-    RecruitmentContact,
+    // RecruitmentContact,
   },
   data() {
     return {

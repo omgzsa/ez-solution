@@ -13,12 +13,14 @@ export default function(Vue, { appOptions, router, head, isClient }) {
   head.htmlAttrs = { lang: 'hu' };
   head.link.push({
     rel: 'stylesheet',
+    defer: true,
     href:
       'https://cdn.jsdelivr.net/npm/@mdi/font@latest/css/materialdesignicons.min.css',
   });
 
   head.link.push({
     rel: 'stylesheet',
+    defer: true,
     href:
       'https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap',
   });

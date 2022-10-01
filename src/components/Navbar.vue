@@ -17,7 +17,7 @@
 
         <v-toolbar-items class="hidden-md-and-down">
           <v-btn
-            title="Tovább az EZ KITT Kalkulátorhoz"
+            title="Tovább az EZ Kalkulátorhoz"
             text
             active-class="primary--active"
             class="indigo--text text--darken-3"
@@ -127,7 +127,7 @@
       <v-list class="d-flex flex-column align-end pa-0">
         <v-btn
           class="py-6 indigo--text text--darken-3"
-          title="Tovább az EZ KITT Kalkulátorhoz"
+          title="Tovább az EZ Kalkulátorhoz"
           block
           text
           active-class="primary--active"

@@ -111,7 +111,7 @@
 </template>
 
 <script>
-// import emailjs from '@emailjs/browser';
+import emailjs from '@emailjs/browser';
 
 export default {
   name: 'RecruitmentContact',
@@ -154,30 +154,30 @@ export default {
       this.number = '';
       this.message = '';
     },
-    // sendEmail(e) {
-    //   try {
-    //     emailjs.sendForm(
-    //       'service_jt6pdla',
-    //       this.templateId,
-    //       e.target,
-    //       '3rVamKe-_sb9zLYVs',
-    //       {
-    //         name: this.name,
-    //         email: this.email,
-    //         number: this.number,
-    //         message: this.message,
-    //       }
-    //     );
-    //   } catch (error) {
-    //     console.log({ error });
-    //   }
-    //   alert('Az üzenetet sikeresen elküldte');
-    //   // Reset form field
-    //   this.name = '';
-    //   this.email = '';
-    //   this.number = '';
-    //   this.message = '';
-    // },
+    sendEmail(e) {
+      try {
+        emailjs.sendForm(
+          'service_jt6pdla',
+          this.templateId,
+          e.target,
+          '3rVamKe-_sb9zLYVs',
+          {
+            name: this.name,
+            email: this.email,
+            number: this.number,
+            message: this.message,
+          }
+        );
+      } catch (error) {
+        console.log({ error });
+      }
+      alert('Az üzenetet sikeresen elküldte');
+      // Reset form field
+      this.name = '';
+      this.email = '';
+      this.number = '';
+      this.message = '';
+    },
   },
 };
 </script>
