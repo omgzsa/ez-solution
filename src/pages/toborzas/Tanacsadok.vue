@@ -2,7 +2,7 @@
   <Layout>
     <consultant-page />
     <consultant-page-content />
-    <!-- <recruitment-contact :templateId="templateId">
+    <recruitment-contact :templateId="templateId">
       Ha Önt érdekli az energiahatékonyság, rendelkezik műszaki és/vagy pénzügyi
       és/vagy ingatlan értékesítési, egyéb értékesítési tapasztalattal, töltse
       ki az alábbi jelentkezési lapot vagy küldjön bemutatkozó e-mailt a
@@ -12,7 +12,7 @@
         >tanacsado@ezsolutions.hu</a
       >
       e-mail címre.
-    </recruitment-contact> -->
+    </recruitment-contact>
   </Layout>
 </template>
 
@@ -20,7 +20,7 @@
 import ConsultantPage from '../../components/recruitment/ConsultantPage.vue';
 import ConsultantPageContent from '../../components/recruitment/ConsultantPageContent.vue';
 
-// import RecruitmentContact from '../../components/RecruitmentContact.vue';
+import RecruitmentContact from '../../components/RecruitmentContact.vue';
 
 export default {
   name: 'ForConsultant',
@@ -36,7 +36,7 @@ export default {
   components: {
     ConsultantPage,
     ConsultantPageContent,
-    // RecruitmentContact,
+    RecruitmentContact,
   },
   data() {
     return {

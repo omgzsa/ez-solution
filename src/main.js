@@ -3,11 +3,12 @@
 
 import DefaultLayout from '~/layouts/Default.vue';
 
-// import '@mdi/font/css/materialdesignicons.css';
 import Vuetify from 'vuetify';
 import 'vuetify/dist/vuetify.min.css';
 import '@/assets/styles.scss';
 import '@/assets/animations.css';
+
+import VueHoneypot from 'vue-honeypot';
 
 export default function(Vue, { appOptions, router, head, isClient }) {
   head.htmlAttrs = { lang: 'hu' };
@@ -43,6 +44,7 @@ export default function(Vue, { appOptions, router, head, isClient }) {
     },
   };
   Vue.use(Vuetify);
+  Vue.use(VueHoneypot);
 
   appOptions.vuetify = new Vuetify(opts);
 

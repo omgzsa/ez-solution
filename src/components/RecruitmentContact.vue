@@ -1,5 +1,5 @@
 <template>
-  <v-container id="footer" fluid class="contact-hero py-10">
+  <v-container fluid class="contact-hero py-10">
     <v-row
       justify="center"
       align="start"
@@ -19,7 +19,7 @@
         </p>
       </v-col>
       <v-col cols="12" sm="7" md="5" class="">
-        <v-form ref="form" @submit.prevent="logMe" v-model="isFormValid">
+        <v-form ref="form" @submit.prevent="sendEmail" v-model="isFormValid">
           <v-container pa-0>
             <v-row>
               <v-col cols="12">
@@ -103,8 +103,8 @@
               </v-col>
             </v-row>
           </v-container>
+          <vue-honeypot ref="honeypot" />
         </v-form>
-        <!-- <v-btn @click="logMe">LOGGER</v-btn> -->
       </v-col>
     </v-row>
   </v-container>
@@ -147,15 +147,9 @@ export default {
   }),
 
   methods: {
-    logMe() {
-      console.log();
-      this.name = '';
-      this.email = '';
-      this.number = '';
-      this.message = '';
-    },
     sendEmail(e) {
       try {
+        this.$refs.honeypot.validate();
         emailjs.sendForm(
           'service_jt6pdla',
           this.templateId,
@@ -171,7 +165,6 @@ export default {
       } catch (error) {
         console.log({ error });
       }
-      alert('Az üzenetet sikeresen elküldte');
       // Reset form field
       this.name = '';
       this.email = '';

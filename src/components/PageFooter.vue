@@ -1,5 +1,5 @@
 <template>
-  <v-footer color="plant" padless>
+  <v-footer id="footer" color="plant" padless>
     <v-container>
       <div>
         <v-img
