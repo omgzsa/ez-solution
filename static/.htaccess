@@ -1,4 +1,0 @@
-# Blocked user agents
-SetEnvIfNoCase ^User-Agent$ .*(googlebot|yandexbot|bingbot) HTTP_SAFE_BADBOT
-Deny from env=HTTP_SAFE_BADBOT
-
