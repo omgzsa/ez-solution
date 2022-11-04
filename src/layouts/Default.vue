@@ -34,7 +34,7 @@ import PageFooter from '../components/PageFooter.vue';
 export default {
   metaInfo: {
     script: [
-      { src: '../fb-customer-chat.js', type: 'text/javascript', body: true },
+      { src: '/fb-customer-chat.js', type: 'text/javascript', body: true },
     ],
   },
   components: {
