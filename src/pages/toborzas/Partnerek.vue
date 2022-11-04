@@ -6,9 +6,7 @@
       Ha Önt érdekli az energiahatékonyság, rendelkezik műszaki és/vagy pénzügyi
       és/vagy ingatlan értékesítési, egyéb értékesítési tapasztalattal, töltse
       ki az alábbi jelentkezési lapot vagy küldjön bemutatkozó e-mailt a
-      <a
-        class="underline green--text darken-2 font-weight-bold"
-        href="mailto:telepito@ezsolutions.hu"
+      <a class="underline green--text darken-2 font-weight-bold" href="#"
         >telepito@ezsolutions.hu</a
       >
       e-mail címre. Megfelelő bemutatkozás esetén megküldjük részletes
