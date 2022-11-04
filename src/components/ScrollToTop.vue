@@ -2,7 +2,7 @@
   <transition name="bounce">
     <v-btn
       title="Az oldal tetejére"
-      class="mb-1 mr-1"
+      class="mb-16 mr-2"
       dark
       fab
       small
