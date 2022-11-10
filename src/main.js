@@ -51,14 +51,11 @@ export default function(Vue, { appOptions, router, head, isClient }) {
     theme_color: '#009537',
     locale: 'en_HU',
   });
-  // 103710768886261 EZ SOLUTIONS PAGE_ID
 
   appOptions.vuetify = new Vuetify(opts);
 
   // Set default layout as a global component
   Vue.component('Layout', DefaultLayout);
-
-  // Vue.component('ProductNavigation', ProductNavigation);
 
   router.options.scrollBehavior = function(to, from, savedPosition) {
     if (savedPosition) {

@@ -12,7 +12,7 @@
       </v-main>
     </transition>
 
-    <VueFbCustomerChat />
+    <!-- <VueFbCustomerChat /> -->
 
     <page-footer />
   </v-app>
@@ -32,11 +32,6 @@ import ScrollToTop from '../components/ScrollToTop.vue';
 import PageFooter from '../components/PageFooter.vue';
 
 export default {
-  // metaInfo: {
-  //   script: [
-  //     { src: '/fb-customer-chat.js', type: 'text/javascript', body: true },
-  //   ],
-  // },
   components: {
     Navbar,
     ScrollToTop,
