@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> d15c5d1 (recommit site)
 // This is the main.js file. Import global CSS and scripts here.
 // The Client API can be used here. Learn more: gridsome.org/docs/client-api
 
@@ -83,6 +86,7 @@ export default function(Vue, { appOptions, router, head, isClient }) {
     }
   });
 }
+<<<<<<< HEAD
 =======
 // This is the main.js file. Import global CSS and scripts here.
 // The Client API can be used here. Learn more: gridsome.org/docs/client-api
@@ -169,3 +173,5 @@ export default function(Vue, { appOptions, router, head, isClient }) {
   });
 }
 >>>>>>> parent of 2459f0c (fb script)
+=======
+>>>>>>> d15c5d1 (recommit site)
