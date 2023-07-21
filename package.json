@@ -1,32 +1,3 @@
-<<<<<<< HEAD
-{
-  "name": "ez-frontend",
-  "private": true,
-  "scripts": {
-    "build": "gridsome build",
-    "develop": "gridsome develop",
-    "explore": "gridsome explore"
-  },
-  "dependencies": {
-    "@emailjs/browser": "^3.6.2",
-    "@gridsome/plugin-sitemap": "^0.4.0",
-    "@vue/compiler-dom": "^3.2.45",
-    "gridsome": "^0.7.0",
-    "gridsome-plugin-robots": "^0.2.1",
-    "vue-fb-customer-chat": "^0.2.2",
-    "vue-honeypot": "^1.0.6",
-    "vuetify": "^2.6.4"
-  },
-  "devDependencies": {
-    "@mdi/font": "^7.0.96",
-    "css-loader": "^6.7.1",
-    "gridsome-plugin-htaccess": "^0.2.1",
-    "sass": "^1.50.1",
-    "sass-loader": "^10.1.1",
-    "webpack-node-externals": "^3.0.0"
-  }
-}
-=======
 {
   "name": "ez-frontend",
   "private": true,
@@ -54,4 +25,3 @@
     "webpack-node-externals": "^3.0.0"
   }
 }
->>>>>>> parent of 2459f0c (fb script)
