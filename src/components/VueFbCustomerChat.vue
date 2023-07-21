@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <!-- <template>
   <div>
     <VueFbCustomerChat />
@@ -36,3 +37,8 @@ export default {
 };
 </script> -->
 >>>>>>> b5cffe9488abf6a244da72044fa6d7b250187cc0
+=======
+<template>
+  <VueFbCustomerChat />
+</template>
+>>>>>>> parent of 30df185 (update vuefbchat)
