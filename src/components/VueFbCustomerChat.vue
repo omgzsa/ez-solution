@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!-- <template>
   <div>
     <VueFbCustomerChat />
@@ -13,3 +14,8 @@ export default {
   },
 };
 </script> -->
+=======
+<!-- <template>
+  <VueFbCustomerChat />
+</template> -->
+>>>>>>> parent of 2459f0c (fb script)
