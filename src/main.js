@@ -156,5 +156,16 @@ export default function(Vue, { appOptions, router, head, isClient }) {
       return { x: 0, y: 0 };
     }
   };
+
+  router.afterEach((to, from) => {
+    if (isClient) {
+      let interval = setInterval(function() {
+        if (typeof fbScript !== 'undefined') {
+          fbScript();
+          clearInterval(interval);
+        }
+      }, 50);
+    }
+  });
 }
 >>>>>>> parent of 2459f0c (fb script)

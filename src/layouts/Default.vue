@@ -59,7 +59,7 @@ export default {
       </v-main>
     </transition>
 
-    <!-- <VueFbCustomerChat /> -->
+    <VueFbCustomerChat />
 
     <page-footer />
   </v-app>
@@ -77,12 +77,14 @@ query {
 import Navbar from '~/components/Navbar.vue';
 import ScrollToTop from '../components/ScrollToTop.vue';
 import PageFooter from '../components/PageFooter.vue';
+import VueFbCustomerChat from '../components/VueFbCustomerChat.vue';
 
 export default {
   components: {
     Navbar,
     ScrollToTop,
     PageFooter,
+    VueFbCustomerChat,
   },
 };
 </script>

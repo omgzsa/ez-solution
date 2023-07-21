@@ -54,6 +54,7 @@ module.exports = {
 =======
 module.exports = {
   siteName: 'EZ Solutions',
+  // publicPath: '/public/',
   siteUrl:
     process.env.SITE_URL ||
     'https://ezsolutions.hu' ||
