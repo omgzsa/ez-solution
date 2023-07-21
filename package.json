@@ -9,6 +9,7 @@
   "dependencies": {
     "@emailjs/browser": "^3.6.2",
     "@gridsome/plugin-sitemap": "^0.4.0",
+    "@vue/compiler-dom": "^3.2.45",
     "gridsome": "^0.7.0",
     "gridsome-plugin-robots": "^0.2.1",
     "vue-fb-customer-chat": "^0.2.2",
