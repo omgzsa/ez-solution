@@ -29,21 +29,21 @@ export default {
         {
           title: 'Magánszemélyeknek',
           text:
-            'Teljeskörű megoldásokat biztosítunk családiházak energetikai modernizálására. Rendszereinkkel nem csak megtakaríthat, de növelheti családja biztonságát és ingatlana értékét is.',
+            'Teljeskörű megoldásokat biztosítunk családiházak és lakások energetikai modernizálására. Rendszereinkkel nem csak megtakaríthatsz, de növelheted családod biztonságát és ingatlanod értékét is.',
           icon: 'home-outline',
           to: '/maganszemely/solar',
         },
         {
           title: 'Társasházaknak',
           text:
-            'Társasházak teljeskörű energetikai felmérését és modernizálását válláljuk. Megoldásainkkal jobb életkörülményeket és alacsonyabb számlákat teremtünk a lakóközösségének.',
+            'Társasházak teljeskörű energetikai felmérését és modernizálását válláljuk. Megoldásainkkal értékesebb lakásokat és alacsonyabb számlákat teremtünk a lakóközösségének.',
           icon: 'domain',
           to: 'tarsashazak',
         },
         {
           title: 'Cégeknek',
           text:
-            'A magas energiaárak a cégeket érintik leginkább. Szolárra épített elektrifikációs megoldásainkkal azonban biztonságban tudhatja vállalkozását a növekvő energiaáraktól.',
+            'A magas energiaárak a cégeket érintik leginkább. Szolárra épített elektrifikációs megoldásainkkal azonban biztonságban tudhatod vállalkozásodat a növekvő energiaáraktól. Sokrétű fűtési megoldásaink megtérülő beruházásokat eredményeznek, amik az üzemek értékét is nagyban növelik!',
           icon: 'factory',
           to: 'cegek',
         },
