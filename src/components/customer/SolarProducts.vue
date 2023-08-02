@@ -43,7 +43,7 @@ export default {
       products: {
         title: 'Elérhető termékeink',
         text:
-          'Megoldásaink részeként csak prémium napelemeket ajánlunk ügyfeleinknek, hogy rendszerük minősége megkérdőjelezhetetlen legyen! Invertereink kiválasztásakor pedig elengedhetetlen szempont volt, hogy ár-érték arányban a legjobbak legyenek kategóriájukban.',
+          'Megoldásaink részeként csak prémium napelem paneleket és invertereket ajánlunk ügyfeleinknek, hogy az általunk telepített rendszerek minősége megkérdőjelezhetetlen legyen!',
       },
       solarPanels: [
         {
@@ -70,12 +70,12 @@ export default {
         },
         {
           id: 3,
-          name: 'WattPower Solar Panel',
-          alt: 'WattPower Solar Panel',
-          logo: 'wattpower-logo.jpg',
-          image: 'wattpower-solar-panel-1.jpg',
+          name: 'DAH Solar',
+          alt: 'DAH Solar panel',
+          logo: 'dah-solar-logo-vector.png',
+          image: 'dah-solar-panel-2.png',
           description:
-            '- 405 Wp teljesítmény - Monokristály szerkezet - PERC technológia - Német tervezés',
+            '405-460 Wp Teljesítmény- Monokristályos szerkezet- PERC technológia - Keret nélküli, esztétikus kinézet',
           performance: '12 év',
           extra: '25 év',
         },
