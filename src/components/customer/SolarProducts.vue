@@ -81,28 +81,28 @@ export default {
         },
       ],
       inverters: [
-        {
-          id: 1,
-          name: 'FoxEss Inverter',
-          alt: 'FoxEss Inverter',
-          logo: 'foxess-logo.jpg',
-          image: 'foxess-inverter-2.jpg',
-          description:
-            '- Hálózati csatlakozás 230/400V - Optimalizálási lehetőség - Európai garancia',
-          performance: '12 év',
-          extra: 'AC/DC',
-        },
-        {
-          id: 2,
-          name: 'GoodWe Inverter 1.0',
-          alt: 'GoodWe Inverter',
-          logo: 'goodwe-logo.jpg',
-          image: 'goodwe-inverter-1.jpg',
-          description:
-            '- Hálózati csatlakozás 230/400V - Optimalizálási lehetőség - Kiemelkedő ár-érték arány',
-          performance: '12 év',
-          extra: 'AC/DC',
-        },
+        // {
+        //   id: 1,
+        //   name: 'FoxEss Inverter',
+        //   alt: 'FoxEss Inverter',
+        //   logo: 'foxess-logo.jpg',
+        //   image: 'foxess-inverter-2.jpg',
+        //   description:
+        //     '- Hálózati csatlakozás 230/400V - Optimalizálási lehetőség - Európai garancia',
+        //   performance: '12 év',
+        //   extra: 'AC/DC',
+        // },
+        // {
+        //   id: 2,
+        //   name: 'GoodWe Inverter 1.0',
+        //   alt: 'GoodWe Inverter',
+        //   logo: 'goodwe-logo.jpg',
+        //   image: 'goodwe-inverter-1.jpg',
+        //   description:
+        //     '- Hálózati csatlakozás 230/400V - Optimalizálási lehetőség - Kiemelkedő ár-érték arány',
+        //   performance: '12 év',
+        //   extra: 'AC/DC',
+        // },
         {
           id: 3,
           name: 'Huawei Inverter 1.0',
