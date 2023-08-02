@@ -4,7 +4,7 @@
       <h1
         class="text-h4 text-sm-h2 white--text mb-8 px-1 home-title font-weight-bold animate blur"
       >
-        Szabadulj a Rezsicsapdából!
+        Szabadulj a rezsicsapdából!
       </h1>
       <v-btn
         title="Tovább az EZ Kalkulátorhoz"
@@ -16,9 +16,9 @@
       <p
         class="animate blur delay-2 caption text-sm-body-1 text-uppercase font-weight-bold white--text"
       >
-        megoldást — árat — szerződést
+        Megoldást, árat, megtérülést azonnal!
       </p>
-      <p
+      <!-- <p
         class="animate blur delay-3 caption text-sm-body-1 text-uppercase font-weight-bold white--text"
       >
         napelemre — hőszivattyúra — e-autóra
@@ -32,7 +32,7 @@
         class="animate blur delay-5 caption text-sm-body-1 text-uppercase font-weight-bold white--text"
       >
         most — online
-      </p>
+      </p> -->
     </v-col>
   </v-row>
 </template>
