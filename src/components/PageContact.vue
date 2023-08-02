@@ -12,10 +12,11 @@
         <h3
           class="text-h5 text-md-h4 text-lg-h3 font-weight-bold white--text mb-6"
         >
-          Használja ki a Napot Ön is!
+          Teremtsünk értéket közösen!
         </h3>
         <p class="body-2 body-lg-1 white--text">
-          Vegye fel a kapcsolatot szakértő kollégánikal!
+          Érdekel, hogy számodra milyen típusú energetikai modernizáció eredményezné a legnagyobb megtakarítást és értékteremtést? Pontosan mennyibe kerülne és milyen gyorsan készülne el? Egy olyan csapatot keresel, ami érted dolgozik és a tervezéstől a kivitelezésig minden problémát levesz a válladról? <br />
+Ha igen, akkor - <strong>Vedd fel velünk a kapcsolatot és kezdjük el a közös munkát!</strong>
         </p>
       </v-col>
       <v-col cols="12" sm="7" md="5" class="">
