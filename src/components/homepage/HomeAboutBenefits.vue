@@ -33,19 +33,19 @@ export default {
           id: 1,
           title: 'Maximális megtakarítás',
           text:
-            'Telepíttessen napelemes rendszert otthonába csapatunkkal! Nullázza le villanyszámláját és növelje megtakarítását további termékeink kihasználásával!',
+            'Minden épület más, ezért elég valószínű, hogy neked nem ugyanaz az energetikai beruházás éri meg, mint a szomszédodnak. Mi a számodra leghatékonyabb rendszert tervezzük meg, pontos megtakarítás számításokkal alátámasztva.',
         },
         {
           id: 2,
-          title: 'Testreszabott megoldások',
+          title: 'Jövőálló megoldások',
           text:
-            'Otthonára és személyes igényeire szabott megoldásokat valósítunk meg. Ezt garantálja egy átfogó felmérés, ami alapján saját fejlesztésű szoftverünk egyedi kalkulációkat készít és megoldásokat javasol.',
+            'Jövőbeli terveidet is ütemezzük otthonod modernizálásakor, így a beruházásod nem válik elavulttá pár év múlva.',
         },
         {
           id: 3,
           title: 'Megbízhatóság',
           text:
-            'Csak kipróbált, minőségi termékekkel dolgozunk, melyekhez teljeskörű szolgáltatásunkat tapasztalt csapatunk biztosítja.',
+            'Csak kipróbált, minőségi termékekkel dolgozunk, melyekhez teljeskörű szervízhátteret biztosítunk.',
         },
       ],
       differences: [
@@ -53,19 +53,19 @@ export default {
           id: 1,
           title: 'Tanácsadókkal dolgozunk',
           text:
-            'Nem értékesítőink vannak, hanem olyan, magasan képzett tanácsadóink, akik az Ön érdekeit képviselik és Önért dolgoznak.',
+            'Nem értékesítőink vannak, hanem olyan, magasan képzett tanácsadóink, akik a te érdekeidet képviselik, érted dolgoznak.',
         },
         {
           id: 2,
           title: 'Saját szoftvert fejlesztünk',
           text:
-            'Ennek segítségével pontosan fel tudjuk mérni otthonát, így tökéletesen az Ön igényeire tudjuk szabni megoldásainkat. Rendszerünk minden dokumentumot automatikusan állít ki, ezért a folyamat gyorsasága garantált.',
+            'A legátfogóbb energetikai beruházás felmérő és tervező programot fejlesztettük ki. Egy teljeskörű felmérés alapján a program kiválasztja, megtervezi és le is ütemezi a számodra tökéletes beruházást.',
         },
         {
           id: 3,
           title: 'Komplex megoldások',
           text:
-            'Komplex rendszerekben gondolkozunk, hiszen megoldásaink erősítik egymást. Kombinálja őket és hozza ki a legtöbbet az otthonában megvalósítható, fenntartható beruházásokból!',
+            'Lakossági szinten is egységesés és összetett energetikai rendszerekben gondolkozunk. Nem hiszünk sem a konzum megoldásokban sem az ökölszabályokban.',
         },
       ],
     };
