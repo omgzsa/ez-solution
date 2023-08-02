@@ -43,7 +43,7 @@
     >
       <v-col sm="10" md="7" class="">
         <home-services-card :charger-services="chargerServices">
-          Autó töltők otthon
+          Elektromos autó
         </home-services-card>
       </v-col>
     </v-row>
@@ -60,43 +60,43 @@ export default {
       solarServices: [
         {
           icon: 'sprout-outline',
-          title: 'Nullázza le villanyszámláját',
+          title: 'Csökkentsd az energiafüggőségedet!',
           text:
-            'Függetlenedjen az energiaáraktól és teljes egészében használja ki a nap erejét! Spórolja meg havi villanyszámlájának összegét napelemmel!',
+            'Függetlenedj a folyamatosan változó energiaáraktól a nap segítségével! Egy pontosan méretezett napelemes rendszerrel a fogyasztásod nagyrészét kiválthatod!',
         },
         {
           icon: 'wallet-outline',
-          title: 'Maximalizálja megtakarítását',
+          title: 'Maximalizáld a megtakarításod!',
           text:
-            'Napelemre épülő megoldásaink segítségével további rezsiköltségeitől is megszabadulhat. Fűthet, hűthet vagy tölthet is nappal!',
+            'Legyen egy napelemes rendszer otthonod vagy üzemed energiatermelő központja. Így fűthetsz, hűthetsz vagy tölthetsz is a nappal!',
         },
       ],
       plantServices: [
         {
           icon: 'air-filter',
-          title: 'Hőszivattyús klíma',
+          title: 'Válj le a gázról!',
           text:
-            'Hűtse és fűtse otthonát modern hőszivattyús klímával. Kínálatunkban kültéri egység nélküli berendezés is elérhető. Megoldásainkkal lehetősége van napelemmel megtermelni a szükséges energiát.',
+            'Hűts és fűts modern hőszivattyúval vagy klímával és szabadulj meg a gázszámlától örökre. Kínálatunkban hagyományos monoblock hőszivattyúk és egyedi kültéri egység nélküli hőszivattyús berendezések is elérhetők.',
         },
         {
           icon: 'fan',
-          title: 'Hőszivattyú',
+          title: 'Teljes körű szervíz és garancia!',
           text:
-            'Hőszivattyúval fenntartható és biztonságos elektromos fűtést építhet ki otthonában vagy üzemében. Megoldásainknak köszönhetően nullázza le otthoni rezsiköltségeit teljesen!',
+            'Hőszivattyúval fenntartható és biztonságos elektromos fűtést és hűtést építhetsz ki! Mi termékeink hivatalos szervízeként biztosítjuk számodra a gyors probléma megoldást és személyre szabott garanciális feltételeket. Így tényleg biztonságban érezheted magad!',
         },
       ],
       chargerServices: [
         {
           icon: 'ev-station',
-          title: 'Otthoni elektromos töltő',
+          title: 'Töltsd elektromos autód Otthon!',
           text:
-            'Töltse autóját otthon és élvezze prémium töltőink minden előnyét, otthona kényelméből! Töltsön a nappal, megoldásunkkal termelje meg a szükséges áramot napelemmel!',
+            'Élvezd az olcsó otthontöltés minden kényelmét! A szükséges áramot napelemmel is megtermelheted, így ingyen „tankolhatsz” a nap segítségével!',
         },
         {
           icon: 'car-electric',
           title: 'EV tartósbérlet',
           text:
-            'Vegyen tartósbérletbe használt elektromos autót és használja ki, hogy konstrukciónkban megvásárolhatja a járművet a bérlet lejártakor. Céges partnerünkként lehetősége van áfa visszaigénylésre is.',
+            'Vegyél tartósbérletbe használt elektromos autót és használd ki, hogy konstrukciónkban a bérlet lejártakor megvásárolhatod a járművet. Céges partnerünkként lehetőséged van áfa visszaigénylésre is.',
         },
       ],
     };
