@@ -6,11 +6,10 @@
           folyamat
         </h2>
         <h3 class="text-h5 text-sm-h4 text-lg-h3 font-weight-bold mb-10">
-          Az Ön kényelmét szolgáljuk
+          Teljeskörű szolgáltatás!
         </h3>
         <p class="body-2 text-lg-body-1">
-          Szolgáltatásunk teljeskörű. A telepítési folyamatot úgy dolgoztuk ki,
-          hogy Önnek csak választania kelljen megoldásaink közül.
+          Saját fejlesztésű szoftverünk segítségével a rendszered a jelen szokásaidra és jövőbeli terveidre méretezzük. Így az hosszú évekig ki tudja szolgálni családod igényeit. Ha megvan a tökéletes rendszer és ezt leszerződjük neked már semmi dolgod, az engedélyeztetést és a telepítést teljes egészében csapatunk intézi!
         </p>
       </v-col>
     </v-row>
@@ -78,37 +77,37 @@ export default {
           id: '1',
           title: 'EZ felmérés',
           text:
-            'Felmérjük igényeit és otthonát. Ez alapján az EZ szoftverünk megoldásokat javasol, melyek közül segítségünkkel kiválaszthatja az Ön számára megfelelőket.',
+            'Felmérjük igényeid és otthonod. Ez alapján EZ szoftverünk személyre szabottan megtervezi a napelemes rendszert, hogy az pontosan a te igényidnek megfelelően legyen kialakítva.',
         },
         {
           id: '2',
           title: 'Végleges ajánlat',
           text:
-            'A felmérés során készült előzetes árajánlatot 48 órán belül véglegesítjük és megküldjük Önnek a kivitelezési szerződéssel együtt.',
+            'A felmérés alapján az EZ szoftver által készített rendszert műszakilag is megtervezzük, valamint egy bemutató anyagot készítünk a rendszerről, mely tartalmaz például 3D dizájnt is.',
         },
         {
           id: '3',
           title: 'Szerződéskötés',
           text:
-            'A szerződést lehetősége van online aláírással hitelesíteni, így gyorsítani tudjuk a kivitelezés megkezdését.',
+            'A végleges ajánlattal együtt megküldjük a kivitelezési szerződést is, melyet akár online aláírással is hitelesíthetsz, így gyorsítani tudjuk a kivitelezés megkezdését és nem raboljuk az idődet felesleges papírmunkával.',
         },
         {
           id: '4',
           title: 'Engedélyeztetés',
           text:
-            'Ha visszaküldte a szerződést, megigényeljük a Műszaki Gazdasági Tájékoztatót (MGT)-t, amely megérkezése akár 30 napig is tarthat.',
+            'A szerződés után elkezdjük az engedélyeztetés folyamatát, melynek legfontosabb lépése az MGT (Műszaki Gazdasági Tájékoztató) elkészítése és beadása a hálózatra csatlakozó rendszereknél.',
         },
         {
           id: '5',
           title: 'Szállítás és felszerelés',
           text:
-            'Kiszállítjuk rendszerét, amit lehetőség szerint már aznap be is szerelünk. Bizonyos esetekben erre nincsen lehetőség, ilyenkor külön napra esik a szállítás és a szerelés időpontja.',
+            'Ha megvan a hálózatra csatlakozási engedély, vagy visszwattos és/vagy akkumulátoros rendszert telepít, kiszállítunk és lehetőség szerint már aznap be is szerelünk. Bizonyos esetekben erre nincsen lehetőség, ilyenkor külön napra esik a szállítás és a szerelés időpontja.',
         },
         {
           id: '6',
           title: 'Készre jelentés',
           text:
-            'A készre jelentés után az áramszolgáltatója 30 napon belül lecseréli a villanyórát. Ezután rendszere azonnal megkezdi a termelést.',
+            'A felszerelés után készre jelentjük a rendszert. Hálózatra csatlakoztatott rendszer esetén az áramszolgáltató lecseréli a villanyórát és a rendszer megkezdi a termelést.',
         },
       ],
     };

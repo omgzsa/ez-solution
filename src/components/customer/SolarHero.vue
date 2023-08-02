@@ -5,7 +5,7 @@
         <h1
           class="text-h4 text-sm-h2 white--text mb-8 font-weight-bold animate blur"
         >
-          Napelemes megújuló energia otthonába
+        Napelemmel a magas rezsi ellen
         </h1>
         <v-btn
           title="Tovább az EZ Kalkulátorhoz"
