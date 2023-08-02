@@ -16,16 +16,16 @@
           Megtérülő befektetések megújuló energia
         </h3>
         <p class="body-2 text-sm-body-1">
-          Cégünk innovatív, megújuló megoldások teljes palettáját szolgáltatja
-          családja és cége számára. Mindig teljeskörű szolgáltatást nyújtunk,
-          ahol az engedélyeztetéssel, kivitelezéssel járó terheket levesszük
-          ügyfeleink válláról.
+          Cégünk innovatív, megújuló megoldások teljes palettáját szolgáltatja családod és
+céged számára. Mindig teljeskörű szolgáltatást nyújtunk, ahol az
+engedélyeztetéssel, kivitelezéssel járó terhet levesszük a válladról.
         </p>
         <p class="body-2 text-sm-body-1">
-          A folyamat elején jelen és jövőbeli igényeiket pontosan meghatározzuk
-          és ezekre formáljuk megoldásainkat. Mindezt csapatunk évtizedes
-          műszaki, építőipari, jogi, számviteli és értékesítő tapasztalatára
-          alapozzuk.
+          A folyamat elején háztartásod vagy üzemed jelen és jövőbeli igényeit is pontosan
+meghatározzuk és ezek alapján keressük meg a számodra tökéletes modern
+energetikai megoldást. Mindez saját fejlesztésű szoftverünknek köszönhetően a
+szemed láttára történik. A precíz és pontos munkát csapatunk évtizedes műszaki,
+építőipari, jogi, számviteli és értékesítő tapasztalata garantálja.
         </p>
         <div class="my-6">
           <v-icon color="charger" class="mr-3"
