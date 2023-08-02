@@ -6,8 +6,8 @@ import 'vuetify/dist/vuetify.min.css';
 import '@/assets/styles.scss';
 import '@/assets/animations.css';
 
-import VueHoneypot from 'vue-honeypot';
-import VueFbCustomerChat from 'vue-fb-customer-chat';
+// import VueHoneypot from 'vue-honeypot';
+// import VueFbCustomerChat from 'vue-fb-customer-chat';
 
 export default function(Vue, { appOptions, router, head, isClient }) {
   head.htmlAttrs = { lang: 'hu' };
@@ -43,12 +43,12 @@ export default function(Vue, { appOptions, router, head, isClient }) {
     },
   };
   Vue.use(Vuetify);
-  Vue.use(VueHoneypot);
-  Vue.use(VueFbCustomerChat, {
-    page_id: 103710768886261,
-    theme_color: '#009537',
-    locale: 'en_HU',
-  });
+  // Vue.use(VueHoneypot);
+  // Vue.use(VueFbCustomerChat, {
+  //   page_id: 103710768886261,
+  //   theme_color: '#009537',
+  //   locale: 'en_HU',
+  // });
 
   appOptions.vuetify = new Vuetify(opts);
 
