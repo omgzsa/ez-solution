@@ -73,7 +73,7 @@
       >
         <v-col cols="12" sm="4">
           <v-img
-            height="360"
+            max-height="320"
             :alt="item.alt"
             contain
             aspect-ratio="1"
@@ -86,6 +86,7 @@
           </h4>
           <div class="d-flex flex-column align-start">
             <v-img
+              class="pb-10"
               width="180"
               contain
               :src="require('../assets/images/logos/' + item.logo)"
@@ -132,7 +133,7 @@
       >
         <v-col cols="12" sm="4">
           <v-img
-            height="360"
+            max-height="320"
             :alt="item.alt"
             contain
             aspect-ratio="1"
