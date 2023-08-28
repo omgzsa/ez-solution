@@ -25,7 +25,7 @@
         >
           <div class="results-numbers">
             <span class="text-h5 text-sm-h5 green--text text--darken-2"
-              >99 Ft/kWh</span
+              >akár 287 Ft/kWh</span
             >
             <p class="caption text-uppercase font-weight-bold">
               megtakarítás lakossági árammal
@@ -33,7 +33,7 @@
           </div>
           <div class="results-numbers">
             <span class="text-h5 text-sm-h5 green--text text--darken-2"
-              >140 Ft/kWh</span
+              >akár 350 Ft/kWh</span
             >
             <p class="caption text-uppercase font-weight-bold">
               megtakarítás napelemes rendszerrel
@@ -52,16 +52,15 @@
       >
         <div class="pa-2 mb-4 mb-sm-16">
           <span class="text-h6 text-sm-h5 green--text text--darken-2"
-            >3,5x több</span
+            >~287 Ft/kWh</span
           >
           <p class="caption text-uppercase font-weight-bold">
             megtakarítás lakossági árammal
           </p>
         </div>
-        <!-- <v-divider></v-divider> -->
         <div class="pa-2">
           <span class="text-h6 text-sm-h5 green--text text--darken-2"
-            >4,5x több</span
+            >~350 Ft/kWh</span
           >
           <p class="caption text-uppercase font-weight-bold">
             megtakarítás napelemes rendszerrel
@@ -96,7 +95,7 @@ export default {
       results: {
         title: 'Otthoni töltővel az EV megtakarítás csúcsán',
         text:
-          'Míg jelenleg egy nyilvános töltőoszlopon való töltéskor (AC) átlagosan 140 ft/kWh áron jutunk áramhoz, addig otthonunkban a rezsicsökkentett 36 forintos árat kell csupán fizetnünk. Termelje meg elektromos autója fogyasztását otthoni napelemes rendszerével és „tankoljon” ingyen saját elektromos töltőjével. (Egy BMW I3 120Ah felhasználható akkumulátor kapacitása 38 kWh)',
+          'Míg jelenleg egy nyilvános töltőoszlopon való töltéskor (AC) átlagosan 170-350 ft/kWh áron jutunk áramhoz, addig otthonunkban a lakossági 63 forintos (a kedvezményes mérték fölött fizetendő) kWh árat kell csupán fizetnünk. Ezen felül napelemmel tovább spórolhatsz! Termeld meg elektromos autód fogyasztását otthoni napelemes rendszerrel és „tankolj” ingyen saját elektromos töltőddel. (Egy BMW I3 120Ah felhasználható akkumulátor kapacitása 38 kWh)',
       },
     };
   },

@@ -32,25 +32,25 @@ export default {
   data() {
     return {
       introduction: {
-        title: 'Használja ki az otthon töltés minden előnyét',
+        title: 'Használd ki az otthon töltés minden előnyét',
         text:
-          'Elektromos autója van, de nincsen otthonában töltője? Itt az ideje lépni! Takarítson meg megoldásunkkal és töltse autóját akár ingyenesen. Hozza ki a legtöbbet az elektromobilitás adta lehetőségekből!',
+          'Töltsd elektromos autódat otthon és hozd ki a legtöbbet az elektromobilitás adta lehetőségekből! Maximalizáld EV befektetésed megtérülését és töltsd autóját akár ingyenesen napelem segítségével.',
       },
       benefits: [
         {
-          text: 'Spóroljon időt, ne várjon a nyilvános töltőknél',
+          text: 'Spórolj időt, ne várj a nyilvános töltőknél',
         },
         {
-          text: 'Töltsön ingyen – Töltsön a nappal!',
+          text: 'Tölts akár ingyen – Tölts a nappal!',
         },
         {
-          text: 'Ne költsön hálózatbővítésre – DLM!',
+          text: 'Ne költs hálózatbővítésre – PBM!',
         },
         {
-          text: 'Töltsön biztonságosan és gyorsan otthon',
+          text: 'Tölts biztonságosan és gyorsan otthon',
         },
         {
-          text: 'Függetlenedjen a nyilvános töltőhálózatoktól',
+          text: 'Függetlenedj a nyilvános töltőhálózatoktól',
         },
       ],
     };

@@ -15,11 +15,11 @@
           folyamat
         </h2>
         <h3 class="text-h5 text-sm-h4 text-lg-h3 font-weight-bold mb-10">
-          Az Ön kényelmét szolgáljuk
+          Teljeskörű szolgáltatás!<br />
+          Az EZ szoftver segít kiválasztani az autót, meghatározza az elérhető megtakarítást és ehhez választ töltőt, illetve méretezi a napelemes rendszert.
         </h3>
         <p class="body-2 text-lg-body-1">
-          Szolgáltatásunk teljeskörű. A telepítési folyamatot úgy dolgoztuk ki,
-          hogy Önnek csak választania kelljen megoldásaink közül.
+          Saját fejlesztésű szoftverünk segítségével a rendszered a jelen szokásaidra és jövőbeli terveidre méretezzük. Így az hosszú évekig ki tudja szolgálni családod igényeit. Ha megvan a tökéletes rendszer és ezt leszerződjük neked már semmi dolgod, az engedélyeztetést és a telepítést teljes egészében csapatunk intézi!
         </p>
       </v-col>
     </v-row>
@@ -84,25 +84,25 @@ export default {
           id: '1',
           title: 'EZ felmérés',
           text:
-            'Igényei, otthona és elektromos autója paraméterei alapján EZ szoftverünk megkeresi az Ön számára tökéletes töltőt. A termék technikai adatait, valamint egy előzetes árajánlatot egyből át is adunk Önnek.',
+            'Igényeid, otthonod és elektromos autód paraméterei alapján EZ szoftverünk megkeresi a számodra tökéletes töltőt.',
         },
         {
           id: '2',
           title: 'Végleges ajánlat',
           text:
-            'A felmérés során készült előzetes árajánlatot 24 órán belül véglegesítjük és megküldjük Önnek a kivitelezési szerződéssel együtt.',
+            'A felmérés során készült előzetes árajánlatot véglegesítjük és megküldjük számodra a kivitelezési szerződéssel együtt.',
         },
         {
           id: '3',
           title: 'Szerződés kötés',
           text:
-            'A szerződést lehetősége van online aláírással hitelesíteni így gyorsítani tudjuk a kivitelezés megkezdését.',
+            'A szerződést lehetőséged van online aláírással hitelesíteni így gyorsítani tudjuk a kivitelezés megkezdését.',
         },
         {
           id: '4',
           title: 'Szállítás és felszerelés',
           text:
-            'Kiszállítjuk rendszerét, amit lehetőség szerint már aznap be is szerelünk. Majd felprogramozunk, és megtanítjuk Önnek a használatát, hogy azonnal használni tudja a terméket.',
+            'Kiszállítjuk rendszeredet, amit lehetőség szerint már aznap be is szerelünk. Majd felprogramozunk, és természetesen megtanítjuk neked a használatát is!',
         },
       ],
     };

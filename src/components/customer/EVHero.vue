@@ -5,7 +5,7 @@
         <h1
           class="text-h4 text-sm-h3 white--text mb-8 font-weight-bold animate blur"
         >
-          Otthoni E-autó töltő megoldás — Egy lépés, hogy ingyen „tankolhasson”!
+        Otthoni E-autó töltés — Egy lépés, hogy te is ingyen „tankolj”!
         </h1>
         <v-btn
           title="Tovább az EZ Kalkulátorhoz"
