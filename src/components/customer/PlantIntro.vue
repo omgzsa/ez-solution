@@ -32,25 +32,25 @@ export default {
   data() {
     return {
       introduction: {
-        title: 'Modernizálja otthonát hőszivattyúval',
+        title: 'Modernizáld otthonod hőszivattyúval',
         text:
-          'A gáz ára folyamatosan növekszik. Az Európai Unió elkötelezett, hogy a lakossági fogyasztást mielőbb át kell állítani megújuló fűtésre. A gázról való átállás alternatív energiákra 2035-ig elkerülhetetlen.',
+          'Függetlenedj te is a kiszámíthatatlan gázártól! A kiszámíthatatlan gáz ár változások helyett lépj inkább az elektrifikáció útjára és fűtsd vagy akár hűtsd is otthonod hőszivattyús megoldásaink bármelyikével.',
       },
       benefits: [
         {
           text: 'A hőszívattyúval fűteni és hűteni is lehet',
         },
         {
-          text: 'Növelheti a ház komfortját',
+          text: 'Napelemmel mégtöbbet spórolhatsz',
         },
         {
-          text: 'Növelheti ingatlana értékét',
+          text: 'Növelheted ingatlanod értékét',
         },
         {
           text: 'A legolcsóbb fűtési és hűtési megoldás',
         },
         {
-          text: 'Lenullázhatja villanyszámláját',
+          text: 'Növelheted otthonod komfortérzetét',
         },
       ],
     };

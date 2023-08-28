@@ -5,7 +5,7 @@
         <h1
           class="text-h4 text-sm-h3 white--text mb-8 font-weight-bold animate blur"
         >
-          Innovatív fűtő-hűtő megoldás — Szabaduljon ki végleg a Rezsicsapdából!
+        Innovatív hőszivattyús megoldások – Szabadulj ki végleg a rezsicsapdából!
         </h1>
         <v-btn
           title="Tovább az EZ Kalkulátorhoz"

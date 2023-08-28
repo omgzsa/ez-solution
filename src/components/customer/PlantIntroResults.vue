@@ -25,18 +25,18 @@
         >
           <div class="results-numbers">
             <span class="text-h5 text-sm-h5 blue--text text--darken-4"
-              >3,5x több</span
+              >5x effektívebb</span
             >
             <p class="caption text-uppercase font-weight-bold">
-              a kondenzációs kazánhoz képest
+              mint a modern kondenzációs kazánok
             </p>
           </div>
           <div class="results-numbers">
             <span class="text-h5 text-sm-h5 blue--text text--darken-4"
-              >4,5x több</span
+              >Hűtésre is képes,</span
             >
             <p class="caption text-uppercase font-weight-bold">
-              a hagyományos gázkazánhoz képest
+              a gázzal működő rendszerekkel szemben
             </p>
           </div>
         </v-col>
@@ -51,16 +51,16 @@
         class="d-flex flex-column d-md-none justify-space-between"
       >
         <div class="pa-2 mb-4 mb-sm-16">
-          <span class="text-h6 text-sm-h5 blue--text text--darken-4">3,5x</span>
+          <span class="text-h6 text-sm-h5 blue--text text--darken-4">5x effektívebb</span>
           <p class="caption text-uppercase font-weight-bold">
-            kondenzációs kazánhoz képest
+            mint a modern kondenzációs kazánok
           </p>
         </div>
         <!-- <v-divider></v-divider> -->
         <div class="pa-2">
-          <span class="text-h6 text-sm-h5 blue--text text--darken-4">4,5x</span>
+          <span class="text-h6 text-sm-h5 blue--text text--darken-4">Hűtésre is képes,</span>
           <p class="caption text-uppercase font-weight-bold">
-            hagyományos gázkazánhoz képest
+            a gázzal működő rendszerekkel szemben
           </p>
         </div>
       </v-col>
@@ -90,9 +90,9 @@ export default {
   data() {
     return {
       results: {
-        title: 'Válassza a nap ingyenes energiáját fűtésre, hűtésre!',
+        title: 'Hasznosítsd a levegő ingyenes hőjét fűtésre, hűtésre!',
         text:
-          'A hőszivattyú 1 egységnyi villamos energiából átlagosan 3,5 egységnyi fűtési/hűtési energiát állít elő, míg a hagyományos gázkazán csupán 0,8-at, a kondenzációs kazán 1-et.',
+          'A hőszivattyú 1 egységnyi villamos energiából átlagosan 4,5 egységnyi fűtési/hűtési energiát állít elő, míg a hagyományos gázkazán csupán 0,8-at, a kondenzációs kazán 0,9-et. A különbség abból adódik, hogy a hőszivattyú a levegőben található hőenergiát használja fel a magasabb hatásfok eléréséhez.',
       },
     };
   },
