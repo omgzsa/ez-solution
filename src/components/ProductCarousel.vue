@@ -17,9 +17,9 @@
       <v-row
         justify="center"
         align="start"
-        class="d-flex flex-column flex-sm-row align-md-center px-3"
+        class="d-flex flex-column flex-sm-row align-md-center justify-space-between"
       >
-        <v-col cols="12" sm="4">
+        <v-col cols="12" sm="5">
           <v-img
             height="360"
             :alt="item.alt"
