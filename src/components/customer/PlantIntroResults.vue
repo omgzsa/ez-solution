@@ -74,7 +74,7 @@
         align-self="start"
       >
         <v-img
-          alt="A house with solar panels on the roof"
+          alt="Fém hőszivattyú szerelési doboz egy erkélyen."
           max-height="700"
           cover
           :src="require('../../assets/images/magan-plant-intro.jpg')"

@@ -77,7 +77,7 @@
         align-self="start"
       >
         <v-img
-          alt="Nyitott garázsban egy falraszerelt EV töltő"
+          alt="Falra szerelt elektromos autó töltő, amit egy narancssárga inges férfi éppen behelyez a fehér autójába."
           max-height="700"
           cover
           :src="require('../../assets/images/magan-charger-intro.jpg')"
