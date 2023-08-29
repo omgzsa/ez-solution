@@ -15,8 +15,7 @@
           folyamat
         </h2>
         <h3 class="text-h5 text-sm-h4 text-lg-h3 font-weight-bold mb-10">
-          Teljeskörű szolgáltatás!<br />
-          Az EZ szoftver segít kiválasztani az autót, meghatározza az elérhető megtakarítást és ehhez választ töltőt, illetve méretezi a napelemes rendszert.
+          Teljeskörű szolgáltatás!
         </h3>
         <p class="body-2 text-lg-body-1">
           Saját fejlesztésű szoftverünk segítségével a rendszered a jelen szokásaidra és jövőbeli terveidre méretezzük. Így az hosszú évekig ki tudja szolgálni családod igényeit. Ha megvan a tökéletes rendszer és ezt leszerződjük neked már semmi dolgod, az engedélyeztetést és a telepítést teljes egészében csapatunk intézi!
