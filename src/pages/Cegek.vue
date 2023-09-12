@@ -31,7 +31,7 @@ export default {
           id: 1,
           title: 'Hotelek',
           text:
-            'Komplex, helységenkénti hőszivattyús, napelemes energiatárolós rendszerek telepítése, egyedi felmérések alapján.',
+            'Komplex, központi vagy helyiségenkénti hőszivattyús fűtés és hűtés, fan-coil hőleadók, illetve napelemes energiatárolós rendszerek, egyedi felmérés alapján.',
         },
         {
           id: 2,
@@ -55,7 +55,7 @@ export default {
           id: 5,
           title: 'Csökkentse le rezsijét',
           text:
-            'A villamos fogyasztás kiváltásán túl, a napelemes rendszerrel akár Ingyen is fűtheti és hűtheti épületeit. Épületei tetején elhelyezett napelemek sok esetben képesek biztosítani a fűtési, hűtési igényt is amellett, hogy a villamos fogyasztás költségeit lenullázzák.',
+            'A villamos fogyasztás kiváltásán túl, a napelemes rendszerrel akár fűtési és hűtési költséget is csökkentheti. Az ipari épületek tetején elhelyezett napelemek sok esetben képesek biztosítani a fűtési, hűtési igény egy részét is amellett, hogy a villamos fogyasztás költségeit csökkentik.',
         },
       ],
     };

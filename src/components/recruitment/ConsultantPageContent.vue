@@ -3,10 +3,7 @@
     <v-row justify="center" class="mx-auto">
       <v-col cols="11" sm="8" md="6">
         <p class="body-2 text-sm-body-1">
-          Ha Önt érdekli az energiahatékonyság, rendelkezik műszaki és/vagy
-          pénzügyi és/vagy ingatlan értékesítési, egyéb értékesítési
-          tapasztalattal, töltse ki az alábbi jelentkezési lapot vagy küldjön
-          bemutatkozó e-mailt a
+          Ha érdekel az energiahatékonyság, rendelkezel műszaki, pénzügyi, ingatlan vagy egyéb értékesítési tapasztalattal, töltsd ki az alábbi jelentkezési lapot vagy küldj egy bemutatkozó e-mailt a
           <a
             class="underline indigo--text darken-3 font-weight-bold"
             href="mailto:tanacsado@ezsolutions.hu"
@@ -15,18 +12,14 @@
           e-mail címre.
         </p>
         <p class="body-2 text-sm-body-1">
-          Megfelelő bemutatkozás esetén megküldjük részletes
-          tanácsadó-tájékoztató anyagunkat az Ön által megadott e-mail címre és
-          kollégánk telefonon is felveszi Önnel a kapcsolatot.
+          Megfelelő bemutatkozás esetén megküldjük részletes tanácsadó-tájékoztató anyagunkat az általad megadott e-mail címre és kollégánk telefonon is felveszi veled a kapcsolatot.
         </p>
         <ul class="custom-marker">
           <li class="py-2">
-            A képzett tanácsadók kiemelten versenyképes jövedelemre tehetnek
-            szert.
+            A képzett tanácsadók kiemelten versenyképes jövedelemre tehetnek szert.
           </li>
           <li class="py-2">
-            Társasházi közös képviselőket, ingatlan közvetítőket, pénzügyi
-            közvetítőket kifejezetten várunk tanácsadói csapatunkba.
+            Társasházi közös képviselőket, ingatlan közvetítőket, pénzügyi közvetítőket kifejezetten várunk tanácsadói csapatunkba.
           </li>
         </ul>
       </v-col>

@@ -9,12 +9,7 @@
           Hőszivattyús rendszereink céges ingatlanokhoz
         </h3>
         <p class="body-2 text-sm-body-1 mb-n2 " style="max-width: 860px;">
-          Irodaházak, hotelek, ipari csarnokok részére fogyasztási helyenként,
-          EZ Kalkulációval maximum 50kw- os, 50 kw fölött egyedi tervezéssel és
-          ajánlattal, - akár a 2023 május 2. után érvényes jogszabálynak
-          megfelelő energiatárolóval - komplett hőszivattyús, árnyékolási és
-          egyéb gépészeti megoldásokkal együtt telepített napelemes rendszerek
-          kivitelezését is vállaljuk.
+          Irodaházak, hotelek, ipari csarnokok részére csapatunk minden esetben egyedi tervezéssel és ajánlattal készül. Komplett hőszivattyús, árnyékolási és egyéb gépészeti megoldásokkal együtt telepített napelemes rendszerek kivitelezését is vállaljuk akár kiegészítő energia tárólóval. Minden cég különböző működési paramétereiből fakadóan más megoldással tudja a legtöbb értéket teremteni és ezáltal spórolni egy energetikai fejlesztésen keresztül. Mi minden ügyfelünk esetében ezeket a paramétereket elemezzük, hogy a tökéletes megoldást tudjuk biztosítani ügyfeleinknek! Természetesen a tervezésben saját fejlesztésű EZ szoftverünk van segítségünkre!
         </p>
       </v-col>
     </v-row>

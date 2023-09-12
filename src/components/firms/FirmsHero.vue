@@ -5,9 +5,7 @@
         <h1
           class="text-h5 text-sm-h4 text-md-h3 black--text mb-8 mt-16 font-weight-bold animate blur"
         >
-          Komplex rezsicsökkentési megoldások Ipari Ingatlanok, Hotelek és
-          Irodaházak tulajdonosai részére napelemmel, hőszivattyúval,
-          tetőárnyékolóval és egyedi gépészeti megoldásokkal.
+        Komplex rezsicsökkentési megoldások Ipari Ingatlanok, Hotelek és Irodaházak részére.
         </h1>
         <v-btn
           title="Tovább az EZ Kalkulátorhoz"
