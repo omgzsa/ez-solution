@@ -2,7 +2,7 @@
   <v-carousel
     hide-delimiter-background
     show-arrows-on-hover
-    height="100%"
+    height="380"
     light
     class="pb-16 mt-10"
   >
