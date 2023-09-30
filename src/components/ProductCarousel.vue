@@ -2,7 +2,7 @@
   <v-carousel
     hide-delimiter-background
     show-arrows-on-hover
-    height="380"
+    height="100%"
     light
     class="pb-16 mt-10"
   >
@@ -12,7 +12,7 @@
       v-for="item in chargers"
       :key="item.id"
       transition="fade-transition"
-      class="my-auto"
+      class=""
     >
       <v-row
         justify="center"
@@ -28,7 +28,7 @@
             :src="require('../assets/images/products/' + item.image)"
           />
         </v-col>
-        <v-col cols="12" sm="6" md="6">
+        <v-col cols="12" sm="7" md="6">
           <h4 class="text-h6 text-md-h5 font-weight-bold mb-2">
             {{ item.name }}
           </h4>
@@ -37,7 +37,7 @@
             class="d-flex flex-column text-center flex-sm-row align-center justify-space-around"
           >
             <div class="results-numbers px-2">
-              <span class="text-h6 green--text text--darken-2">{{
+              <span class="text-body-2 green--text text--darken-2">{{
                 item.performance
               }}</span>
               <p class="caption text-uppercase font-weight-bold">
@@ -46,7 +46,7 @@
             </div>
             <v-divider vertical />
             <div class="results-numbers px-2">
-              <span class="text-h6 green--text text--darken-2">{{
+              <span class="text-body-2 green--text text--darken-2">{{
                 item.extra
               }}</span>
               <p class="caption text-uppercase font-weight-bold">
