@@ -79,7 +79,7 @@ export default {
           description:
             'A Pulsar Plus a tökéletes otthoni töltő! Kis méretéhez, akár 22kW maximális teljesítmény társul. Könnyű használata pedig igazán megkönnyíti a töltési folyamatot. Mindezek mellet a töltő internethez csatlakoztatható, így egy applikáción keresztül a töltés minden részletét ellenőrizheted akár okos órádon is.',
           performance: '7,4 / 11 / 22 kW',
-          extra: 'Autostart, App, IP54, Dinamikus terheléselosztás, 3év garancia, Állapotvilágítás, 5m kábel',
+          extra: 'Autostart, App, IP54, 3év garancia, 5m kábel',
         },
         {
           id: 2,
@@ -89,7 +89,7 @@ export default {
           description:
             'A Wallbox Commander sorozata kifejezetten ipari vagy közösségi/osztott használatra lett kifejlesztve. A Commander 2 érintőképernyős kezelőfelülettel van felszerelve, míg a 2S a legolcsóbb elérhető osztott töltési megoldást kínálja. Mindkét berendezés ECO-Smart, Power Boost és Dinamikus Teljesítménymegosztás funkciókkal érhető el a kínálatunkban.',
           performance: '7,4 / 11 / 22 kW',
-          extra: 'Power Boost, ECO-Smart, Dinamikus terhelés megosztás, Applikáció, IP54, 5m kábel, Érintőképernyő',
+          extra: 'Power Boost, ECO-Smart, Applikáció, IP54, 5m kábel',
         },
       ],
     };
