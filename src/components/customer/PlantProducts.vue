@@ -57,7 +57,7 @@
               alt="EZ Silent Hybrid egység metál ezüst színben fehér falra szerelve, kontrasztban a barna kerámia padlóval."
               max-height="380"
               contain
-              :src="require('../../assets/images/products/ez-silent-dd.png')"
+              :src="require('../../assets/images/products/ez-silent-hybrid.jpg')"
             />
           </v-carousel-item>
         </v-carousel>
@@ -70,7 +70,7 @@
         <h4
           class="text-h5 text-md-h4 font-weight-bold mb-6 indigo--text text--darken-3"
         >
-          Monoblokk hőszivattyú
+          Monoblokk hőszivattyúk
         </h4>
         <p class="body-2 text-lg-body-1">
           Lépj le a gázról és csatlakozz az elektrifikáció gyorsuló folyamatához! Monoblock hőszivattyúk közül az olasz Olimpia Splendid, valamint a kínai Tongyi márka termékeit szereljük. Mindkét cég hivatalos képviselői és szervíz partnerei is vagyunk, ez garantálja, hogy a rendszer tervezés, beszerelés és garanciális eljárások is a termékek teljes ismeretében, gyorsan és profin történnek.
@@ -110,13 +110,13 @@
       </v-col>
     </v-row>
 
-    <!-- HŐLEADÓK -->
+    <!-- Fan-coilok -->
     <v-row justify="center" align="start" class="justify-space-around">
       <v-col sm="10" md="5">
         <h4
           class="text-h5 text-md-h4 font-weight-bold mb-6 indigo--text text--darken-3"
         >
-          Hőleadók
+          Fan-coilok
         </h4>
         <p class="body-2 text-lg-body-1">
           Hűtés és fűtés egy készüléknek köszönhetően! Fan-coil kínálatunkban Olimpia Splendid és Reverso olasz készülékek találhatóak meg. Hőszivattyúinkhoz csatlakoztatva ezek a berendezések teljeskörű fűtést és hűtést tesznek lehetővé ugyanazon a csővezetéki rendszeren. Ezek a legmodernebb légbefúvós hőleadók akár radiátorhoz hasonló sugárzó technológiával kiegészítve! Igazán halk működésükkel növelik otthonod komfortérzetét, míg az olasz designnak köszönhető esztétikus kinézetükkel dobják fel a belső tereket.
@@ -138,7 +138,7 @@
               alt="Olimpia Splendid Bi2 SLR fan-coil fhér színben,a szekunder fűtési körrel."
               max-height="380"
               contain
-              :src="require('../../assets/images/products/olimpia-splendid.jpg')"
+              :src="require('../../assets/images/products/olimpia-splendid-bi2-slr.jpg')"
             />
           </v-carousel-item>
           <v-carousel-item transition="fade-transition">
@@ -149,7 +149,7 @@
               alt="Reverso FS fan-coil metál szürke színben."
               max-height="380"
               contain
-              :src="require('../../assets/images/products/tongyi-v.jpg')"
+              :src="require('../../assets/images/products/reverso-fs.jpg')"
             />
           </v-carousel-item>
         </v-carousel>
@@ -183,7 +183,7 @@
               alt="A Raygex Infinity fűtő panel metszete, 3 réteg, szigetelés, fűtési csövek, befejező gipszkarton."
               max-height="380"
               contain
-              :src="require('../../assets/images/products/olimpia-splendid.jpg')"
+              :src="require('../../assets/images/products/raygex-infinity.jpg')"
             />
           </v-carousel-item>
           <v-carousel-item transition="fade-transition">
@@ -194,7 +194,7 @@
               alt="A Raysnake fűtő panels metszete, 5 réteg: tartószerkezet, csőtakaró, fűtési cső, védőréteg, külső dizájn karton."
               max-height="380"
               contain
-              :src="require('../../assets/images/products/tongyi-v.jpg')"
+              :src="require('../../assets/images/products/raysnake.jpg')"
             />
           </v-carousel-item>
         </v-carousel>
